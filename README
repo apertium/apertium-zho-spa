@@ -15,3 +15,7 @@ echo "^小明<NR>$ ^和<CC>$ ^小红<NR>$ ^在<P>$ ^花园<NN>$ ^里面<NN>$ ^�
 
 cat texts/cuento.zho.txt | lt-proc zho-spa.automorf.bin  | gawk 'BEGIN{RS="$"; FS="/";}{nf=split($1,COMPONENTS,"^"); for(i = 1; i<nf; i++) printf COMPONENTS[i]; if($2 != "") printf("^%s$",$2);}' | lt-proc -b zho-spa.autobil.bin  | apertium-transfer -b apertium-zho-spa.zho-spa.t1x zho-spa.t1x.bin  | lt-proc -g zho-spa.autogen.bin 
 
+http://code.google.com/p/zhseg/downloads/detail?name=zhseg-0.1.tar.gz
+
+
+cat texts/cuento.zho.txt | zhseg Mandarin.fre | lt-proc zho-spa.automorf.bin  | gawk 'BEGIN{RS="$"; FS="/";}{nf=split($1,COMPONENTS,"^"); for(i = 1; i<nf; i++) printf COMPONENTS[i]; if($2 != "") printf("^%s$",$2);}' | lt-proc -b zho-spa.autobil.bin  | apertium-transfer -b apertium-zho-spa.zho-spa.t1x zho-spa.t1x.bin  | lt-proc -g zho-spa.autogen.bin 
