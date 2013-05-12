@@ -1,283 +1,254 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <transfer>
 	<section-def-cats>
 		<def-cat n="nom">
-		<!--	<cat-item tags="n.*"/> --> 
 			<cat-item tags="NN"/>
-			
-
+		    <cat-item tags="n.*"/>
+			<cat-item tags="np."/>
+				
 		</def-cat>
-		
+		<def-cat n="nom_personal">
+			<cat-item tags="NR"/>
+			<cat-item tags="np.*"/>
+		</def-cat>
 		<def-cat n="nombres">
-		<!--	<cat-item tags="num.*"/> -->
 			<cat-item tags="CD"/>
-			
-
 		</def-cat>
-		
+		<def-cat n="adjectius">
+			<cat-item tags="JJ"/>
+		</def-cat>
 		<def-cat n="pronom">
-		<!--	<cat-item tags="prn.*"/> -->
 			<cat-item tags="PN"/>
-			<!-- <cat-item tags="NN"/> Tag de ellos 他们<NN>-->
-			
+			<cat-item tags="prn"/>
 		</def-cat>
-		
-		
-		
+		<def-cat n="determinant">
+			<cat-item tags="det"/>
+		</def-cat>
 		<def-cat n="vrb">
-			
-		<!--	<cat-item tags="vblex.*"/> -->
 			<cat-item tags="VV"/>
-	
+			<cat-item tags="VC"/>
+			<cat-item tags="VE"/>
+			<cat-item tags="vblex"/>
 		</def-cat>
-
-		
-			<def-cat n="adverbi">
-	
-		   <cat-item tags="AD"/>
-			
+		<def-cat n="adverbi">
+			<cat-item tags="AD"/>
+			<cat-item tags="adv"/>
 		</def-cat>
-		
 	</section-def-cats>
-	
 	<section-def-attrs>
-		
-    <def-attr n="a_nom">
-      <attr-item tags="n"/>
-      <attr-item tags="n.acr"/>
-      <attr-item tags="np.loc"/>
-      <attr-item tags="np.ant"/>
-      <attr-item tags="np.cog"/>
-      <attr-item tags="np.al"/>	
-      <attr-item tags="adv"/>	  
-    </def-attr>
-
-    <def-attr n="a_np">
-      <attr-item tags="np"/>
-    </def-attr>
-
-    <def-attr n="a_np_acr">
-      <attr-item tags="np"/>
-      <attr-item tags="acr"/>
-    </def-attr>
-
-    <def-attr n="a_adj">          
-      <attr-item tags="adj"/>
-      <attr-item tags="adj.pos"/>
-      <attr-item tags="vblex.pp"/> <!-- BCN ok--> 
-      <attr-item tags="vbmod.pp"/> <!-- BCN ok--> 
-      <attr-item tags="vblex.pron.pp"/> <!-- BCN ok--> 
-    </def-attr>  
-
-
-    <def-attr n="grau_adj">          
-      <attr-item tags="comp"/>
-      <attr-item tags="sup"/>
-    </def-attr>  
-
-    <def-attr n="a_det">
-      <attr-item tags="det.dem"/>
-      <attr-item tags="det.ind"/>
-      <attr-item tags="det.def"/>
-      <attr-item tags="det.pos"/>
-      <attr-item tags="det.qnt"/>
-      <attr-item tags="det.itg"/>	  	 
-      <attr-item tags="det.ord"/>
-      <attr-item tags="adj.pos"/>
-      <attr-item tags="num"/>
-      <attr-item tags="predet"/>
-      <attr-item tags="rel.aa"/>
-    </def-attr>
-
-    <def-attr n="a_prnpro">
-      <attr-item tags="prn.pro"/>
-    </def-attr>
-    <def-attr n="a_prnenc">
-      <attr-item tags="prn.enc"/>
-    </def-attr>
-    <def-attr n="a_num">
-      <attr-item tags="num"/>
-      <attr-item tags="num.percent"/>
-      <attr-item tags="num.ord"/>
-      <attr-item tags="num.mon"/>
-      <attr-item tags="num.time"/>
-    </def-attr>
-
-    <def-attr n="a_verb">
-      <attr-item tags="vblex"/>	  
-      <attr-item tags="vblex.pron"/>
-      <attr-item tags="vbhaver"/>
-      <attr-item tags="vbser"/>
-      <attr-item tags="vbmod"/>
-    </def-attr>
-
-    <def-attr n="a_have_aux">
-      <attr-item tags="vbhaver"/>
-    </def-attr>
-
-    <def-attr n="a_pp">
-      <attr-item tags="vblex.pp"/>
-      <attr-item tags="vblex.pron.pp"/>
-      <attr-item tags="vbser.pp"/>
-      <attr-item tags="vbmod.pp"/>
-    </def-attr>
-
-
-    <def-attr n="a_aux">
-      <attr-item tags="vaux"/>
-    </def-attr>
-
-    <def-attr n="a_prn">
-      <attr-item tags="prn"/>
-    </def-attr>
-
-    <def-attr n="a_adv">
-      <attr-item tags="adv"/>
-      <attr-item tags="preadv"/>
-      <attr-item tags="adv.itg"/>
-      <attr-item tags="cnjadv"/>
-    </def-attr>
-
-    <def-attr n="a_rel">
-      <attr-item tags="rel.nn"/>
-      <attr-item tags="rel.an"/>
-      <attr-item tags="rel.adv"/>
-    </def-attr>
-
-    <def-attr n="tipus_rel">
-      <attr-item tags="nn"/>
-      <attr-item tags="an"/>
-      <attr-item tags="adv"/>
-    </def-attr>
-
-    <def-attr n="tipus_prn">
-      <attr-item tags="tn"/>
-      <attr-item tags="obj"/>
-      <attr-item tags="enc"/>
-      <attr-item tags="itg"/>
-      <attr-item tags="pos"/>
-    </def-attr>
-
-    <def-attr n="pers">
-      <attr-item tags="p1"/>
-      <attr-item tags="p2"/>
-      <attr-item tags="p3"/>
-      <attr-item tags="PD"/>
-    </def-attr>
-
-    <def-attr n="gen">
-      <attr-item tags="m"/>
-      <attr-item tags="f"/>
-      <attr-item tags="mf"/>
-      <attr-item tags="GD"/>
-      <attr-item tags="nt"/>
-    </def-attr>
-    
-
-
-   <def-attr n="gen_sense_mf">
-      <attr-item tags="m"/>
-      <attr-item tags="f"/>
-      <attr-item tags="GD"/>
-      <attr-item tags="nt"/>
-    </def-attr>
-
-    <def-attr n="gen_mf">
-      <attr-item tags="mf"/>
-    </def-attr>
-
-    <def-attr n="nbr">
-      <attr-item tags="sg"/>
-      <attr-item tags="pl"/>
-      <attr-item tags="sp"/>
-      <attr-item tags="ND"/>
-    </def-attr>
-   <def-attr n="nbr_sense_sp">
-      <attr-item tags="sg"/>
-      <attr-item tags="pl"/>
-      <attr-item tags="ND"/>
-    </def-attr>
-
-   <def-attr n="nbr_sp">
-      <attr-item tags="sp"/>
-    </def-attr>
-
-
-    <def-attr n="temps">
-      <attr-item tags="cni"/>
-      <attr-item tags="fti"/>  
-      <attr-item tags="ifi"/>
-      <attr-item tags="imp"/>
-      <attr-item tags="pii"/>
-      <attr-item tags="pis"/>
-      <attr-item tags="inf"/>
-      <attr-item tags="prs"/>
-      <attr-item tags="pres"/>
-      <attr-item tags="past"/>
-      <attr-item tags="pri"/>
-      <attr-item tags="pp"/>
-      <attr-item tags="ger"/>
-      <attr-item tags="pprs"/>
-      <attr-item tags="subs"/>
-    </def-attr>
-  
-
+		<def-attr n="a_nom">
+			<attr-item tags="n"/>
+			<attr-item tags="n.acr"/>
+			<attr-item tags="np.loc"/>
+			<attr-item tags="np.ant"/>
+			<attr-item tags="np.cog"/>
+			<attr-item tags="np.al"/>
+			<attr-item tags="adv"/>
+		</def-attr>
+		<def-attr n="a_np">
+			<attr-item tags="np"/>
+		</def-attr>
+		<def-attr n="a_np_acr">
+			<attr-item tags="np"/>
+			<attr-item tags="acr"/>
+		</def-attr>
+		<def-attr n="a_adj">
+			<attr-item tags="adj"/>
+			<attr-item tags="adj.pos"/>
+			<attr-item tags="vblex.pp"/>
+			<!-- BCN ok-->
+			<attr-item tags="vbmod.pp"/>
+			<!-- BCN ok-->
+			<attr-item tags="vblex.pron.pp"/>
+			<!-- BCN ok-->
+		</def-attr>
+		<def-attr n="grau_adj">
+			<attr-item tags="comp"/>
+			<attr-item tags="sup"/>
+		</def-attr>
+		<def-attr n="a_det">
+			<attr-item tags="det.dem"/>
+			<attr-item tags="det.ind"/>
+			<attr-item tags="det.def"/>
+			<attr-item tags="det.pos"/>
+			<attr-item tags="det.qnt"/>
+			<attr-item tags="det.itg"/>
+			<attr-item tags="det.ord"/>
+			<attr-item tags="adj.pos"/>
+			<attr-item tags="num"/>
+			<attr-item tags="predet"/>
+			<attr-item tags="rel.aa"/>
+		</def-attr>
+		<def-attr n="a_prnpro">
+			<attr-item tags="prn.pro"/>
+		</def-attr>
+		<def-attr n="a_prnenc">
+			<attr-item tags="prn.enc"/>
+		</def-attr>
+		<def-attr n="a_num">
+			<attr-item tags="num"/>
+			<attr-item tags="num.percent"/>
+			<attr-item tags="num.ord"/>
+			<attr-item tags="num.mon"/>
+			<attr-item tags="num.time"/>
+		</def-attr>
+		<def-attr n="a_verb">
+			<attr-item tags="vblex"/>
+			<attr-item tags="vblex.pron"/>
+			<attr-item tags="vbhaver"/>
+			<attr-item tags="vbser"/>
+			<attr-item tags="vbmod"/>
+		</def-attr>
+		<def-attr n="a_have_aux">
+			<attr-item tags="vbhaver"/>
+		</def-attr>
+		<def-attr n="a_pp">
+			<attr-item tags="vblex.pp"/>
+			<attr-item tags="vblex.pron.pp"/>
+			<attr-item tags="vbser.pp"/>
+			<attr-item tags="vbmod.pp"/>
+		</def-attr>
+		<def-attr n="a_aux">
+			<attr-item tags="vaux"/>
+		</def-attr>
+		<def-attr n="a_prn">
+			<attr-item tags="prn"/>
+		</def-attr>
+		<def-attr n="a_adv">
+			<attr-item tags="adv"/>
+			<attr-item tags="preadv"/>
+			<attr-item tags="adv.itg"/>
+			<attr-item tags="cnjadv"/>
+		</def-attr>
+		<def-attr n="a_rel">
+			<attr-item tags="rel.nn"/>
+			<attr-item tags="rel.an"/>
+			<attr-item tags="rel.adv"/>
+		</def-attr>
+		<def-attr n="tipus_rel">
+			<attr-item tags="nn"/>
+			<attr-item tags="an"/>
+			<attr-item tags="adv"/>
+		</def-attr>
+		<def-attr n="tipus_prn">
+			<attr-item tags="tn"/>
+			<attr-item tags="obj"/>
+			<attr-item tags="enc"/>
+			<attr-item tags="itg"/>
+			<attr-item tags="pos"/>
+		</def-attr>
+		<def-attr n="pers">
+			<attr-item tags="p1"/>
+			<attr-item tags="p2"/>
+			<attr-item tags="p3"/>
+			<attr-item tags="PD"/>
+		</def-attr>
+		<def-attr n="gen">
+			<attr-item tags="m"/>
+			<attr-item tags="f"/>
+			<attr-item tags="mf"/>
+			<attr-item tags="GD"/>
+			<attr-item tags="nt"/>
+		</def-attr>
+		<def-attr n="gen_sense_mf">
+			<attr-item tags="m"/>
+			<attr-item tags="f"/>
+			<attr-item tags="GD"/>
+			<attr-item tags="nt"/>
+		</def-attr>
+		<def-attr n="gen_mf">
+			<attr-item tags="mf"/>
+		</def-attr>
+		<def-attr n="nbr">
+			<attr-item tags="sg"/>
+			<attr-item tags="pl"/>
+			<attr-item tags="sp"/>
+			<attr-item tags="ND"/>
+		</def-attr>
+		<def-attr n="nbr_sense_sp">
+			<attr-item tags="sg"/>
+			<attr-item tags="pl"/>
+			<attr-item tags="ND"/>
+		</def-attr>
+		<def-attr n="nbr_sp">
+			<attr-item tags="sp"/>
+		</def-attr>
+		<def-attr n="temps">
+			<attr-item tags="cni"/>
+			<attr-item tags="fti"/>
+			<attr-item tags="ifi"/>
+			<attr-item tags="imp"/>
+			<attr-item tags="pii"/>
+			<attr-item tags="pis"/>
+			<attr-item tags="inf"/>
+			<attr-item tags="prs"/>
+			<attr-item tags="pres"/>
+			<attr-item tags="past"/>
+			<attr-item tags="pri"/>
+			<attr-item tags="pp"/>
+			<attr-item tags="ger"/>
+			<attr-item tags="pprs"/>
+			<attr-item tags="subs"/>
+		</def-attr>
 	</section-def-attrs>
-	
 	<section-def-vars>
 		
 	</section-def-vars>
-	
-	
 	<section-rules>
-		
-		
 		<rule>
 			<pattern>
-		    <pattern-item n="nombres"/> 
-			<pattern-item n="nom"/>
-				
+				<pattern-item n="nombres"/>
+				<pattern-item n="nom"/>
 			</pattern>
-			
-		
 			<action>
 				<out>
 					<lu>
-				
-						
 						<clip pos="1" side="tl" part="lem"/>
 						<clip pos="1" side="tl" part="a_num"/>
-						<clip pos="2" side="tl" part="gen"/> 
+						<clip pos="2" side="tl" part="gen"/>
 						<clip pos="2" side="tl" part="nbr"/>
-					
 					</lu>
 					<b/>
-				
-						
 					<lu>
 						<clip pos="2" side="tl" part="lem"/>
 						<clip pos="2" side="tl" part="a_nom"/>
 						<clip pos="2" side="tl" part="gen"/>
 						<clip pos="2" side="tl" part="nbr"/>
-						</lu>
-					
-
+					</lu>
 				</out>
 			</action>
-		</rule> 
-		
+		</rule>
+		<rule>
+			<pattern>
+				<pattern-item n="determinant"/>
+				<pattern-item n="nom"/>
+			</pattern>
+			<action>
+				<out>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_det"/>
+						<clip pos="1" side="tl" part="gen"/>
+						<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_nom"/>
+						<clip pos="2" side="tl" part="gen"/>
+						<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+				</out>
+			</action>
+		</rule>
 		<rule>
 			<pattern>
 				<pattern-item n="pronom"/>
 				<pattern-item n="vrb"/>
-				
 			</pattern>
 			<action>
-					<out>
-						<lu>
-				
-						
+				<out>
+					<lu>
 						<clip pos="1" side="tl" part="lem"/>
 						<clip pos="1" side="tl" part="a_prn"/>
 						<clip pos="1" side="tl" part="tipus_prn"/>
@@ -286,9 +257,7 @@
 						<clip pos="1" side="tl" part="nbr"/>
 					</lu>
 					<b/>
-				
 					<lu>
-						
 						<clip pos="2" side="tl" part="lem"/>
 						<clip pos="2" side="tl" part="a_verb"/>
 						<lit-tag v="pri"/>
@@ -297,19 +266,40 @@
 					</lu>
 				</out>
 			</action>
-		</rule> 
+		</rule>
+		<rule>
+			<pattern>
+				<pattern-item n="nom"/>
+				<pattern-item n="vrb"/>
+			</pattern>
+			<action>
+				<out>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_nom"/>
+						<clip pos="1" side="tl" part="gen"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_verb"/>
+						<lit-tag v="pri"/>
+						<lit-tag v="p3"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+				</out>
+			</action>
+		</rule>
 		<rule>
 			<pattern>
 				<pattern-item n="pronom"/>
 				<pattern-item n="adverbi"/>
 				<pattern-item n="vrb"/>
-				
 			</pattern>
 			<action>
-					<out>
-						<lu>
-				
-						
+				<out>
+					<lu>
 						<clip pos="1" side="tl" part="lem"/>
 						<clip pos="1" side="tl" part="a_prn"/>
 						<clip pos="1" side="tl" part="tipus_prn"/>
@@ -318,19 +308,12 @@
 						<clip pos="1" side="tl" part="nbr"/>
 					</lu>
 					<b/>
-					
 					<lu>
-				
-						
 						<clip pos="2" side="tl" part="lem"/>
 						<clip pos="2" side="tl" part="a_nom"/>
-						
 					</lu>
 					<b/>
-
-				
 					<lu>
-						
 						<clip pos="3" side="tl" part="lem"/>
 						<clip pos="3" side="tl" part="a_verb"/>
 						<lit-tag v="pri"/>
@@ -339,75 +322,92 @@
 					</lu>
 				</out>
 			</action>
-		</rule> 
-		
-	</section-rules> 
+		</rule>
+		<!-- El corre rapidamente, El no quiere…-->
+		<rule>
+			<pattern>
+				<pattern-item n="nom"/>
+				<pattern-item n="adverbi"/>
+				<pattern-item n="vrb"/>
+			</pattern>
+			<action>
+				<out>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_nom"/>
+						<clip pos="1" side="tl" part="gen"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_adv"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="3" side="tl" part="lem"/>
+						<clip pos="3" side="tl" part="a_verb"/>
+						<lit-tag v="pri"/>
+						<lit-tag v="p3"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+				</out>
+			</action>
+		</rule>
+			<rule>
+			<pattern>
+				<pattern-item n="adjectius"/>
+				<pattern-item n="nom"/>
+			</pattern>
+			<action>
+				<out>
+					<lu>
+						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_nom"/>
+						<clip pos="2" side="tl" part="gen"/>
+						<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_adj"/>
+						<clip pos="2" side="tl" part="gen"/>
+						<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+				</out>
+			</action>
+		</rule>
+		<rule>
+			<pattern>
+				<pattern-item n="nombres"/>
+				<!--Un pequeño niño-->
+				<pattern-item n="adjectius"/>
+				<pattern-item n="nom"/>
+			</pattern>
+			<action>
+				<out>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_num"/>
+						<clip pos="3" side="tl" part="gen"/>
+						<clip pos="3" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="3" side="tl" part="lem"/>
+						<clip pos="3" side="tl" part="a_nom"/>
+						<clip pos="3" side="tl" part="gen"/>
+						<clip pos="3" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_adj"/>
+						<clip pos="3" side="tl" part="gen"/>
+						<clip pos="3" side="tl" part="nbr"/>
+					</lu>
+				</out>
+			</action>
+		</rule>
+	</section-rules>
 </transfer>
-
-				
-				
-				
-				
-				
-				
-				
-				
-			
-						
-						
-						
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-				

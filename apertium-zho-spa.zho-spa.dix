@@ -19,6 +19,14 @@
 	<sdef n="IJ"/>	
 	<sdef n="LC"/>	
 	<sdef n="DEG"/>	
+	<sdef n="VC"/>		
+	<sdef n="M"/>		
+	<sdef n="VE"/>		
+	<sdef n="SP"/>		
+		
+		
+		
+		
 		
 	<sdef n="acr" 	c="Acronym"/> 
     <sdef n="predet" 	c="Pre-determiner"/> 
@@ -120,6 +128,8 @@
 		
 		<e><p><l>一个<s n="CD"/></l><r>un<s n="num"/></r></p></e> <!-- one "piece" -->
 		
+		<e><p><l>一只<s n="CD"/></l><r>un<s n="num"/></r></p></e>
+		
 		<e><p><l>我<s n="PN"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 		
 		<e><p><l>你<s n="PN"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -127,6 +137,16 @@
 		<e><p><l>我们<s n="PN"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
 		
 		<e><p><l>他<s n="PN"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+		
+		<e><p><l>他<s n="NR"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+		
+		<e><p><l>她<s n="NR"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+		
+		<e><p><l>她<s n="VV"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e> <!--ERROR DE TAG-->
+		
+		<e><p><l>她<s n="NN"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e> <!--ERROR DE TAG-->
+		
+		<e><p><l>她<s n="PN"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e> 
 		
 		<e><p><l>他们<s n="PN"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e> <!-- OJO AQUI TAGGER DONA NN NO PN-->
 		
@@ -148,19 +168,23 @@
 		
 		<e><p><l>。<s n="PU"/></l><r>.<s n="sent"/></r></p></e>
 		
+		<e><p><l>?<s n="PU"/></l><r>.<s n="sent"/></r></p></e>
+		
 		<e><p><l>今天<s n="NT"/></l><r>hoy<s n="adv"/></r></p></e>
 		
 		<e><p><l>天气<s n="NN"/></l><r>clima<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 		
 		<e><p><l>好<s n="JJ"/></l><r>agradable<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
 		
-		<e><p><l>, <s n="PU"/></l><r>,<s n="cm"/></r></p></e>
+		<e><p><l>,<s n="PU"/></l><r>,<s n="cm"/></r></p></e>
 		
 		<e><p><l>很<s n="AD"/></l><r>muy<s n="preadv"/></r></p></e>
 		
 		<e><p><l>暖<s n="VA"/></l><r>cálido<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 		
 		<e><p><l>不过<s n="AD"/></l><r>pero<s n="cnjcoo"/></r></p></e>
+		
+		<e><p><l>可是<s n="AD"/></l><r>pero<s n="cnjcoo"/></r></p></e>
 		
 		<e><p><l>昨天<s n="NT"/></l><r>ayer<s n="adv"/></r></p></e>
 		
@@ -171,6 +195,8 @@
 		<e><p><l>!<s n="PU"/></l><r>!<s n="sent"/></r></p></e>
 		
 		<e><p><l>不<s n="AD"/></l><r>no<s n="adv"/></r></p></e>
+		
+		<e><p><l>没<s n="AD"/></l><r>no<s n="adv"/></r></p></e>
 		
 		<e><p><l>能<s n="VV"/></l><r>poder<s n="vbmod"/></r></p></e>
 		
@@ -199,6 +225,95 @@
 		<e><p><l>玩耍<s n="VV"/></l><r>jugar<s n="vblex"/></r></p></e>
 		
 		<e><p><l>很<s n="AD"/></l><r>muy<s n="preadv"/></r></p></e>
+		
+		<e><p><l>是<s n="VC"/></l><r>ser<s n="vbser"/></r></p></e>
+		
+		<e><p><l>小<s n="JJ"/></l><r>pequeño<s n="adj"/></r></p></e>
+		
+		<e><p><l>男孩<s n="NN"/></l><r>niño<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+		
+		<e><p><l>今年<s n="NT"/></l><r>ahora<s n="adv"/></r></p></e>
+		
+		<e><p><l>六<s n="CD"/></l><r>seis<s n="num"/></r></p></e>
+		
+		<e><p><l>五<s n="CD"/></l><r>cinco<s n="num"/></r></p></e>
+		
+		<e><p><l>岁<s n="M"/></l><r>año<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+		
+		<e><p><l>女孩<s n="NN"/></l><r>niño<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+		
+		<e><p><l>他的<s n="JJ"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e><!--falta regla-->
+		
+		<e><p><l>他们的<s n="JJ"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
+		
+		<e><p><l>们的<s n="JJ"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
+		
+		<e><p><l>妹妹<s n="NN"/></l><r>hermano<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+		
+		<e><p><l>有<s n="VE"/></l><r>tener<s n="vblex"/></r></p></e>
+		
+		<e><p><l>狗<s n="NN"/></l><r>perro<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+		
+		<e><p><l>小狗<s n="NN"/></l><r>perrito<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+		
+		<e><p><l>那<s n="NN"/></l><r>el<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e> <!--wrong tag-->
+		
+		<e><p><l>只狗<s n="NN"/></l><r>perro<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+		
+		<e><p><l>只猫<s n="NN"/></l><r>gato<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+		
+		<e><p><l>猫儿<s n="NT"/></l><r>gato<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+
+		<e><p><l>现在<s n="NT"/></l><r>ahora<s n="adv"/></r></p></e>
+		
+		<e><p><l>跟<s n="P"/></l><r>con<s n="pr"/></r></p></e>
+		
+		<e><p><l>狗儿<s n="NN"/></l><r>perro<s n="n"/><s n="m"/><s n="sg"/></r></p></e> <!--diferents formes de dir gos-->
+		
+		<e><p><l>开心<s n="VA"/></l><r>feliz<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+		
+		<e><p><l>吗<s n="SP"/></l><r></r></p></e> <!--denota pregunta igual que el cas oh -->
+		
+		<e><p><l>睡觉<s n="VV"/></l><r>dormir<s n="vblex"/></r></p></e>
+        
+
+		<e><p><l>小红<s n="np"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>小明<s n="np"/></l><r>Jaime<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>他们的<s n="det"/></l><r>suyo<s n="det"/><s n="pos"/><s n="mf"/></r></p></e>
+		<e><p><l>妈妈<s n="n"/></l><r>madre<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>和<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
+		<e><p><l>猫儿<s n="n"/></l><r>gato<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>在<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
+		<e><p><l>在<s n="vblex"/></l><r>en<s n="pr"/></r></p></e> <!--hi ha doble tag al diccionari analisi-->
+		<e><p><l>屋子<s n="n"/></l><r>casa<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>里面<s n="n"/></l><r>interior<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+		        <e><p><l>我<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+				<e><p><l>你<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+				<e><p><l>我们<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+				<e><p><l>他<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+				<e><p><l>他<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+				<e><p><l>她<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+		        <e><p><l>他们<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e> 
+		<e><p><l>从<s n="pr"/></l><r>desde<s n="pr"/></r></p></e>
+		<e><p><l>窗口<s n="n"/></l><r>ventana<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>看<s n="vblex"/></l><r>ver<s n="vblex"/></r></p></e>
+		<e><p><l>到<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+		<e><p><l>和<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
+        <e><p><l>玩耍<s n="vblex"/></l><r>jugar<s n="vblex"/></r></p></e>
+		<e><p><l>赶快<s n="adv"/></l><r>rápidamente<s n="adv"/></r></p></e>
+		<e><p><l>到<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+		<e><p><l>老<s n="adj"/></l><r>viejo<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>大<s n="adj"/></l><r>gran<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+		<e><p><l>树<s n="n"/></l><r>árbol<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>后面<s n="adv"/></l><r>detrás<s n="adv"/></r></p></e>
+		<e><p><l>因为<s n="cnjadv"/></l><r>porque<s n="cnjadv"/></r></p></e>
+		<e><p><l>不<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+		<e><p><l>想<s n="vblex"/></l><r>querer<s n="vblex"/></r></p></e>
+		<e><p><l>跑<s n="vblex"/></l><r>correr<s n="vblex"/></r></p></e>
+
+		
+		
+		
 		
 		
 		</section>

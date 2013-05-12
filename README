@@ -10,7 +10,7 @@ Jordi.
 
 
 
-echo "^小明<NR>$ ^和<CC>$ ^小红<NR>$ ^在<P>$ ^花园<NN>$ ^里面<NN>$ ^。<PU>$ ^今天<NT>$ ^天气<NN>$ ^好<JJ>$ ^，<PU>$ ^很<AD>$ ^暖<VA>$ ^。<PU>$ ^不过<AD>$ ^昨天<NT>$ ^好冷<NN>$ ^哦<IJ>$ ！^他们<PN>$ ^不<AD>$ ^能<VV>$ ^在<P>$ ^外面<NN>$ ^玩<VV>$ ^。<PU>$ ^小明<NR>$ ^和<CC>$ ^小红<NR>$ ^很<AD>$ ^喜欢<VV>$ ^玩耍<VV>$ ^，<PU>$ ^他们<PN>$ ^常常<AD>$ ^在<P>$ ^大<JJ>$ ^屋子<NN>$ ^前<LC>$ ^的<DEG>$ ^花园<NN>$ ^一起<AD>$ ^玩耍<VV>$" | apertium-transfer apertium-zh-es.zh-es.t1x zh-es.t1x.bin zh-es.autobil.bin | lt-proc -g zh-es.autogen.bin 
+echo "^小明<NR>$ ^和<CC>$ ^小红<NR>$ ^在<P>$ ^花园<NN>$ ^里面<NN>$ ^。<PU>$ ^今天<NT>$ ^天气<NN>$ ^好<JJ>$ ^，<PU>$ ^很<AD>$ ^暖<VA>$ ^。<PU>$ ^不过<AD>$ ^昨天<NT>$ ^好冷<NN>$ ^哦<IJ>$ ！^他们<PN>$ ^不<AD>$ ^能<VV>$ ^在<P>$ ^外面<NN>$ ^玩<VV>$ ^。<PU>$ ^小明<NR>$ ^和<CC>$ ^小红<NR>$ ^很<AD>$ ^喜欢<VV>$ ^玩耍<VV>$ ^，<PU>$ ^他们<PN>$ ^常常<AD>$ ^在<P>$ ^大<JJ>$ ^屋子<NN>$ ^前<LC>$ ^的<DEG>$ ^花园<NN>$ ^一起<AD>$ ^玩耍<VV>$" | apertium-transfer apertium-zho-spa.zho-spa.t1x zho-spa.t1x.bin zho-spa.autobil.bin | lt-proc -g zho-spa.autogen.bin 
 
 
 
