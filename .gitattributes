@@ -7,3 +7,4 @@
 /apertium-zho-spa.zho.dix -text
 texts/cuento.spa.txt -text
 texts/cuento.zho.txt -text svneol=unset#application/octet-stream
+texts/cuento.zho.zhseg.txt -text
