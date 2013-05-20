@@ -5,6 +5,7 @@
 /apertium-zho-spa.zho-spa.spa.dix -text
 /apertium-zho-spa.zho-spa.t1x -text
 /apertium-zho-spa.zho.dix -text
+/jcentelles -text
 texts/cuento.spa.txt -text
 texts/cuento.zho.txt -text svneol=unset#application/octet-stream
 texts/cuento.zho.zhseg.txt -text
