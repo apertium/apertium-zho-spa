@@ -8,6 +8,7 @@
 /apertium-zho-spa.zho.dix -text
 /modes.xml -text
 texts/cuento.spa.txt -text
+texts/cuento.zho.stanford.txt -text
 texts/cuento.zho.txt -text svneol=unset#application/octet-stream
 texts/cuento.zho.zhseg.txt -text
 /zho-spa.prob -text svneol=unset#unset
