@@ -12,6 +12,9 @@
       <program name="lt-proc -b">
         <file name="zho-spa.autobil.bin"/>
       </program>
+      <program name="lrx-proc">
+        <file name="zho-spa.autolex.bin"/>
+      </program>
       <program name="apertium-transfer -b">
         <file name="apertium-zho-spa.zho-spa.t1x"/>
         <file name="zho-spa.t1x.bin"/>
@@ -33,12 +36,33 @@
       <program name="lt-proc -b">
         <file name="zho-spa.autobil.bin"/>
       </program>
+      <program name="lrx-proc">
+        <file name="zho-spa.autolex.bin"/>
+      </program>
       <program name="apertium-transfer -b">
         <file name="apertium-zho-spa.zho-spa.t1x"/>
         <file name="zho-spa.t1x.bin"/>
       </program>
     </pipeline>
   </mode>
+
+  <mode name="zho-spa-lextor">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="zho-spa.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="zho-spa.prob"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="zho-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="zho-spa.autolex.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
 
   <mode name="zho-spa-biltrans">
     <pipeline>

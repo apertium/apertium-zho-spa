@@ -160,7 +160,7 @@
 	</pardef>
 	</pardefs>
 	
-	<section id="main" type="standard">
+	<section id="main" type="postblank">
 		<e lm="我"><i>我</i><par n="我__prn"/></e>
 		<e lm="你"><i>你</i><par n="我__prn"/></e>
 		<e lm="您"><i>您</i><par n="我__prn"/></e>
