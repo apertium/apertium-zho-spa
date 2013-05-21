@@ -3,7 +3,7 @@
 	<section-def-cats>
 		<def-cat n="nom">
 			<cat-item tags="NN"/>
-		    <cat-item tags="n.*"/>
+		    <cat-item tags="n."/>
 			<cat-item tags="np."/>
 				
 		</def-cat>
@@ -13,6 +13,7 @@
 		</def-cat>
 		<def-cat n="nombres">
 			<cat-item tags="CD"/>
+                        cat-item tags="num"/>
 		</def-cat>
 		<def-cat n="adjectius">
 			<cat-item tags="JJ"/>
@@ -291,7 +292,7 @@
 				</out>
 			</action>
 		</rule>
-		<rule>
+                <rule>
 			<pattern>
 				<pattern-item n="pronom"/>
 				<pattern-item n="adverbi"/>

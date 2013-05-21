@@ -118,6 +118,7 @@
     <sdef n="ND" 	c="Number to be determined"/> 
     <sdef n="GD" 	c="Gender to be determined"/> 
     <sdef n="mon" 	c="Currency / valuta"/> 
+    <sdef n="qt" 	c="question tag"/> 
   </sdefs>
 
 	<section id="main" type="standard">	
@@ -287,20 +288,20 @@
 		<e><p><l>在<s n="vblex"/></l><r>en<s n="pr"/></r></p></e> <!--hi ha doble tag al diccionari analisi-->
 		<e><p><l>屋子<s n="n"/></l><r>casa<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 		<e><p><l>里面<s n="n"/></l><r>interior<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-		        <e><p><l>我<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+		                <e><p><l>我<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 				<e><p><l>你<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
 				<e><p><l>我们<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
 				<e><p><l>他<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-				<e><p><l>他<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
 				<e><p><l>她<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-		        <e><p><l>他们<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e> 
+		                <e><p><l>他们<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e> 
 		<e><p><l>从<s n="pr"/></l><r>desde<s n="pr"/></r></p></e>
 		<e><p><l>窗口<s n="n"/></l><r>ventana<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 		<e><p><l>看<s n="vblex"/></l><r>ver<s n="vblex"/></r></p></e>
 		<e><p><l>到<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
 		<e><p><l>和<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
-        <e><p><l>玩耍<s n="vblex"/></l><r>jugar<s n="vblex"/></r></p></e>
+                <e><p><l>玩耍<s n="vblex"/></l><r>jugar<s n="vblex"/></r></p></e>
 		<e><p><l>赶快<s n="adv"/></l><r>rápidamente<s n="adv"/></r></p></e>
+                <e><p><l>快<s n="adj"/></l><r>rápido<s n="adj"/></r></p></e>
 		<e><p><l>到<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
 		<e><p><l>老<s n="adj"/></l><r>viejo<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 		<e><p><l>大<s n="adj"/></l><r>gran<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -310,12 +311,112 @@
 		<e><p><l>不<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
 		<e><p><l>想<s n="vblex"/></l><r>querer<s n="vblex"/></r></p></e>
 		<e><p><l>跑<s n="vblex"/></l><r>correr<s n="vblex"/></r></p></e>
-
-		
-		
-		
-		
-		
+                <e><p><l>知道<s n="vblex"/></l><r>saber<s n="vblex"/></r></p></e>
+		<e><p><l>为什么<s n="adv"/></l><r>por<b/>qué<s n="adv"/><s n="itg"/></r></p></e>
+                <e><p><l>坐了<s n="vblex"/></l><r>sentar<s n="vblex"/></r></p></e> <!--sentar + past -->
+                <e><p><l>下来<s n="adv"/></l><r>abajo<s n="adv"/></r></p></e>
+                <e><p><l>手都<s n="n"/></l><r>mano<s n="n"/><s n="f"/><s n="pl"/></r></p></e> <!--particula de plural mano+todas = manos -->
+                <e><p><l>手<s n="n"/></l><r>mano<s n="n"/><s n="f"/><s n="sg"/></r></p></e> 
+                <e><p><l>摆<s n="vblex"/></l><r>poner<s n="vblex"/><s n="ifi"/></r></p></e> <!--poner -->
+                <e><p><l>眼睛<s n="n"/></l><r>ojo<s n="n"/><s n="m"/><s n="pl"/></r></p></e> <!--ojo-->
+                <e><p><l>前面<s n="pr"/></l><r>frente<b/>a<s n="pr"/></r></p></e>
+		<e><p><l>不到<s n="adv"/></l><r>nada<s n="adv"/></r></p></e>
+                <e><p><l>正在<s n="vblex"/></l><r>estar<s n="vblex"/></r></p></e> 
+               <e><p><l>倒数<s n="vblex"/></l><r>contar<s n="vblex"/></r></p></e>
+		<e><p><l>又<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
+		<e><p><l>附近<s n="adv"/></l><r>cerca<s n="adv"/></r></p></e>
+                <e><p><l>做<s n="vblex"/></l><r>hacer<s n="vblex"/></r></p></e>
+                <e><p><l>什么<s n="adv"/></l><r>qué<s n="preadv"/></r></p></e>
+                <e><p><l>吗<s n="qt"/></l><r></r></p></e> <!--denota pregunta igual que el cas oh -->
+                <e><p><l>呢<s n="prn"/></l><r></r></p></e>
+                <e><p><l>原来<s n="adv"/></l><r>realmente<s n="preadv"/></r></p></e>
+                <e><p><l>是<s n="vbser"/></l><r>ser<s n="vbser"/></r></p></e>
+                <e><p><l>个<s n="num"/></l><r>un<s n="num"/><s n="m"/><s n="sg"/></r></p></e>
+                <e><p><l>游戏<s n="n"/></l><r>juego<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+                <e><p><l>当<s n="cnjadv"/></l><r>cuando<s n="cnjadv"/></r></p></e>
+               <e><p><l>数<s n="vblex"/></l><r>contar<s n="vblex"/></r></p></e>
+                <e><p><l>完<s n="vblex"/></l><r>terminar<s n="vblex"/></r></p></e>
+                <e><p><l>后<s n="n"/></l><r>después<s n="adv"/></r></p></e>
+		<e><p><l>左<s n="n"/></l><r>izquierda<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>右<s n="n"/></l><r>derecha<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+                <e><p><l>找<s n="vblex"/></l><r>buscar<s n="vblex"/></r></p></e>
+		<e><p><l>在<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
+                <e><p><l>里<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
+                 <e><p><l>哪儿<s n="adv"/></l><r>dónde<s n="adv"/></r></p></e>
+		<e><p><l>看到<s n="vblex"/></l><r>ver<s n="vblex"/></r></p></e>
+                <e><p><l>看到 了<s n="vblex"/></l><r>ver<s n="vblex"/></r></p></e> <!--posar a past-->
+		<e><p><l>哪里<s n="adv"/></l><r>dónde<s n="adv"/></r></p></e>
+		<e><p><l>问<s n="vblex"/></l><r>preguntar<s n="vblex"/></r></p></e>
+		<e><p><l>狗儿<s n="n"/></l><r>perro<s n="n"/><s n="m"/><s n="sg"/></r></p></e> 
+                <e><p><l>狗<s n="n"/></l><r>perro<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>看见<s n="vblex"/></l><r>ver<s n="vblex"/></r></p></e>
+                <e><p><l>了<s n="det"/></l><r></r></p></e> <!--FER REGLA QUE VERB + AIXO = PAST -->
+		<e><p><l>当然<s n="adj"/></l><r>claro<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+                 <e><p><l>不会<s n="vblex"/></l><r>no<b/>puede<s n="vblex"/></r></p></e>
+                <e><p><l>说话<s n="vblex"/></l><r>hablar<s n="vblex"/></r></p></e>
+		<e><p><l>啦<s n="qt"/></l><r></r></p></e> <!--denota pregunta igual que el cas oh -->
+		<e><p><l>因此<s n="adv"/></l><r>así<s n="adv"/></r></p></e>
+              <e><p><l>得<s n="vblex"/></l><r>obtener<s n="vblex"/></r></p></e>
+              <e><p><l>答案<s n="n"/></l><r>respuesta<s n="n"/><s n="f"/><s n="sg"/></r></p></e> 
+		<e><p><l>人<s n="n"/></l><r>gente<s n="n"/><s n="f"/><s n="sg"/></r></p></e> 
+               <e><p><l>时<s n="cnjadv"/></l><r>cuando<s n="cnjadv"/></r></p></e>
+               <e><p><l>一定<s n="adj"/></l><r>seguro<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>有<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
+		<e><p><l>小<s n="adj"/></l><r>pequeño<s n="adj"/></r></p></e>
+		<e><p><l>着<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
+                 <e><p><l>的<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+		<e><p><l>笑<s n="vblex"/></l><r>reír<s n="vblex"/></r></p></e>
+               <e><p><l>说<s n="vblex"/></l><r>decir<s n="vblex"/></r></p></e>
+		<e><p><l>跟<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
+		<e><p><l>笑<s n="vblex"/></l><r>reír<s n="vblex"/></r></p></e>
+		<e><p><l>可以<s n="vbmod"/></l><r>poder<s n="vbmod"/></r></p></e>
+                <e><p><l>难道<s n="vbmod"/></l><r>poder<s n="vbmod"/></r></p></e>
+              <e><p><l>啊<s n="qt"/></l><r></r></p></e>
+		<e><p><l>回答<s n="vblex"/></l><r>responder<s n="vblex"/></r></p></e>
+		<e><p><l>虽然<s n="cnjadv"/></l><r>aunque<s n="cnjadv"/></r></p></e>
+                <e><p><l>应该<s n="vblex"/></l><r>deber<s n="vblex"/></r></p></e>
+                <e><p><l>那里<s n="adv"/></l><r>allí<s n="adv"/></r></p></e>
+                <e><p><l>不过<s n="cnjcoo"/></l><r>pero<s n="cnjcoo"/></r></p></e>
+               <e><p><l>一点 都<s n="adv"/></l><r>de<b/>ninguna<b/>manera<s n="adv"/></r></p></e>   <!--el segmentador els separa-->
+             <e><p><l>慢慢 地<s n="adv"/></l><r>lentamente<s n="adv"/></r></p></e>
+              <e><p><l>花园<s n="n"/></l><r>jardín<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+             <e><p><l>走<s n="vblex"/></l><r>ir<s n="vblex"/></r></p></e>
+             <e><p><l>还<s n="adv"/></l><r>aún<s n="adv"/></r></p></e>
+             <e><p><l>找 过<s n="vblex"/></l><r>mirar<s n="vblex"/></r></p></e>
+             <e><p><l>桌子<s n="n"/></l><r>mesa<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+             <e><p><l>下面<s n="adv"/></l><r>abajo<s n="adv"/></r></p></e>
+              <e><p><l>椅子<s n="n"/></l><r>silla<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+              <e><p><l>还是<s n="adv"/></l><r>todavía<s n="adv"/></r></p></e>
+            <e><p><l>找不到<s n="vblex"/></l><r>no<b/>encontrar<s n="vblex"/></r></p></e>
+              <e><p><l>到处 都<s n="adv"/></l><r>en<b/>todas<b/>partes<s n="adv"/></r></p></e>
+           <e><p><l>四处<s n="adv"/></l><r>alrededor<s n="adv"/></r></p></e>
+          <e><p><l>突然<s n="adv"/></l><r>entonces<s n="adv"/></r></p></e>
+         <e><p><l>听到<s n="vblex"/></l><r>escuchar<s n="vblex"/></r></p></e>
+         <e><p><l>有<s n="vblex"/></l><r>haber<s n="vblex"/></r></p></e>
+          <e><p><l>声音<s n="n"/></l><r>ruido<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+        <e><p><l>传<s n="pr"/></l><r>hacia<s n="pr"/></r></p></e>
+        <e><p><l>过来<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e>
+         <e><p><l>来 了<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e>
+         <e><p><l>又<s n="adv"/></l><r>otra<b/>vez<s n="adv"/></r></p></e>
+          <e><p><l>仔细 地<s n="adv"/></l><r>atentamente<s n="adv"/></r></p></e>
+         <e><p><l>听<s n="vblex"/></l><r>escuchar<s n="vblex"/></r></p></e>
+         <e><p><l>鸟儿<s n="n"/></l><r>ave<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+         <e><p><l>或<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
+         <e><p><l>动物<s n="n"/></l><r>animal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+         <e><p><l>现在<s n="adv"/></l><r>ahora<s n="adv"/></r></p></e>
+         <e><p><l>很<s n="adv"/></l><r>muy<s n="preadv"/></r></p></e>
+         <e><p><l>清楚 了<s n="adj"/></l><r>claro<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+         <e><p><l>一 只<s n="num"/></l><r>un<s n="num"/></r></p></e>
+         <e><p><l>近<s n="adv"/></l><r>cerca<s n="adv"/></r></p></e>
+         <e><p><l>一点儿<s n="adv"/></l><r>un<b/>poco<s n="adv"/></r></p></e>
+         <e><p><l>两 个<s n="prn"/></l><r>ambos<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+         <e><p><l>开 开心 心<s n="adj"/></l><r>feliz<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+       <e><p><l>走 进 了<s n="vblex"/></l><r>entrar<s n="vblex"/></r></p></e> <!--no correcte-->
+          <e><p><l>饿<s n="n"/></l><r>hambre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+         <e><p><l>渴<s n="n"/></l><r>sed<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+     
+     
+     
 		</section>
 	
 
