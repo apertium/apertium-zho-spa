@@ -24,11 +24,19 @@
         
 		<sdef n="adv"/>
 		<sdef n="cnjadv"/>
-        <sdef n="qt"/> <!--question tag, no te traduccio-->
+        <sdef n="qst"/> <!--question tag, no te traduccio-->
         
+		<sdef n="cm"/>
+		<sdef n="sent"/>
 	</sdefs>
 	
 	<pardefs>
+          <pardef n="coma">
+<e><p><l>，</l><r>，<s n="cm"/></r></p></e>
+          </pardef>
+          <pardef n="separa">
+<e><re>[。！：？]+</re><p><l></l><r><s n="sent"/></r></p></e>
+          </pardef>
 		<pardef n="我__prn">
 		   <e>
 			 <p>
@@ -154,7 +162,7 @@
 		   <e>
 			 <p>
 			   <l/>
-			   <r><s n="qt"/></r>
+			   <r><s n="qst"/></r>
 			 </p>
 		   </e>
 	</pardef>
@@ -964,6 +972,12 @@
 		<e lm="作"><i>作</i><par n="爱__vblex"/></e>
 		<e lm="坐"><i>坐</i><par n="爱__vblex"/></e>
 
+	</section>
+
+        <section id="final" type="inconditional">
+
+          <e><par n="separa"/></e>
+          <e><par n="coma"/></e>
 	</section>
 
 
