@@ -17,6 +17,8 @@
     </def-cat>
     <def-cat n="prn-subj">
       <cat-item lemma="他们" tags="prn"/>
+      <cat-item lemma="我" tags="prn"/>
+      <cat-item lemma="她" tags="prn"/>
     </def-cat>
     <def-cat n="verb">
       <cat-item tags="vblex"/>
