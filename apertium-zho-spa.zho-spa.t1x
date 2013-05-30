@@ -6,8 +6,8 @@
       <cat-item tags="n.*"/>
       <cat-item tags="n"/>
     </def-cat>
-    <def-cat n="prep-of">
-      <cat-item lemma="" tags="pr"/>
+    <def-cat n="prep-de">
+      <cat-item lemma="的" tags="pr"/>
     </def-cat>
     <def-cat n="prep">
       <cat-item tags="pr"/>
@@ -15,8 +15,14 @@
     <def-cat n="adv">
       <cat-item tags="adv"/>
     </def-cat>
+    <def-cat n="prn-subj">
+      <cat-item lemma="他们" tags="prn"/>
+    </def-cat>
     <def-cat n="verb">
       <cat-item tags="vblex"/>
+    </def-cat>
+    <def-cat n="adj">
+      <cat-item tags="adj"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
@@ -26,15 +32,25 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
     </def-attr>
-    <def-attr n="a_cas">
-      <attr-item tags="nom"/>
-      <attr-item tags="acc"/>
-      <attr-item tags="dat"/>
-      <attr-item tags="gen"/>
-      <attr-item tags="loc"/>
-      <attr-item tags="ins"/>
-      <attr-item tags="abl"/>
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
     </def-attr>
+    <def-attr n="gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="GD"/>
+    </def-attr>
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+
 
   </section-def-attrs>
   <section-def-vars>
@@ -50,6 +66,118 @@
     </def-macro>
   </section-def-macros>
   <section-rules>
+
+    <rule comment="REGLA: prn-subj">
+      <pattern>
+        <pattern-item n="prn-subj"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="subj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: adv">
+      <pattern>
+        <pattern-item n="adv"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="adv" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="ADV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: adj">
+      <pattern>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="adj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SA"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: prep adj nom">
+      <pattern>
+        <pattern-item n="prep"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="p_j_n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: verb">
+      <pattern>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><lit-tag v="ZD"/></tag>
+              <tag><lit-tag v="PD"/></tag>
+              <tag><lit-tag v="ND"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+              <lit-tag v="2.3.4"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
+
 
     <rule comment="REGLA: SENT">
       <pattern>
