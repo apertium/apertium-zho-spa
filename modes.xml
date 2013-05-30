@@ -19,11 +19,75 @@
         <file name="apertium-zho-spa.zho-spa.t1x"/>
         <file name="zho-spa.t1x.bin"/>
       </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-zho-spa.zho-spa.t2x"/>
+        <file name="zho-spa.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-zho-spa.zho-spa.t3x"/>
+        <file name="zho-spa.t3x.bin"/>
+      </program>
       <program name="lt-proc -g">
         <file name="zho-spa.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
+
+  <mode name="zho-spa-postchunk">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="zho-spa.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="zho-spa.prob"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="zho-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="zho-spa.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-zho-spa.zho-spa.t1x"/>
+        <file name="zho-spa.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-zho-spa.zho-spa.t2x"/>
+        <file name="zho-spa.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-zho-spa.zho-spa.t3x"/>
+        <file name="zho-spa.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="zho-spa-interchunk">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="zho-spa.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="zho-spa.prob"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="zho-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="zho-spa.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-zho-spa.zho-spa.t1x"/>
+        <file name="zho-spa.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-zho-spa.zho-spa.t2x"/>
+        <file name="zho-spa.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
 
   <mode name="zho-spa-transfer">
     <pipeline>

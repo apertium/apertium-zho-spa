@@ -2,40 +2,67 @@
 <!-- -*- nxml -*- -->
 <interchunk>
   <section-def-cats>
+    <def-cat n="SN-SUBJ">
+      <cat-item lemma="subj" tags="SN.*"/>
+    </def-cat>
     <def-cat n="SN">
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
+    </def-cat>
+    <def-cat n="SV">
+      <cat-item tags="SV.*"/>
+    </def-cat>
+    <def-cat n="ADVL">
+      <cat-item tags="SP"/>
+      <cat-item tags="ADV"/>
     </def-cat>
     <def-cat n="SENT">
       <cat-item tags="SENT"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
+    <def-attr n="a_tns">
+      <attr-item tags="pri"/>
+      <attr-item tags="pii"/>
+      <attr-item tags="ifi"/>
+      <attr-item tags="ZD"/>
+    </def-attr>
+
+    <def-attr n="a_pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
+    </def-attr>
+
+
+    <def-attr n="a_gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="GD"/>
+    </def-attr>
+
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
       <attr-item tags="ND"/>
     </def-attr>
-    <def-attr n="a_cas">
-      <attr-item tags="nom"/>
-      <attr-item tags="acc"/>
-      <attr-item tags="dat"/>
-      <attr-item tags="gen"/>
-      <attr-item tags="ins"/>
-      <attr-item tags="loc"/>
-      <attr-item tags="abl"/>
-    </def-attr>
+
   </section-def-attrs>
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="POST"/>
   </section-def-vars>
   <section-def-macros>
-    <def-macro n="test1" npar="1">
+    <def-macro n="f_concord1" npar="2">
+      <let><clip pos="2" part="a_pers"/><clip pos="1" part="a_pers"/></let>
+      <let><clip pos="2" part="a_nbr"/><clip pos="1" part="a_nbr"/></let>
+    </def-macro>
+    <def-macro n="f_tense1" npar="1">
       <let>
-        <var n="POST"/>
-        <lit v=""/>
+        <clip pos="1" part="a_tns"/><lit-tag v="pri"/>
       </let>
     </def-macro>
   </section-def-macros>
@@ -54,5 +81,50 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: SN-SUBJ ADVL ADVL SV ">
+      <pattern>
+        <pattern-item n="SN-SUBJ"/>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+          <with-param pos="4"/>
+        </call-macro>
+        <call-macro n="f_tense1">
+          <with-param pos="4"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
   </section-rules>
 </interchunk>
