@@ -25,10 +25,20 @@
 		<sdef n="adv"/>
 		<sdef n="cnjadv"/>
         <sdef n="qt"/> <!--question tag, no te traduccio-->
-        
+         <sdef n="cm"/>	 
+                 <sdef n="sent"/>
 	</sdefs>
 	
 	<pardefs>
+    
+         <pardef n="coma">	 
+             <e><p><l>，</l><r>，<s n="cm"/></r></p></e>	  
+           </pardef>	 
+           <pardef n="separa">	 
+            <e><re>[。！：？]+</re><p><l></l><r><s n="sent"/></r></p></e>	 
+           </pardef>
+		
+		
 		<pardef n="我__prn">
 		   <e>
 			 <p>
@@ -160,7 +170,7 @@
 	</pardef>
 	</pardefs>
 	
-	<section id="main" type="standard">
+	<section id="main" type="postblank">
 		<e lm="我"><i>我</i><par n="我__prn"/></e>
 		<e lm="你"><i>你</i><par n="我__prn"/></e>
 		<e lm="您"><i>您</i><par n="我__prn"/></e>
@@ -286,7 +296,7 @@
 	<e lm="玩"><i>玩</i><par n="爱__vblex"/></e> <!--jugar-->
        <e lm="常常"><i>常常</i><par n="暗暗__adv"/></e> <!--siempre--> 
 	 <e lm="前"><i>前</i><par n="以上__pr"/></e> <!--en frente de-->
-        <e lm="一起"><i>一起</i><par n="暗暗__adv"/></e> <!--juntos--> 
+        <e lm="一起"><i>一起</i><par n="平__adj"/></e> <!--juntos--> 
 	<e lm="一个"><i>一个</i><par n="这__det"/></e> <!--un-->
 	<e lm="男孩"><i>男孩</i><par n="爱人__n"/></e>  <!--niño-->	
 	<e lm="小男孩"><i>小男孩</i><par n="爱人__n"/></e>  <!--pequeño niño-->	
@@ -1007,6 +1017,12 @@
 		<e lm="坐"><i>坐</i><par n="爱__vblex"/></e>
 
 	</section>
+   
+
+
+
+
+
 
 
 </dictionary>

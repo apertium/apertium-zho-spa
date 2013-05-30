@@ -2,40 +2,60 @@
 <transfer>
 	<section-def-cats>
 		<def-cat n="nom">
-			<cat-item tags="NN"/>
-		    <cat-item tags="n."/>
-			<cat-item tags="np."/>
+			
+		    <cat-item tags="n"/>
+			<cat-item tags="np"/>
+		    <cat-item tags="n.*"/>
+			<cat-item tags="np.*"/>
 				
 		</def-cat>
 		<def-cat n="nom_personal">
-			<cat-item tags="NR"/>
+			<cat-item tags="np"/>
 			<cat-item tags="np.*"/>
 		</def-cat>
 		<def-cat n="nombres">
-			<cat-item tags="CD"/>
-                        cat-item tags="num"/>
+                           <cat-item tags="num.*"/>
+                        <cat-item tags="num"/>
 		</def-cat>
 		<def-cat n="adjectius">
-			<cat-item tags="JJ"/>
+			<cat-item tags="adj"/>
+            
 		</def-cat>
+        
+                <def-cat n="adjectius_mf">
+			<cat-item tags="adj.mf"/>
+            
+		</def-cat>
+        
 		<def-cat n="pronom">
 			<cat-item tags="PN"/>
 			<cat-item tags="prn"/>
+                       <cat-item tags="prn.*"/>
 		</def-cat>
 		<def-cat n="determinant">
 			<cat-item tags="det"/>
+                       <cat-item tags="det.*"/>
 		</def-cat>
 		<def-cat n="vrb">
-			<cat-item tags="VV"/>
-			<cat-item tags="VC"/>
-			<cat-item tags="VE"/>
+			
 			<cat-item tags="vblex"/>
+                       <cat-item tags="vbser"/>
+                        <cat-item tags="vbmod"/>
 		</def-cat>
+       
+		
 		<def-cat n="adverbi">
 			<cat-item tags="AD"/>
 			<cat-item tags="adv"/>
 		</def-cat>
 	</section-def-cats>
+	
+	
+	
+	
+	
+	
+	
 	<section-def-attrs>
 		<def-attr n="a_nom">
 			<attr-item tags="n"/>
@@ -196,7 +216,7 @@
 		
 	</section-def-vars>
 	<section-rules>
-		<rule>
+		<!--<rule>              //No perque dos tres..no tenen ni genere ni nombre
 			<pattern>
 				<pattern-item n="nombres"/>
 				<pattern-item n="nom"/>
@@ -206,7 +226,7 @@
 					<lu>
 						<clip pos="1" side="tl" part="lem"/>
 						<clip pos="1" side="tl" part="a_num"/>
-						<clip pos="2" side="tl" part="gen"/>
+						<clip pos="1" side="tl" part="gen"/>
 						<clip pos="2" side="tl" part="nbr"/>
 					</lu>
 					<b/>
@@ -215,6 +235,55 @@
 						<clip pos="2" side="tl" part="a_nom"/>
 						<clip pos="2" side="tl" part="gen"/>
 						<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+				</out>
+			</action>
+		</rule> -->
+                  
+                  
+                  <rule>
+        
+        		<pattern>
+				
+				<pattern-item n="vrb"/>
+			</pattern>
+			<action>
+				<out>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_verb"/>
+						<lit-tag v="pri"/>
+                                                <lit-tag v="p3"/>
+                                                <lit-tag v="sg"/>
+						
+					</lu>
+				</out>
+			</action>
+		</rule>
+          
+                <rule>    <!--esta contando-->
+        
+        		<pattern>
+				
+				<pattern-item n="vrb"/>    <!--regla incorrecta, hauria de ser nomes amb el verb ESTAR!! -->
+                                <pattern-item n="vrb"/>
+			</pattern>
+			<action>
+				<out>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_verb"/>
+						<lit-tag v="pri"/>
+                                                <lit-tag v="p3"/>
+                                                <lit-tag v="sg"/>
+						
+					</lu>
+                                         <b/>
+					<lu>
+						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_verb"/>
+						<lit-tag v="ger"/>
+                                               
 					</lu>
 				</out>
 			</action>
@@ -229,7 +298,7 @@
 					<lu>
 						<clip pos="1" side="tl" part="lem"/>
 						<clip pos="1" side="tl" part="a_det"/>
-						<clip pos="1" side="tl" part="gen"/>
+						<clip pos="2" side="tl" part="gen"/>
 						<clip pos="2" side="tl" part="nbr"/>
 					</lu>
 					<b/>
@@ -292,6 +361,72 @@
 				</out>
 			</action>
 		</rule>
+        
+        <rule>
+			<pattern>                         <!--jaime tiene un perro NO FUNCIONA-->
+				<pattern-item n="nom"/>
+				<pattern-item n="vrb"/>
+                                <pattern-item n="determinant"/>
+				<pattern-item n="nom"/>
+			</pattern>
+			<action>
+				<out>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_nom"/>
+						<clip pos="1" side="tl" part="gen"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_verb"/>
+						<lit-tag v="pri"/>
+						<lit-tag v="p3"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+                                        <b/>
+                                        <lu>
+						<clip pos="3" side="tl" part="lem"/>
+						<clip pos="3" side="tl" part="a_det"/>
+						<clip pos="4" side="tl" part="gen"/>
+						<clip pos="4" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="4" side="tl" part="lem"/>
+						<clip pos="4" side="tl" part="a_nom"/>
+						<clip pos="4" side="tl" part="gen"/>
+						<clip pos="4" side="tl" part="nbr"/>
+					</lu>
+				</out>
+			</action>
+		</rule>
+        
+             <rule>
+			<pattern>
+				<pattern-item n="nom_personal"/>
+				<pattern-item n="vrb"/>
+			</pattern>
+			<action>
+				<out>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_nom"/>
+						<clip pos="1" side="tl" part="gen"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_verb"/>
+						<lit-tag v="pri"/>
+						<lit-tag v="p3"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+				</out>
+			</action>
+		</rule>
                 <rule>
 			<pattern>
 				<pattern-item n="pronom"/>
@@ -311,7 +446,7 @@
 					<b/>
 					<lu>
 						<clip pos="2" side="tl" part="lem"/>
-						<clip pos="2" side="tl" part="a_nom"/>
+						<clip pos="2" side="tl" part="a_adv"/>
 					</lu>
 					<b/>
 					<lu>
@@ -355,6 +490,46 @@
 				</out>
 			</action>
 		</rule>
+        
+        <rule>
+			<pattern>
+				<pattern-item n="nom"/>
+				<pattern-item n="adverbi"/>
+				<pattern-item n="vrb"/>
+                                <pattern-item n="vrb"/>
+			</pattern>
+			<action>
+				<out>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_nom"/>
+						<clip pos="1" side="tl" part="gen"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_adv"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="3" side="tl" part="lem"/>
+						<clip pos="3" side="tl" part="a_verb"/>
+						<lit-tag v="pri"/>
+						<lit-tag v="p3"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+                                        <b/>
+					<lu>
+						<clip pos="4" side="tl" part="lem"/>
+						<clip pos="4" side="tl" part="a_verb"/>
+						<lit-tag v="pri"/>
+						<lit-tag v="p3"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+				</out>
+			</action>
+		</rule>
 			<rule>
 			<pattern>
 				<pattern-item n="adjectius"/>
@@ -373,6 +548,105 @@
 						<clip pos="1" side="tl" part="lem"/>
 						<clip pos="1" side="tl" part="a_adj"/>
 						<clip pos="2" side="tl" part="gen"/>
+						<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+				</out>
+			</action>
+		</rule>
+        <rule>
+			<pattern>                            <!--perro pequeño muy gusta-->
+				<pattern-item n="adjectius"/>
+				<pattern-item n="nom"/>
+                                <pattern-item n="adverbi"/>
+				<pattern-item n="vrb"/>
+			</pattern>
+			<action>
+				<out>
+					<lu>
+						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_nom"/>
+						<clip pos="2" side="tl" part="gen"/>
+						<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_adj"/>
+						<clip pos="2" side="tl" part="gen"/>
+						<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+                                        <b/>
+					<lu>
+						<clip pos="3" side="tl" part="lem"/>
+						<clip pos="3" side="tl" part="a_adv"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="4" side="tl" part="lem"/>
+						<clip pos="4" side="tl" part="a_verb"/>
+						<lit-tag v="pri"/>
+						<lit-tag v="p3"/>
+						<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+				</out>
+			</action>
+		</rule>
+        
+        
+        
+        
+        <rule>
+			<pattern>
+				<pattern-item n="adjectius"/>
+				<pattern-item n="nom"/>
+                                <pattern-item n="vrb"/>
+			</pattern>
+			<action>
+				<out>
+					<lu>
+						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_nom"/>
+						<clip pos="2" side="tl" part="gen"/>
+						<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_adj"/>
+						<clip pos="2" side="tl" part="gen"/>
+						<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+                                        <b/>
+					<lu>
+						<clip pos="3" side="tl" part="lem"/>
+						<clip pos="3" side="tl" part="a_verb"/>
+						<lit-tag v="pri"/>
+						<lit-tag v="p3"/>
+						<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+				</out>
+			</action>
+		</rule>
+        
+        
+               <rule>
+			<pattern>
+				<pattern-item n="adjectius_mf"/>
+				<pattern-item n="nom"/>
+			</pattern>
+			<action>
+				<out>
+					<lu>
+						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_nom"/>
+						<clip pos="2" side="tl" part="gen"/>
+						<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_adj"/>
+						<clip pos="1" side="tl" part="gen"/>
 						<clip pos="2" side="tl" part="nbr"/>
 					</lu>
 				</out>
@@ -410,5 +684,6 @@
 				</out>
 			</action>
 		</rule>
+
 	</section-rules>
 </transfer>
