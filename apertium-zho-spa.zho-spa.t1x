@@ -4,6 +4,19 @@
   <section-def-cats>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
+      <cat-item tags="n"/>
+    </def-cat>
+    <def-cat n="prep-of">
+      <cat-item lemma="" tags="pr"/>
+    </def-cat>
+    <def-cat n="prep">
+      <cat-item tags="pr"/>
+    </def-cat>
+    <def-cat n="adv">
+      <cat-item tags="adv"/>
+    </def-cat>
+    <def-cat n="verb">
+      <cat-item tags="vblex"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
