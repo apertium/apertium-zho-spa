@@ -118,7 +118,7 @@
     <sdef n="ND" 	c="Number to be determined"/> 
     <sdef n="GD" 	c="Gender to be determined"/> 
     <sdef n="mon" 	c="Currency / valuta"/> 
-    <sdef n="qt" 	c="question tag"/> 
+    <sdef n="qst" 	c="question tag"/> 
   </sdefs>
 
 	<section id="main" type="standard">	
@@ -303,10 +303,10 @@
 		<e><p><l>和<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
                 <e><p><l>玩耍<s n="vblex"/></l><r>jugar<s n="vblex"/></r></p></e>
 		<e><p><l>赶快<s n="adv"/></l><r>rápidamente<s n="adv"/></r></p></e>
-                <e><p><l>快<s n="adj"/></l><r>rápido<s n="adj"/></r></p></e>
+                <e><p><l>快<s n="adj"/></l><r>rápido<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 		<e><p><l>到<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
-		<e><p><l>老<s n="adj"/></l><r>viejo<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-		<e><p><l>大<s n="adj"/></l><r>grande<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+		<e><p><l>老<s n="adj"/></l><r>viejo<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+		<e><p><l>大<s n="adj"/></l><r>grande<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 		<e><p><l>树<s n="n"/></l><r>árbol<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 		<e><p><l>后面<s n="adv"/></l><r>detrás<s n="adv"/></r></p></e>
 		<e><p><l>因为<s n="cnjadv"/></l><r>porque<s n="cnjadv"/></r></p></e>
@@ -330,7 +330,7 @@
 		<e><p><l>附近<s n="adv"/></l><r>cerca<s n="adv"/></r></p></e>
                 <e><p><l>做<s n="vblex"/></l><r>hacer<s n="vblex"/></r></p></e>
                 <e><p><l>什么<s n="adv"/></l><r>qué<s n="preadv"/></r></p></e>
-                <e><p><l>吗<s n="qt"/></l><r></r></p></e> <!--denota pregunta igual que el cas oh -->
+                <e><p><l>吗<s n="qst"/></l><r></r></p></e> <!--denota pregunta igual que el cas oh -->
                 <e><p><l>呢<s n="prn"/></l><r></r></p></e>
                 <e><p><l>原来<s n="adv"/></l><r>realmente<s n="preadv"/></r></p></e>
                 <e><p><l>是<s n="vbser"/></l><r>ser<s n="vbser"/></r></p></e>
@@ -355,18 +355,19 @@
                 <e><p><l>狗<s n="n"/></l><r>perro<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 		<e><p><l>看见<s n="vblex"/></l><r>ver<s n="vblex"/></r></p></e>
                 <e><p><l>了<s n="det"/></l><r></r></p></e>                               <!--FER REGLA QUE VERB + AIXO = PAST -->
-		<e><p><l>当然<s n="adj"/></l><r>claro<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>当然<s n="adj"/></l><r>claro<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+         <e><p><l>清楚 了<s n="adj"/></l><r>claro<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
                  <e><p><l>不会<s n="vblex"/></l><r>no<b/>poder<s n="vblex"/></r></p></e>
                 <e><p><l>说话<s n="vblex"/></l><r>hablar<s n="vblex"/></r></p></e>
-		<e><p><l>啦<s n="qt"/></l><r></r></p></e> <!--denota pregunta igual que el cas oh -->
+		<e><p><l>啦<s n="qst"/></l><r></r></p></e> <!--denota pregunta igual que el cas oh -->
 		<e><p><l>因此<s n="adv"/></l><r>así<s n="adv"/></r></p></e>
               <e><p><l>得<s n="vblex"/></l><r>obtener<s n="vblex"/></r></p></e>
               <e><p><l>答案<s n="n"/></l><r>respuesta<s n="n"/><s n="f"/><s n="sg"/></r></p></e> 
 		<e><p><l>人<s n="n"/></l><r>gente<s n="n"/><s n="f"/><s n="sg"/></r></p></e> 
                <e><p><l>时<s n="cnjadv"/></l><r>cuando<s n="cnjadv"/></r></p></e>
-               <e><p><l>一定<s n="adj"/></l><r>seguro<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+               <e><p><l>一定<s n="adj"/></l><r>seguro<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 		<e><p><l>有<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
-		<e><p><l>小<s n="adj"/></l><r>pequeño<s n="adj"/></r></p></e>
+		<e><p><l>小<s n="adj"/></l><r>pequeño<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 		<e><p><l>着<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
                  <e><p><l>的<s n="pr"/></l><r>de</r></p></e>
 		<e><p><l>笑<s n="vblex"/></l><r>reír<s n="vblex"/></r></p></e>
@@ -376,7 +377,7 @@
 		<e><p><l>可以<s n="vbmod"/></l><r>poder<s n="vbmod"/></r></p></e>
                 <e><p><l>难道<s n="vbmod"/></l><r>poder<s n="vbmod"/></r></p></e>
                 <e><p><l>能<s n="vbmod"/></l><r>poder<s n="vbmod"/></r></p></e>
-                <e><p><l>啊<s n="qt"/></l><r></r></p></e>
+                <e><p><l>啊<s n="qst"/></l><r></r></p></e>
 		<e><p><l>回答<s n="vblex"/></l><r>responder<s n="vblex"/></r></p></e>
 		<e><p><l>虽然<s n="cnjadv"/></l><r>aunque<s n="cnjadv"/></r></p></e>
                 <e><p><l>应该<s n="vblex"/></l><r>deber<s n="vblex"/></r></p></e>
@@ -411,20 +412,20 @@
          <e><p><l>动物<s n="n"/></l><r>animal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
          <e><p><l>现在<s n="adv"/></l><r>ahora<s n="adv"/></r></p></e>
          <e><p><l>很<s n="adv"/></l><r>muy<s n="preadv"/></r></p></e>
-         <e><p><l>清楚 了<s n="adj"/></l><r>claro<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
          <e><p><l>一 只<s n="num"/></l><r>uno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
          <e><p><l>只<s n="adv"/></l><r>sólo<s n="adv"/></r></p></e>
          <e><p><l>近<s n="adv"/></l><r>cerca<s n="adv"/></r></p></e>
          <e><p><l>一点儿<s n="adv"/></l><r>un<b/>poco<s n="adv"/></r></p></e>
          <e><p><l>两 个<s n="prn"/></l><r>ambos<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
-         <e><p><l>开 开心 心<s n="adj"/></l><r>feliz<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+         <e><p><l>开 开心 心<s n="adj"/></l><r>feliz<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+        <e><p><l>开心<s n="adj"/></l><r>feliz<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
        <e><p><l>走 进 了<s n="vblex"/></l><r>entrar<s n="vblex"/></r></p></e> <!--no correcte-->
           <e><p><l>饿<s n="n"/></l><r>hambre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
          <e><p><l>渴<s n="n"/></l><r>sed<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
          <e><p><l>今天<s n="adv"/></l><r>hoy<s n="adv"/></r></p></e>
         <e><p><l>天气<s n="n"/></l><r>clima<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
         <e><p><l>好<s n="adv"/></l><r>bien<s n="preadv"/></r></p></e>
-        <e><p><l>暖<s n="adj"/></l><r>cálido<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+        <e><p><l>暖<s n="adj"/></l><r>cálido<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
          <e><p><l>昨天<s n="adv"/></l><r>ayer<s n="adv"/></r></p></e>
           <e><p><l>冷<s n="n"/></l><r>frío<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
          <e><p><l>不能<s n="vbmod"/></l><r>no<b/>poder<s n="vbmod"/></r></p></e>
@@ -434,7 +435,7 @@
          <e><p><l>喜欢<s n="vblex"/></l><r>gustar<s n="vblex"/></r></p></e>
          <e><p><l>常常<s n="adv"/></l><r>siempre<s n="adv"/></r></p></e>
           <e><p><l>前<s n="pr"/></l><r>en<b/>frente<b/>de<s n="pr"/></r></p></e>
-          <e><p><l>一起<s n="adj"/></l><r>junto<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+          <e><p><l>一起<s n="adj"/></l><r>junto<s n="adj"/><s n="GD"/><s n="pl"/></r></p></e>
           <e><p><l>一个<s n="det"/></l><r>uno<s n="det"/><s n="ind"/></r></p></e> <!-- un det -->
         <e><p><l>男孩<s n="n"/></l><r>niño<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
        <e><p><l>小男孩<s n="n"/></l><r>niño<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -445,9 +446,8 @@
 		<e><p><l>岁<s n="n"/></l><r>año<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 		<e><p><l>女孩<s n="n"/></l><r>niño<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 		<e><p><l>妹妹<s n="n"/></l><r>hermano<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-                <e><p><l>那 只<s n="det"/></l><r>ese<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
-        <e><p><l>开心<s n="adj"/></l><r>feliz<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-		<e><p><l>哦<s n="qt"/></l><r></r></p></e> <!--denota pregunta igual que el cas oh -->
+                <e><p><l>那 只<s n="det"/></l><r>ese<s n="det"/><s n="dem"/><s n="GD"/><s n="ND"/></r></p></e>
+		<e><p><l>哦<s n="qst"/></l><r></r></p></e> <!--denota pregunta igual que el cas oh -->
 		<e><p><l>可是<s n="cnjcoo"/></l><r>pero<s n="cnjcoo"/></r></p></e>
 		<e><p><l>睡觉<s n="vblex"/></l><r>dormir<s n="vblex"/></r></p></e>
 		
