@@ -226,12 +226,11 @@
               <lit v="no"/>
               <lit-tag v="adv"/>
               </lu>
-       <!--  <b pos="1"/> -->
+             <b/>
             <lu>
               <clip pos="1" side="tl" part="whole"/>  <!-- amb aixo afegira vbmod,vblex.. -->
               <lit-tag v="2.3.4"/>                    <!-- amb els numeros fa la concordança de temps, persona etc..-->
             </lu>
-      <!--      <b pos="2"/> -->
           </chunk>
         </out>
       </action>
