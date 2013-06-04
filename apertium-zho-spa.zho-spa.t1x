@@ -22,7 +22,15 @@
     </def-cat>
     <def-cat n="verb">
       <cat-item tags="vblex"/>
+      <cat-item tags="vbmod"/>
+      <cat-item tags="vbser"/>
     </def-cat>
+    <def-cat n="verbneg">
+      <cat-item tags="vblex.neg"/>
+      <cat-item tags="vbmod.neg"/>
+    
+    </def-cat>
+    
     <def-cat n="adj">
       <cat-item tags="adj"/>
     </def-cat>
@@ -154,6 +162,30 @@
         </out>
       </action>
     </rule>
+    
+     <rule comment="REGLA: prep nom">
+      <pattern>
+        <pattern-item n="prep"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="p_j" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: verb">
       <pattern>
@@ -177,6 +209,33 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: verbneg">
+      <pattern>
+        <pattern-item n="verbneg"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="vneg" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><lit-tag v="ZD"/></tag>
+              <tag><lit-tag v="PD"/></tag>
+              <tag><lit-tag v="ND"/></tag>
+            </tags>
+            <lu>
+              <lit v="no"/>
+              <lit-tag v="adv"/>
+              </lu>
+       <!--  <b pos="1"/> -->
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>  <!-- amb aixo afegira vbmod,vblex.. -->
+              <lit-tag v="2.3.4"/>                    <!-- amb els numeros fa la concordança de temps, persona etc..-->
+            </lu>
+      <!--      <b pos="2"/> -->
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
 
 
