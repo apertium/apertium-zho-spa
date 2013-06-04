@@ -4,7 +4,8 @@
 <dictionary>
         <alphabet>讨厌</alphabet>
 	<sdefs>
-		<sdef n="n"/>
+                <sdef n="n"/>
+                <sdef n="neg"/>
 		<sdef n="np"/>
 	   <sdef n="vblex"/>
            <sdef n="vbmod"/>
@@ -108,7 +109,18 @@
 				 <r><s n="vbmod"/></r>
 			   </p>
 			</e>
-		</pardef>
+                </pardef>
+                
+                
+                <pardef n="不能__vbmodneg">
+			<e>
+			   <p>
+				 <l/>
+				 <r><s n="vbmod"/><s n="neg"/></r>
+			   </p>
+			</e>
+                </pardef>
+
         
         <pardef n="爱__vblex">
 			<e>
@@ -119,7 +131,17 @@
 			</e>
 		</pardef>
         
-	
+                
+                 <pardef n="找不到__vblexneg">
+			<e>
+			   <p>
+				 <l/>
+				 <r><s n="vblex"/><s n="neg"/></r>
+			   </p>
+			</e>
+		</pardef>
+        
+
 	 
 	<pardef n="这__det">
 		   <e>
@@ -234,7 +256,7 @@
               <e lm="狗"><i>狗</i><par n="爱人__n"/></e> <!--perro-->
               <e lm="了"><i>了</i><par n="这__det"/></e> <!--particula PASSAT-->
            <e lm="当然"><i>当然</i><par n="平__adj"/></e>  <!--claro-->
-        <e lm="不会"><i>不会</i><par n="爱__vblex"/></e> <!--no puede-->
+        <e lm="不会"><i>不会</i><par n="不能__vbmodneg"/></e> <!--no puede-->
         <e lm="说话"><i>说话</i><par n="爱__vblex"/></e> <!--hablar-->
           <e lm="啦"><i>啦</i><par n="吗__qt"/></e>
        <e lm="因此"><i>因此</i><par n="暗暗__adv"/></e>
@@ -262,7 +284,7 @@
           <e lm="找 过 了"><i>找 过 了</i><par n="爱__vblex"/></e> <!--mirar-->
            <e lm="下面"><i>下面</i><par n="暗暗__adv"/></e> <!--abajo-->
           <e lm="还是"><i>还是</i><par n="暗暗__adv"/></e> <!--todavía-->
-          <e lm="找不到"><i>找不到</i><par n="爱__vblex"/></e> <!--no encontrar-->
+          <e lm="找不到"><i>找不到</i><par n="找不到__vblexneg"/></e> <!--no encontrar-->
         <e lm="到处 都"><i>到处 都</i><par n="暗暗__adv"/></e> <!--en todas partes-->
           <e lm="突然"><i>突然</i><par n="暗暗__adv"/></e> <!--entonces-->
            <e lm="听到"><i>听到</i><par n="爱__vblex"/></e> <!--escuchar-->
@@ -306,8 +328,8 @@
 	<e lm="岁"><i>岁</i><par n="爱人__n"/></e>  <!--año-->
 	<e lm="女孩"><i>女孩</i><par n="爱人__n"/></e>  <!--niña-->
 	<e lm="那 只"><i>那 只</i><par n="这__det"/></e> <!--ese-->
-	<e lm="没有"><i>没有</i><par n="爱__vblex"/></e> <!--NO tener--> 	
-	<e lm="不能"><i>不能</i><par n="可以__vbmod"/></e> <!--NO poder-->	
+	<e lm="没有"><i>没有</i><par n="找不到__vblexneg"/></e> <!--NO tener--> 	
+	<e lm="不能"><i>不能</i><par n="不能__vbmodneg"/></e> <!--NO poder-->	
        <e lm="哦"><i>哦</i><par n="吗__qt"/></e>
 	<e lm="只"><i>只</i><par n="暗暗__adv"/></e> <!--sólo--> 
 	 <e lm="可是"><i>可是</i><par n="并且__cnjcoo"/></e>  <!--pero-->
