@@ -194,7 +194,7 @@
     <e><p><l>现在<s n="NT"/></l><r>ahora<s n="adv"/></r></p></e>
     <e><p><l>跟<s n="P"/></l><r>con<s n="pr"/></r></p></e>
     <e><p><l>狗儿<s n="NN"/></l><r>perro<s n="n"/><s n="m"/><s n="sg"/></r></p></e> <!--diferents formes de dir gos-->
-    <e><p><l>开心<s n="VA"/></l><r>feliz<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>开心<s n="VA"/></l><r>feliz<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
     <e><p><l>吗<s n="SP"/></l><r></r></p></e> <!--denota pregunta igual que el cas oh -->
     <e><p><l>睡觉<s n="VV"/></l><r>dormir<s n="vblex"/></r></p></e>
 
@@ -277,7 +277,7 @@
     <e><p><l>里面<s n="n"/></l><r>interior<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>窗口<s n="n"/></l><r>ventana<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>树<s n="n"/></l><r>árbol<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>手都<s n="n"/></l><r>mano<s n="n"/><s n="f"/><s n="pl"/></r></p></e> <!--particula de plural mano+todas = manos -->
+    <e><p><l>手 都<s n="n"/></l><r>mano<s n="n"/><s n="f"/><s n="pl"/></r></p></e> <!--particula de plural mano+todas = manos -->
     <e><p><l>手<s n="n"/></l><r>mano<s n="n"/><s n="f"/><s n="sg"/></r></p></e> 
     <e><p><l>眼睛<s n="n"/></l><r>ojo<s n="n"/><s n="m"/><s n="pl"/></r></p></e> <!--ojo-->
     <e><p><l>游戏<s n="n"/></l><r>juego<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -379,7 +379,7 @@
     <e><p><l>知道<s n="vblex"/></l><r>saber<s n="vblex"/></r></p></e>
     <e><p><l>坐了<s n="vblex"/></l><r>sentar<s n="vblex"/></r></p></e> <!--sentar + past -->
     <e><p><l>坐<s n="vblex"/></l><r>sentar<s n="vblex"/></r></p></e> <!--sentar + past -->
-    <e><p><l>摆<s n="vblex"/></l><r>poner<s n="vblex"/><s n="ifi"/></r></p></e> <!--poner -->
+    <e><p><l>摆<s n="vblex"/></l><r>poner<s n="vblex"/></r></p></e> <!--poner -->
     <e><p><l>正在<s n="vblex"/></l><r>estar<s n="vblex"/></r></p></e> 
     <e><p><l>倒数<s n="vblex"/></l><r>contar<s n="vblex"/></r></p></e>
     <e><p><l>做<s n="vblex"/></l><r>hacer<s n="vblex"/></r></p></e>
