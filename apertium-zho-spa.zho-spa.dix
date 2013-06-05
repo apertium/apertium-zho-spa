@@ -409,7 +409,7 @@
     <e><p><l>来 了<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e>
     <e><p><l>听<s n="vblex"/></l><r>escuchar<s n="vblex"/></r></p></e>
     <e><p><l>走 进 了<s n="vblex"/></l><r>entrar<s n="vblex"/></r></p></e> <!--no correcte-->
-    <e><p><l>没有<s n="vblex"/></l><r>no<b/>tener<s n="vblex"/></r></p></e>
+    <e><p><l>没有<s n="vblex"/><s n="neg"/></l><r>tener<s n="vblex"/></r></p></e>
     <e><p><l>玩<s n="vblex"/></l><r>jugar<s n="vblex"/></r></p></e>
     <e><p><l>喜欢<s n="vblex"/></l><r>gustar<s n="vblex"/></r></p></e>
     <e><p><l>睡觉<s n="vblex"/></l><r>dormir<s n="vblex"/></r></p></e>
