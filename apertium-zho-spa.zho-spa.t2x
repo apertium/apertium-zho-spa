@@ -13,9 +13,21 @@
       <cat-item tags="SV.*"/>
     </def-cat>
     <def-cat n="ADVL">
-      <cat-item tags="SP"/>
       <cat-item tags="ADV"/>
+      <cat-item tags="ADV.*"/>
+       <cat-item tags="SP"/>
+      <cat-item tags="SP.*"/>
     </def-cat>
+    <def-cat n="SP">
+      <cat-item tags="SP"/>
+      <cat-item tags="SP.*"/>
+    </def-cat>
+
+     <def-cat n="ADJ">
+      <cat-item tags="SA"/>
+      <cat-item tags="SA.*"/>
+    </def-cat>
+
     <def-cat n="SENT">
       <cat-item tags="SENT"/>
     </def-cat>
@@ -61,12 +73,16 @@
       <let><clip pos="2" part="a_pers"/><clip pos="1" part="a_pers"/></let>
       <let><clip pos="2" part="a_nbr"/><clip pos="1" part="a_nbr"/></let>
     </def-macro>
+    <def-macro n="f_concord2" npar="2">
+      <let><clip pos="2" part="a_gen"/><clip pos="1" part="a_gen"/></let>
+      <let><clip pos="2" part="a_nbr"/><clip pos="1" part="a_nbr"/></let>
+    </def-macro>
     <def-macro n="f_tense1" npar="1">
       <let>
         <clip pos="1" part="a_tns"/><lit-tag v="pri"/>
       </let>
     </def-macro>
-    <def-macro n="f_inf1" npar="1">
+    <def-macro n="f_inf1" npar="1">                                  <!--posa a inf els verbs i obvia pers i nbr. Aixo serveix per exemple amb vbmod + verbinf -->
         <let><clip pos="1" part="a_tns"/><lit-tag v="inf"/></let>
         <let><clip pos="1" part="a_pers"/><lit v=""/></let>
         <let><clip pos="1" part="a_nbr"/><lit v=""/></let>
@@ -89,6 +105,38 @@
         </out>
       </action>
     </rule>
+    
+    <rule comment="REGLA: SN SV">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+         <call-macro n="f_concord1">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_tense1">
+          <with-param pos="2"/>
+        </call-macro>
+
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+           <b pos="1"/>
+           <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: SN-SUBJ ADVL SV ">
       <pattern>
@@ -125,6 +173,43 @@
         </out>
       </action>
     </rule>
+    
+    <rule comment="REGLA: SN ADVL SV ">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_tense1">
+          <with-param pos="3"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: SN-SUBJ ADVL ADVL SV ">
       <pattern>
@@ -178,10 +263,10 @@
       <action>
         <call-macro n="f_concord1">
           <with-param pos="1"/>
-          <with-param pos="3"/>
+          <with-param pos="2"/>
         </call-macro>
         <call-macro n="f_tense1">
-          <with-param pos="3"/>
+          <with-param pos="2"/>
         </call-macro>
         <out>
           <chunk>
@@ -201,11 +286,11 @@
     </rule>
 
     
-    <rule comment="REGLA: SN-SUBJ SV ADVL SV ">  <!--ellos NO pueden -->
+    <rule comment="REGLA: SN-SUBJ SV SP SV ">  <!--Ellos no pueden en exterior jugar--><!-- En aquest cas ADVL inclou SP i adv, com que en t1x hem agrupat prep+nom com a SP per aixo funciona-->
       <pattern>
         <pattern-item n="SN-SUBJ"/>
         <pattern-item n="SV"/>
-        <pattern-item n="ADVL"/>
+        <pattern-item n="SP"/>
         <pattern-item n="SV"/>
       </pattern>
       <action>
@@ -243,6 +328,175 @@
             <clip pos="4" part="tags"/>
             <clip pos="4" part="chcontent"/>
           </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: SN-SUBJ ADVL SV SV ">  <!--Jaime y maria muy gusta jugar-->
+      <pattern>
+        <pattern-item n="SN-SUBJ"/>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_tense1">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_inf1">
+          <with-param pos="4"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    
+    <rule comment="REGLA: SN-SUBJ ADVL SP SP SP ADJ SV ">  <!--ellos, siempre, en grande casa, en frente de, de jardin, juntos, juegan-->
+      <pattern>
+        <pattern-item n="SN-SUBJ"/>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="ADJ"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1"> <!--conconrdança pers i nbr amb subj-verb-->
+          <with-param pos="1"/>
+          <with-param pos="7"/>
+        </call-macro>
+        <call-macro n="f_concord2"> <!--conconrdança gen i nbr amb subj-adj-->
+          <with-param pos="1"/>
+          <with-param pos="6"/>
+        </call-macro>
+        <call-macro n="f_tense1">
+          <with-param pos="7"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk>
+         <b pos="5"/>
+          <chunk>
+            <clip pos="6" part="lem"/>
+            <clip pos="6" part="tags"/>
+            <clip pos="6" part="chcontent"/>
+          </chunk>
+          <b pos="6"/>
+          <chunk>
+            <clip pos="7" part="lem"/>
+            <clip pos="7" part="tags"/>
+            <clip pos="7" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+     <rule comment="REGLA: SN ADVL SV SP SV "> <!--pequeño perro muy gusta con Jaime y Maria jugar-->
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SP"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_tense1">
+          <with-param pos="3"/>
+        </call-macro>
+         <call-macro n="f_inf1">
+          <with-param pos="5"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk>
+          
         </out>
       </action>
     </rule>

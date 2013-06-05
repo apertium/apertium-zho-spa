@@ -5,6 +5,8 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <cat-item tags="n"/>
+      <cat-item tags="np"/>
+      <cat-item tags="np.*"/>
     </def-cat>
     <def-cat n="prep-de">
       <cat-item lemma="的" tags="pr"/>
@@ -28,37 +30,181 @@
     <def-cat n="verbneg">
       <cat-item tags="vblex.neg"/>
       <cat-item tags="vbmod.neg"/>
+    </def-cat>
+    
+    <def-cat n="conjuncio">
+      <cat-item tags="cnjcoo"/>
     
     </def-cat>
     
     <def-cat n="adj">
       <cat-item tags="adj"/>
     </def-cat>
+     <def-cat n="adj_mf">
+      <cat-item tags="adj.mf"/>
+    </def-cat>
+
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
-    <def-attr n="a_nom">
-      <attr-item tags="n"/>
-    </def-attr>
-    <def-attr n="pers">
-      <attr-item tags="p1"/>
-      <attr-item tags="p2"/>
-      <attr-item tags="p3"/>
-      <attr-item tags="PD"/>
-    </def-attr>
-    <def-attr n="gen">
-      <attr-item tags="m"/>
-      <attr-item tags="f"/>
-      <attr-item tags="mf"/>
-      <attr-item tags="GD"/>
-    </def-attr>
-    <def-attr n="nbr">
-      <attr-item tags="sg"/>
-      <attr-item tags="pl"/>
-      <attr-item tags="sp"/>
-      <attr-item tags="ND"/>
+    	<def-attr n="a_nom">
+			<attr-item tags="n"/>
+			<attr-item tags="n.acr"/>
+			<attr-item tags="np.loc"/>
+			<attr-item tags="np.ant"/>
+			<attr-item tags="np.cog"/>
+			<attr-item tags="np.al"/>
+			<attr-item tags="adv"/>
+		</def-attr>
+		<def-attr n="a_np">
+			<attr-item tags="np"/>
+		</def-attr>
+		<def-attr n="a_np_acr">
+			<attr-item tags="np"/>
+			<attr-item tags="acr"/>
+		</def-attr>
+		<def-attr n="a_adj">
+			<attr-item tags="adj"/>
+			<attr-item tags="adj.pos"/>
+			<attr-item tags="vblex.pp"/>
+			<!-- BCN ok-->
+			<attr-item tags="vbmod.pp"/>
+			<!-- BCN ok-->
+			<attr-item tags="vblex.pron.pp"/>
+			<!-- BCN ok-->
+		</def-attr>
+		<def-attr n="grau_adj">
+			<attr-item tags="comp"/>
+			<attr-item tags="sup"/>
+		</def-attr>
+		<def-attr n="a_det">
+			<attr-item tags="det.dem"/>
+			<attr-item tags="det.ind"/>
+			<attr-item tags="det.def"/>
+			<attr-item tags="det.pos"/>
+			<attr-item tags="det.qnt"/>
+			<attr-item tags="det.itg"/>
+			<attr-item tags="det.ord"/>
+			<attr-item tags="adj.pos"/>
+			<attr-item tags="num"/>
+			<attr-item tags="predet"/>
+			<attr-item tags="rel.aa"/>
+		</def-attr>
+		<def-attr n="a_prnpro">
+			<attr-item tags="prn.pro"/>
+		</def-attr>
+		<def-attr n="a_prnenc">
+			<attr-item tags="prn.enc"/>
+		</def-attr>
+		<def-attr n="a_num">
+			<attr-item tags="num"/>
+			<attr-item tags="num.percent"/>
+			<attr-item tags="num.ord"/>
+			<attr-item tags="num.mon"/>
+			<attr-item tags="num.time"/>
+		</def-attr>
+		<def-attr n="a_verb">
+			<attr-item tags="vblex"/>
+			<attr-item tags="vblex.pron"/>
+			<attr-item tags="vbhaver"/>
+			<attr-item tags="vbser"/>
+			<attr-item tags="vbmod"/>
+                        <attr-item tags="vbmod.neg"/>
+                        <attr-item tags="vblex.neg"/>
+		</def-attr>
+		<def-attr n="a_have_aux">
+			<attr-item tags="vbhaver"/>
+		</def-attr>
+		<def-attr n="a_pp">
+			<attr-item tags="vblex.pp"/>
+			<attr-item tags="vblex.pron.pp"/>
+			<attr-item tags="vbser.pp"/>
+			<attr-item tags="vbmod.pp"/>
+		</def-attr>
+		<def-attr n="a_aux">
+			<attr-item tags="vaux"/>
+		</def-attr>
+		<def-attr n="a_prn">
+			<attr-item tags="prn"/>
+		</def-attr>
+		<def-attr n="a_adv">
+			<attr-item tags="adv"/>
+			<attr-item tags="preadv"/>
+			<attr-item tags="adv.itg"/>
+			<attr-item tags="cnjadv"/>
+		</def-attr>
+		<def-attr n="a_rel">
+			<attr-item tags="rel.nn"/>
+			<attr-item tags="rel.an"/>
+			<attr-item tags="rel.adv"/>
+		</def-attr>
+		<def-attr n="tipus_rel">
+			<attr-item tags="nn"/>
+			<attr-item tags="an"/>
+			<attr-item tags="adv"/>
+		</def-attr>
+		<def-attr n="tipus_prn">
+			<attr-item tags="tn"/>
+			<attr-item tags="obj"/>
+			<attr-item tags="enc"/>
+			<attr-item tags="itg"/>
+			<attr-item tags="pos"/>
+		</def-attr>
+		<def-attr n="pers">
+			<attr-item tags="p1"/>
+			<attr-item tags="p2"/>
+			<attr-item tags="p3"/>
+			<attr-item tags="PD"/>
+		</def-attr>
+		<def-attr n="gen">
+			<attr-item tags="m"/>
+			<attr-item tags="f"/>
+			<attr-item tags="mf"/>
+			<attr-item tags="GD"/>
+			<attr-item tags="nt"/>
+		</def-attr>
+		<def-attr n="gen_sense_mf">
+			<attr-item tags="m"/>
+			<attr-item tags="f"/>
+			<attr-item tags="GD"/>
+			<attr-item tags="nt"/>
+		</def-attr>
+		<def-attr n="gen_mf">
+			<attr-item tags="mf"/>
+		</def-attr>
+		<def-attr n="nbr">
+			<attr-item tags="sg"/>
+			<attr-item tags="pl"/>
+			<attr-item tags="sp"/>
+			<attr-item tags="ND"/>
+		</def-attr>
+		<def-attr n="nbr_sense_sp">
+			<attr-item tags="sg"/>
+			<attr-item tags="pl"/>
+			<attr-item tags="ND"/>
+		</def-attr>
+		<def-attr n="nbr_sp">
+			<attr-item tags="sp"/>
+		</def-attr>
+		<def-attr n="temps">
+			<attr-item tags="cni"/>
+			<attr-item tags="fti"/>
+			<attr-item tags="ifi"/>
+			<attr-item tags="imp"/>
+			<attr-item tags="pii"/>
+			<attr-item tags="pis"/>
+			<attr-item tags="inf"/>
+			<attr-item tags="prs"/>
+			<attr-item tags="pres"/>
+			<attr-item tags="past"/>
+			<attr-item tags="pri"/>
+			<attr-item tags="pp"/>
+			<attr-item tags="ger"/>
+			<attr-item tags="pprs"/>
+			<attr-item tags="subs"/>
+   
     </def-attr>
 
 
@@ -125,9 +271,36 @@
           <chunk name="adj" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SA"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_adj"/>
+              <lit-tag v="2.3"/>                       <!--concordem genere i nombre-->
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: adj_mf">
+      <pattern>
+        <pattern-item n="adj_mf"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="adj_mf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SA"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_adj"/>
+              <clip pos="1" side="tl" part="a_gen"/> <!--genere deixem el que te-->
+              <lit-tag v="2"/>        
+
             </lu>
           </chunk>
         </out>
@@ -135,7 +308,7 @@
     </rule>
 
 
-    <rule comment="REGLA: prep adj nom">
+    <rule comment="REGLA: prep adj nom">  <!--el coche pequeo-->
       <pattern>
         <pattern-item n="prep"/>
         <pattern-item n="adj"/>
@@ -152,17 +325,111 @@
             </lu>
             <b pos="1"/>
             <lu>
-              <clip pos="2" side="tl" part="whole"/>
+              <clip pos="3" side="tl" part="whole"/>
             </lu>
             <b pos="2"/>
             <lu>
-              <clip pos="3" side="tl" part="whole"/>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_adj"/>
+              <clip pos="3" side="tl" part="gen"/>    <!--agafa genere i nombre del nom-->
+              <clip pos="3" side="tl" part="nbr"/>   
             </lu>
           </chunk>
         </out>
       </action>
     </rule>
     
+     <rule comment="REGLA: prep adj_mf nom">  <!--el coche grande-->
+      <pattern>
+        <pattern-item n="prep"/>
+        <pattern-item n="adj_mf"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="p_j_n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_adj"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="3" side="tl" part="nbr"/>    <!--agafa nomes nombre, el gnere es mf-->
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+     <rule comment="REGLA: adj nom">  <!--coche pequeño-->
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="j_n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><lit-tag v="p3"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_adj"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>    <!--agafa nomes nombre, el gnere es mf-->
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: adj_mf nom">  <!--coche grande-->
+      <pattern>
+        <pattern-item n="adj_mf"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="j_n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><lit-tag v="p3"/></tag>
+
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_adj"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>    <!--agafa nomes nombre, el gnere es mf-->
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
      <rule comment="REGLA: prep nom">
       <pattern>
         <pattern-item n="prep"/>
@@ -185,6 +452,98 @@
         </out>
       </action>
     </rule>
+    
+    <rule comment="REGLA: prep">
+      <pattern>
+        <pattern-item n="prep"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="prep" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    
+    <rule comment="REGLA: nom conjuncio nom ">  <!--Jaime y María--> <!--Aqui les etiquetes de persona genere y nombre com han de ser??? 3a persona sempre?-->
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="conjuncio"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="subj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><lit-tag v="p3"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: prep nom conjuncio nom ">  <!--con Jaime y María--> <!--Aqui les etiquetes de persona genere y nombre com han de ser??? 3a persona sempre?-->
+      <pattern>
+        <pattern-item n="prep"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="conjuncio"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="prep" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SP"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><lit-tag v="p3"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+
+            </lu>
+             <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="whole"/>
+
+            </lu>
+
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
 
 
     <rule comment="REGLA: verb">

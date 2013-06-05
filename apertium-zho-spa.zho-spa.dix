@@ -237,7 +237,7 @@
     <e><p><l>在<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
     <e><p><l>里<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
     <e><p><l>着<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
-    <e><p><l>的<s n="pr"/></l><r>de</r></p></e>
+    <e><p><l>的<s n="pr"/></l><r>de<s n="pr"/></r></p></e>                     <!--no te sentit a les traduccions-->
     <e><p><l>跟<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
     <e><p><l>传<s n="pr"/></l><r>hacia<s n="pr"/></r></p></e>
     <e><p><l>前<s n="pr"/></l><r>en<b/>frente<b/>de<s n="pr"/></r></p></e>
@@ -354,15 +354,15 @@
 
     <e><p><l>快<s n="adj"/></l><r>rápido<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
     <e><p><l>老<s n="adj"/></l><r>viejo<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
-    <e><p><l>大<s n="adj"/></l><r>grande<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+    <e><p><l>大<s n="adj"/><s n="mf"/></l><r>grande<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
     <e><p><l>当然<s n="adj"/></l><r>claro<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
     <e><p><l>清楚 了<s n="adj"/></l><r>claro<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
     <e><p><l>一定<s n="adj"/></l><r>seguro<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
     <e><p><l>小<s n="adj"/></l><r>pequeño<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
-    <e><p><l>开 开心 心<s n="adj"/></l><r>feliz<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
-    <e><p><l>开心<s n="adj"/></l><r>feliz<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+    <e><p><l>开 开心 心<s n="adj"/><s n="mf"/></l><r>feliz<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+    <e><p><l>开心<s n="adj"/><s n="mf"/></l><r>feliz<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
     <e><p><l>暖<s n="adj"/></l><r>cálido<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
-    <e><p><l>一起<s n="adj"/></l><r>junto<s n="adj"/><s n="GD"/><s n="pl"/></r></p></e>
+    <e><p><l>一起<s n="adj"/></l><r>junto<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 
     <!-- SECTION: Verbs -->
 

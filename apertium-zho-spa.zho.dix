@@ -5,6 +5,7 @@
         <alphabet>讨厌</alphabet>
 	<sdefs>
                 <sdef n="n"/>
+                 <sdef n="mf"/>
                 <sdef n="neg"/>
 		<sdef n="np"/>
 	   <sdef n="vblex"/>
@@ -179,7 +180,15 @@
 			 </p>
 		   </e>
 	</pardef>
-	
+                
+        <pardef n="大__adjmf">
+		   <e>
+			 <p>
+			   <l/>
+			   <r><s n="adj"/><s n="mf"/></r>
+			 </p>
+		   </e>
+	</pardef>
        
        
 	<pardef n="吗__qt">
@@ -220,7 +229,7 @@
 		<e lm="玩耍"><i>玩耍</i><par n="爱__vblex"/></e>  <!--jugar-->
 		<e lm="赶快"><i>赶快</i><par n="暗暗__adv"/></e>  <!--rapidamente-->
                 <e lm="快"><i>快</i><par n="平__adj"/></e>  <!--rapido-->
-	        <e lm="大"><i>大</i><par n="平__adj"/></e>  <!--grande-->
+	        <e lm="大"><i>大</i><par n="大__adjmf"/></e>  <!--grande-->
                 <e lm="老"><i>老</i><par n="平__adj"/></e>  <!--viejo-->
 		<e lm="后面"><i>后面</i><par n="暗暗__adv"/></e>  <!--detrás-->
 		<e lm="因为"><i>因为</i><par n="并且__cnjadv"/></e>  <!--porque-->
@@ -305,8 +314,8 @@
 	<e lm="走 进 了"><i>走 进 了</i><par n="爱__vblex"/></e> <!--entrar-->
 	 <e lm="饿"><i>饿</i><par n="爱人__n"/></e>  <!--hambre-->
 	<e lm="渴"><i>渴</i><par n="爱人__n"/></e>  <!--sed-->
-	<e lm="开 开心 心"><i>开 开心 心</i><par n="平__adj"/></e> <!--feliz-->
-        <e lm="开心"><i>开心</i><par n="平__adj"/></e> <!--feliz-->
+	<e lm="开 开心 心"><i>开 开心 心</i><par n="大__adjmf"/></e> <!--feliz-->
+        <e lm="开心"><i>开心</i><par n="大__adjmf"/></e> <!--feliz-->
           <e lm="今天"><i>今天</i><par n="暗暗__adv"/></e> <!--hoy--> 
          <e lm="天气"><i>天气</i><par n="爱人__n"/></e>  <!--clima-->
 	<e lm="好"><i>好</i><par n="暗暗__adv"/></e> <!--bien-PREADV-->
