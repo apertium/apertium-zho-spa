@@ -28,7 +28,7 @@
         
 		<sdef n="adv"/>
 		<sdef n="cnjadv"/>
-        <sdef n="qt"/> <!--question tag, no te traduccio-->
+        <sdef n="qst"/> <!--question tag, no te traduccio-->
          <sdef n="cm"/>	 
                  <sdef n="sent"/>
 	</sdefs>
@@ -207,7 +207,7 @@
 		   <e>
 			 <p>
 			   <l/>
-			   <r><s n="qt"/></r>
+			   <r><s n="qst"/></r>
 			 </p>
 		   </e>
 	</pardef>
