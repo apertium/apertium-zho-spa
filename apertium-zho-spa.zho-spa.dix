@@ -27,8 +27,8 @@
     
     
     
-    
-  <sdef n="acr"   c="Acronym"/> 
+    <sdef n="vblexestar"   c="verbestar"/> 
+    <sdef n="acr"   c="Acronym"/>
     <sdef n="predet"   c="Pre-determiner"/> 
     <sdef n="detnt"   c="Determiner neuter(?)"/> 
     <sdef n="loc"   c="Location (not locative!)"/> 
@@ -143,7 +143,6 @@
     <e><p><l>小明<s n="NR"/></l><r>Jaime<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>和<s n="CC"/></l><r>y<s n="cnjcoo"/></r></p></e>
     <e><p><l>小红<s n="NR"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>在<s n="P"/></l><r>en<s n="pr"/></r></p></e>
     <e><p><l>花园<s n="NN"/></l><r>jardín<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>里面<s n="NN"/></l><r>interior<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>今天<s n="NT"/></l><r>hoy<s n="adv"/></r></p></e>
@@ -159,7 +158,6 @@
     <e><p><l>不<s n="AD"/></l><r>no<s n="adv"/></r></p></e>
     <e><p><l>没<s n="AD"/></l><r>no<s n="adv"/></r></p></e>
     <e><p><l>能<s n="VV"/></l><r>poder<s n="vbmod"/></r></p></e>
-    <e><p><l>在<s n="P"/></l><r>en<s n="pr"/></r></p></e>
     <e><p><l>外面<s n="NN"/></l><r>exterior<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>玩<s n="VV"/></l><r>jugar<s n="vblex"/></r></p></e>
     <e><p><l>喜欢<s n="VV"/></l><r>gustar<s n="vblex"/></r></p></e>
@@ -210,8 +208,7 @@
     <e><p><l>啊<s n="qst"/></l><r></r></p></e>
     <e><p><l>哦<s n="qst"/></l><r></r></p></e> <!--denota pregunta igual que el cas oh -->
 
-    <e><p><l>在<s n="vblex"/></l><r>en<s n="pr"/></r></p></e> <!--hi ha doble tag al diccionari analisi-->
-    <e><p><l>后<s n="n"/></l><r>después<s n="adv"/></r></p></e>
+    <e><p><l>后<s n="adv"/></l><r>después<s n="adv"/></r></p></e>
     <e><p><l>一 只<s n="num"/></l><r>uno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
     
     <!-- SECTION: Conjunctions -->
@@ -234,8 +231,7 @@
     <e><p><l>在<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
     <e><p><l>到<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
     <e><p><l>前面<s n="pr"/></l><r>frente<b/>a<s n="pr"/></r></p></e>
-    <e><p><l>在<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
-    <e><p><l>里<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
+    <e><p><l>里<s n="pr"/></l><r>en<s n="pr"/></r></p></e> 
     <e><p><l>着<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
     <e><p><l>的<s n="pr"/></l><r>de<s n="pr"/></r></p></e>                     <!--no te sentit a les traduccions-->
     <e><p><l>跟<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
@@ -318,7 +314,7 @@
     <e><p><l>原来<s n="adv"/></l><r>realmente<s n="preadv"/></r></p></e>
     <e><p><l>很<s n="adv"/></l><r>muy<s n="preadv"/></r></p></e>
     <e><p><l>好<s n="adv"/></l><r>bien<s n="preadv"/></r></p></e>
-
+    <e><p><l>当然<s n="adv"/></l><r>claro<s n="adv"/></r></p></e>
     <e><p><l>赶快<s n="adv"/></l><r>rápidamente<s n="adv"/></r></p></e>
     <e><p><l>后面<s n="adv"/></l><r>detrás<s n="adv"/></r></p></e>
     <e><p><l>不<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
@@ -355,7 +351,6 @@
     <e><p><l>快<s n="adj"/></l><r>rápido<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
     <e><p><l>老<s n="adj"/></l><r>viejo<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
     <e><p><l>大<s n="adj"/><s n="mf"/></l><r>grande<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
-    <e><p><l>当然<s n="adj"/></l><r>claro<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
     <e><p><l>清楚 了<s n="adj"/></l><r>claro<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
     <e><p><l>一定<s n="adj"/></l><r>seguro<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
     <e><p><l>小<s n="adj"/></l><r>pequeño<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
@@ -380,7 +375,7 @@
     <e><p><l>坐了<s n="vblex"/></l><r>sentar<s n="vblex"/></r></p></e> <!--sentar + past -->
     <e><p><l>坐<s n="vblex"/></l><r>sentar<s n="vblex"/></r></p></e> <!--sentar + past -->
     <e><p><l>摆<s n="vblex"/></l><r>poner<s n="vblex"/></r></p></e> <!--poner -->
-    <e><p><l>正在<s n="vblex"/></l><r>estar<s n="vblex"/></r></p></e> 
+    <e><p><l>正在<s n="vblexestar"/></l><r>estar<s n="vblex"/></r></p></e> 
     <e><p><l>倒数<s n="vblex"/></l><r>contar<s n="vblex"/></r></p></e>
     <e><p><l>做<s n="vblex"/></l><r>hacer<s n="vblex"/></r></p></e>
     <e><p><l>数<s n="vblex"/></l><r>contar<s n="vblex"/></r></p></e>
@@ -390,7 +385,7 @@
     <e><p><l>看到 了<s n="vblex"/></l><r>ver<s n="vblex"/></r></p></e> <!--posar a past-->
     <e><p><l>问<s n="vblex"/></l><r>preguntar<s n="vblex"/></r></p></e>
     <e><p><l>看见<s n="vblex"/></l><r>ver<s n="vblex"/></r></p></e>
-    <e><p><l>不会<s n="vblex"/></l><r>no<b/>poder<s n="vblex"/></r></p></e>
+    <e><p><l>不会<s n="vbmod"/><s n="neg"/></l><r>poder<s n="vbmod"/></r></p></e>
     <e><p><l>说话<s n="vblex"/></l><r>hablar<s n="vblex"/></r></p></e>
     <e><p><l>得<s n="vblex"/></l><r>obtener<s n="vblex"/></r></p></e>
     <e><p><l>有<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
@@ -402,7 +397,7 @@
     <e><p><l>走<s n="vblex"/></l><r>ir<s n="vblex"/></r></p></e>
     <e><p><l>找 过<s n="vblex"/></l><r>mirar<s n="vblex"/></r></p></e>
     <e><p><l>找 过 了<s n="vblex"/></l><r>mirar<s n="vblex"/></r></p></e>
-    <e><p><l>找不到<s n="vblex"/></l><r>no<b/>encontrar<s n="vblex"/></r></p></e>
+    <e><p><l>找不到<s n="vblex"/><s n="neg"/></l><r>encontrar<s n="vblex"/></r></p></e>
     <e><p><l>听到<s n="vblex"/></l><r>escuchar<s n="vblex"/></r></p></e>
     <e><p><l>有<s n="vblex"/></l><r>haber<s n="vblex"/></r></p></e>
     <e><p><l>过来<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e>

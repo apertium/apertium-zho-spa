@@ -90,6 +90,7 @@
     <def-macro n="f_concord3" npar="2">
       <let><clip pos="2" part="a_nbr"/><clip pos="1" part="a_nbr"/></let>
     </def-macro>
+    
     <def-macro n="f_tense1" npar="1">
       <let>
         <clip pos="1" part="a_tns"/><lit-tag v="pri"/>
@@ -105,7 +106,7 @@
         <let><clip pos="1" part="a_pers"/><lit-tag v="p3"/></let>
         <let><clip pos="1" part="a_nbr"/><lit-tag v="sg"/></let>
     </def-macro>
-    <def-macro n="f_adv" npar="1">                                  <!--pone manos en frente de (sense el ella), per exemple-->
+    <def-macro n="f_advadj" npar="1">                                  <!--pone manos en frente de (sense el ella), per exemple-->
         <let><clip pos="1" part="a_gen"/><lit-tag v="m"/></let>
         <let><clip pos="1" part="a_nbr"/><lit-tag v="sg"/></let>
     </def-macro>
@@ -355,7 +356,7 @@
       </action>
     </rule>
     
-    <rule comment="REGLA: SN ADVL SV SV ">  <!--Jaime y maria muy gusta jugar-->
+    <rule comment="REGLA: SN ADVL SV SV ">  <!--Jaime y maria muy gusta jugar--> <!--perro, claro(adv), no poder, hablar-->
       <pattern>
         <pattern-item n="SN"/>
         <pattern-item n="ADVL"/>
@@ -400,6 +401,43 @@
         </out>
       </action>
     </rule>
+    
+    <rule comment="REGLA: ADVL SV SV ">  <!--no, puedo ,decir-->
+      <pattern>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <call-macro n="f_pri1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_inf1">
+          <with-param pos="3"/>
+        </call-macro>
+      
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     
     <rule comment="REGLA: SN-SUBJ ADVL SP SP SP ADJ SV ">  <!--ellos, siempre, en grande casa, en frente de, de jardin, juntos, juegan-->
@@ -727,7 +765,7 @@
     </rule>
 
     
-     <rule comment="REGLA: SN SV SP "> <!--pone manos en frente a ojos-->
+     <rule comment="REGLA: SN SV SP "> <!--pone manos en frente a ojos--><!--maria ve con-->
       <pattern>
         <pattern-item n="SN"/>
         <pattern-item n="SV"/>
@@ -742,15 +780,15 @@
         
         <out>
           <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>
-          </chunk>
-          <b pos="1"/>
-          <chunk>
             <clip pos="1" part="lem"/>
             <clip pos="1" part="tags"/>
             <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
           </chunk>
           <b pos="2"/>
           <chunk>
@@ -771,7 +809,7 @@
       
       </pattern>
       <action>
-        <call-macro n="f_adv">
+        <call-macro n="f_advadj">
           <with-param pos="2"/>
         </call-macro>
         <out>
@@ -853,7 +891,851 @@
       </action>
     </rule>
 
+    
+    <rule comment="REGLA: ADVL SV SN "> <!--realmente, es, un juego-->
+      <pattern>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <call-macro n="f_pri1">
+          <with-param pos="2"/>
+        </call-macro>
+        
+        
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: cnjcoo SN SV SV ADVL "> <!--cuando, maria, cuenta, termina, despues -->
+      <pattern>
+        <pattern-item n="cnjcoo"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="ADVL"/>
+      </pattern>
+      <action>
+         <call-macro n="f_concord1">
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro><call-macro n="f_tense1">
+          <with-param pos="3"/>
+        </call-macro>
+         <call-macro n="f_concord1">
+          <with-param pos="2"/>
+          <with-param pos="4"/>
+        </call-macro><call-macro n="f_tense1">
+          <with-param pos="4"/>
+        </call-macro>
+
+        
+        
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: SV SV SN "> <!--quiere buscar Jaime-->
+      <pattern>
+        <pattern-item n="SV"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <call-macro n="f_pri1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_inf1">
+          <with-param pos="2"/>
+        </call-macro>
+
+        
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: ADJ SV SV SN SP "> <!-- seguro ,no puede ,tener ,respuesta ,de-->
+      <pattern>
+        <pattern-item n="ADJ"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SP"/>
+      </pattern>
+      <action>
+        <call-macro n="f_pri1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_inf1">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_advadj">
+          <with-param pos="1"/>
+        </call-macro>
+        
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule> 
+    
+     <rule comment="REGLA: SN SV SN ADJ SV SN "> <!-- María,  quiere,  madre,  #seguro,  #ver,  Jaime-->
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="ADJ"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro><call-macro n="f_tense1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="3"/>
+          <with-param pos="5"/>
+        </call-macro><call-macro n="f_tense1">
+          <with-param pos="5"/>
+        </call-macro>
+        <call-macro n="f_advadj">
+          <with-param pos="4"/>
+        </call-macro>
+        
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="6" part="lem"/>
+            <clip pos="6" part="tags"/>
+            <clip pos="6" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: ADJ SV SN SP ADVL "> <!--rápido, dice, Jaime, en , donde-->
+      <pattern>
+        <pattern-item n="ADJ"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SP"/>
+        <pattern-item n="ADVL"/>
+      </pattern>
+      <action>
+        <call-macro n="f_pri1">
+          <with-param pos="2"/>
+          </call-macro>
+        <call-macro n="f_advadj">
+          <with-param pos="1"/>
+        </call-macro>
+        
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+            </chunk>
+          </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: cnjcoo SN SV SV SN SP ADVL "> <!--aunque, ella, debe, saber, jaime, en, allí-->
+      <pattern>
+        <pattern-item n="cnjcoo"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SP"/>
+        <pattern-item n="ADVL"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro><call-macro n="f_tense1">
+          <with-param pos="3"/>
+        </call-macro>
+
+        <call-macro n="f_inf1">
+          <with-param pos="4"/>
+          </call-macro>
+        <call-macro n="f_advadj">
+          <with-param pos="1"/>
+        </call-macro>
+        
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk>
+          <b pos="5"/>
+          <chunk>
+            <clip pos="6" part="lem"/>
+            <clip pos="6" part="tags"/>
+            <clip pos="6" part="chcontent"/>
+            </chunk>
+          <b pos="6"/>
+          <chunk>
+            <clip pos="7" part="lem"/>
+            <clip pos="7" part="tags"/>
+            <clip pos="7" part="chcontent"/>
+            </chunk>
+
+          </out>
+      </action>
+    </rule>
 
 
+    <rule comment="REGLA: cnjcoo SN ADVL ADVL SV SV "> <!--pero, ella, de ninguna manera, no, quiere, decir-->
+      <pattern>
+        <pattern-item n="cnjcoo"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SV"/>
+      
+      
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+          <with-param pos="5"/>
+        </call-macro><call-macro n="f_tense1">
+          <with-param pos="5"/>
+        </call-macro>
+
+        <call-macro n="f_inf1">
+          <with-param pos="6"/>
+          </call-macro>
+        <call-macro n="f_advadj">
+          <with-param pos="4"/>
+        </call-macro>
+        <call-macro n="f_advadj">
+          <with-param pos="3"/>
+        </call-macro>
+        
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk>
+          <b pos="5"/>
+          <chunk>
+            <clip pos="6" part="lem"/>
+            <clip pos="6" part="tags"/>
+            <clip pos="6" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: cnjcoo SN ADVL ADVL SV SV "> <!--Maria, lentamente, en jardin en alrededor, va-->
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="SP"/>
+        <pattern-item n="SV"/>
+      
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+          <with-param pos="4"/>
+        </call-macro><call-macro n="f_tense1">
+          <with-param pos="4"/>
+        </call-macro>
+        <call-macro n="f_advadj">
+          <with-param pos="2"/>
+        </call-macro>
+       
+        
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    
+    <rule comment="REGLA: SN SV SV SN SP SN ADVL SP SV "> <!--ella,  escucha,  #tener,  ruido,  desde , árbol  grande  viejo , detrás , hacia , viene-->
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SP"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="SP"/>
+        <pattern-item n="SV"/>
+      
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_tense1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_tense1">
+          <with-param pos="3"/>
+        </call-macro>
+
+        <call-macro n="f_advadj">
+          <with-param pos="7"/>
+        </call-macro>
+        
+        <call-macro n="f_concord1">
+          <with-param pos="4"/>
+          <with-param pos="9"/>
+        </call-macro>
+        <call-macro n="f_tense1">
+          <with-param pos="9"/>
+        </call-macro>
+       
+        
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk>
+          <b pos="5"/>
+          <chunk>
+            <clip pos="6" part="lem"/>
+            <clip pos="6" part="tags"/>
+            <clip pos="6" part="chcontent"/>
+          </chunk>
+          <b pos="6"/>
+          <chunk>
+            <clip pos="7" part="lem"/>
+            <clip pos="7" part="tags"/>
+            <clip pos="7" part="chcontent"/>
+          </chunk>
+          <b pos="7"/>
+          <chunk>
+            <clip pos="8" part="lem"/>
+            <clip pos="8" part="tags"/>
+            <clip pos="8" part="chcontent"/>
+          </chunk>
+          <b pos="8"/>
+          <chunk>
+            <clip pos="9" part="lem"/>
+            <clip pos="9" part="tags"/>
+            <clip pos="9" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: cnjcoo SV "> <!--y, viene. Regla dubtosa-->
+      <pattern>
+        <pattern-item n="cnjcoo"/>
+        <pattern-item n="SV"/>
+      
+      </pattern>
+      <action>
+        <call-macro n="f_pri1">
+          <with-param pos="2"/>
+          </call-macro>     
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: ADJ SV SN"> <!--seguro, es , Jaime-->
+      <pattern>
+        <pattern-item n="ADJ"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+      
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="3"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_tense1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_advadj">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+
+          </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: SN SV SN SV ADVL ADVL SV SN"> <!--ella,  ve,  un  mano,  ， #ir , cerca  ,  un poco. , ve , el-->
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="ADVL"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_tense1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+          <with-param pos="4"/>
+        </call-macro>
+        
+        <call-macro n="f_tense1">
+          <with-param pos="4"/>
+        </call-macro>
+        
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+          <with-param pos="7"/>
+        </call-macro>
+        <call-macro n="f_tense1">
+          <with-param pos="7"/>
+        </call-macro>
+        
+        <call-macro n="f_advadj">
+          <with-param pos="5"/>
+        </call-macro>
+        <call-macro n="f_advadj">
+          <with-param pos="6"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk>
+          <b pos="5"/>
+          <chunk>
+            <clip pos="6" part="lem"/>
+            <clip pos="6" part="tags"/>
+            <clip pos="6" part="chcontent"/>
+          </chunk>
+          <b pos="6"/>
+          <chunk>
+            <clip pos="7" part="lem"/>
+            <clip pos="7" part="tags"/>
+            <clip pos="7" part="chcontent"/>
+          </chunk>
+          <b pos="7"/>
+          <chunk>
+            <clip pos="8" part="lem"/>
+            <clip pos="8" part="tags"/>
+            <clip pos="8" part="chcontent"/>
+          </chunk>
+
+
+          </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: SN SV SP SN"> <!--yo, busco, a , tu-->
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SP"/>
+        <pattern-item n="SN"/>
+
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_tense1">
+          <with-param pos="2"/>
+        </call-macro>
+      
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: SN ADJmf SP SV SN"> <!--ellos ambos, felices , de , entrar , casa-->
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="ADJmf"/>
+        <pattern-item n="SP"/>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <call-macro n="f_inf1">
+          <with-param pos="4"/>
+        </call-macro>
+        <call-macro n="f_concord3">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+      
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          </out>
+      </action>
+    </rule>
+
+
+    
   </section-rules>
 </interchunk>

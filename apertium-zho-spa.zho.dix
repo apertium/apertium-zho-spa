@@ -4,6 +4,8 @@
 <dictionary>
         <alphabet>讨厌</alphabet>
 	<sdefs>
+                
+                <sdef n="vblexestar" /> 
                 <sdef n="n"/>
                  <sdef n="mf"/>
                 <sdef n="neg"/>
@@ -102,7 +104,17 @@
 			   </p>
 			</e>
 		</pardef>
-        
+                
+                
+                <pardef n="正在__vblexestar">
+			<e>
+			   <p>
+				 <l/>
+				 <r><s n="vblexestar"/></r>
+			   </p>
+			</e>
+		</pardef>
+
          <pardef n="可以__vbmod">
 			<e>
 			   <p>
@@ -241,7 +253,7 @@
 		<e lm="手 都"><i>手 都</i><par n="爱人__n"/></e> <!--mano +plural-->
                 <e lm="前面"><i>前面</i><par n="以上__pr"/></e>  <!--frente a -->
                 <e lm="不到"><i>不到</i><par n="暗暗__adv"/></e>  <!--nada-->
-		<e lm="正在"><i>正在</i><par n="爱__vblex"/></e>  
+		<e lm="正在"><i>正在</i><par n="正在__vblexestar"/></e>  <!--estar-->
 		<e lm="倒数"><i>倒数</i><par n="爱__vblex"/></e>  <!--count-->
 		<e lm="又"><i>又</i><par n="并且__cnjcoo"/></e>  <!--y-->
                 <e lm="附近"><i>附近</i><par n="暗暗__adv"/></e> <!--cerca-->
@@ -254,7 +266,6 @@
                <e lm="当"><i>当</i><par n="并且__cnjadv"/></e> <!--cuando-->
                <e lm="右"><i>右</i><par n="爱人__n"/></e> <!--derecha-->
                <e lm="找"><i>坐了</i><par n="爱__vblex"/></e>
-                <e lm="在"><i>在</i><par n="以上__pr"/></e>
                <e lm="哪里"><i>哪里</i><par n="暗暗__adv"/></e> <!--dónde-->
                <e lm="看到"><i>看到</i><par n="爱__vblex"/></e>
            <e lm="看到 了"><i>看到 了</i><par n="爱__vblex"/></e>
@@ -264,7 +275,7 @@
        <e lm="狗 儿"><i>狗 儿</i><par n="爱人__n"/></e> <!--perrito-->
               <e lm="狗"><i>狗</i><par n="爱人__n"/></e> <!--perro-->
               <e lm="了"><i>了</i><par n="这__det"/></e> <!--particula PASSAT-->
-           <e lm="当然"><i>当然</i><par n="平__adj"/></e>  <!--claro-->
+           <e lm="当然"><i>当然</i><par n="暗暗__adv"/></e>  <!--claro-->
         <e lm="不会"><i>不会</i><par n="不能__vbmodneg"/></e> <!--no puede-->
         <e lm="说话"><i>说话</i><par n="爱__vblex"/></e> <!--hablar-->
           <e lm="啦"><i>啦</i><par n="吗__qt"/></e>
@@ -458,7 +469,7 @@
 		<e lm="好处"><i>好处</i><par n="爱人__n"/></e>
 		<e lm="河"><i>河</i><par n="爱人__n"/></e>
 		<e lm="黑板"><i>黑板</i><par n="爱人__n"/></e>
-		<e lm="后"><i>后</i><par n="爱人__n"/></e>
+		<e lm="后"><i>后</i><par n="暗暗__adv"/></e>
 		<e lm="后边"><i>后边</i><par n="爱人__n"/></e>
 		<e lm="后边儿"><i>后边儿</i><par n="爱人__n"/></e>
 		<e lm="湖"><i>湖</i><par n="爱人__n"/></e>
@@ -1024,7 +1035,6 @@
 		<e lm="原谅"><i>原谅</i><par n="爱__vblex"/></e>
 		<e lm="愿意"><i>愿意</i><par n="爱__vblex"/></e>
 		<e lm="再见"><i>再见</i><par n="爱__vblex"/></e>
-		<!--<e lm="在"><i>在</i><par n="爱__vblex"/></e>-->
 		<e lm="增加"><i>增加</i><par n="爱__vblex"/></e>
 		<e lm="展览"><i>展览</i><par n="爱__vblex"/></e>
 		<e lm="占"><i>占</i><par n="爱__vblex"/></e>
