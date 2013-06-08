@@ -671,7 +671,7 @@
       </action>
     </rule>
     
-    <rule comment="REGLA: adj_mf adj nom">  <!--arbol viejo y grande -->
+    <rule comment="REGLA: adj_mf adj nom">  <!--arbol grande y viejo -->
       <pattern>
         <pattern-item n="adj_mf"/>
         <pattern-item n="adj"/>
@@ -697,11 +697,11 @@
               <clip pos="3" side="tl" part="nbr"/>    
             </lu>
             <b pos="2"/>
-         <!--   <lu>
-              <lit v="y"/>                             //y
-              <tag><lit-tag v="cnjcoo"/></tag>
+           <lu>
+              <lit v="y"/>                             
+              <lit-tag v="cnjcoo"/>
             </lu>
-            <b pos="3"/>   -->
+            <b pos="3"/>   
             <lu>
               <clip pos="2" side="tl" part="lem"/>   <!--adj-->
               <clip pos="2" side="tl" part="a_adj"/>
@@ -1113,6 +1113,133 @@
         </out>
       </action>
     </rule>
+    
+    <rule comment="REGLA: prn-subj prep nom"> <!--él + de hermano = hermano de él-->
+      <pattern>
+        <pattern-item n="prn-subj"/>
+        <pattern-item n="prep"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="n_prep_prnsubj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="3" side="tl" part="pers"/></tag>
+              <tag><clip pos="3" side="tl" part="gen"/></tag>
+              <tag><clip pos="3" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+                <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: prn-subj prep nom verb"> <!--en contraposicio de la regla anterior: ella desde ventana ve!-->
+      <pattern>
+        <pattern-item n="prn-subj"/>
+        <pattern-item n="prep"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="n_prep_prn_vrb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="3" side="tl" part="pers"/></tag>
+              <tag><clip pos="3" side="tl" part="gen"/></tag>
+              <tag><clip pos="3" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+                <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="whole"/>
+              <lit-tag v="pri"/>
+              <lit-tag v="p3"/>
+              <lit-tag v="sg"/>
+            </lu>
+
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: adv verb nom conjuncio nom prep nom"> <!--no es ruido de ave o animal-->
+      <pattern>
+        <pattern-item n="adv"/>
+        <pattern-item n="verb"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="conjuncio"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="prep"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="SV" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              
+            </tags>
+            <lu>
+                <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+              <lit-tag v="pri"/>
+              <lit-tag v="p3"/>
+              <lit-tag v="sg"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="7" side="tl" part="whole"/>
+              
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="6" side="tl" part="whole"/>
+            </lu>
+            <b pos="4"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <lu>
+                <clip pos="4" side="tl" part="whole"/>
+            </lu>
+            <b pos="5"/>
+            <lu>
+                <clip pos="5" side="tl" part="whole"/>
+            </lu>
+            <b pos="6"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
 
 
 

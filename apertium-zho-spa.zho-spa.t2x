@@ -605,6 +605,41 @@
         </out>
       </action>
     </rule>
+    
+    <rule comment="REGLA: SV SN SV ">  <!--ella desde ventana ve, jaime y maria, jugar-->
+      <pattern>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+      
+        <call-macro n="f_inf1">
+          <with-param pos="3"/>
+        </call-macro>
+        
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     
      <rule comment="REGLA: SN SP SV SN SV "> 
@@ -937,15 +972,12 @@
       <action>
          <call-macro n="f_concord1">
           <with-param pos="2"/>
-          <with-param pos="3"/>
+          <with-param pos="4"/>
         </call-macro><call-macro n="f_tense1">
-          <with-param pos="3"/>
+          <with-param pos="4"/>
         </call-macro>
-         <call-macro n="f_concord1">
-          <with-param pos="2"/>
-          <with-param pos="4"/>
-        </call-macro><call-macro n="f_tense1">
-          <with-param pos="4"/>
+         <call-macro n="f_inf1">
+          <with-param pos="3"/>
         </call-macro>
 
         
@@ -964,15 +996,15 @@
           </chunk>
           <b pos="2"/>
           <chunk>
-            <clip pos="3" part="lem"/>
-            <clip pos="3" part="tags"/>
-            <clip pos="3" part="chcontent"/>
-          </chunk>
-          <b pos="3"/>
-          <chunk>
             <clip pos="4" part="lem"/>
             <clip pos="4" part="tags"/>
             <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
           </chunk>
           <b pos="4"/>
           <chunk>
