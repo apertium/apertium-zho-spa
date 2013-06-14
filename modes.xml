@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <modes>
-  <mode name="zho-spa">
+  <!-- == Chinese → Spanish == -->
+ 
+  <mode name="zho-spa" install="yes">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="zho-spa.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g">
+      <program name="apertium-tagger -g $2">
         <file name="zho-spa.prob"/>
       </program>
+      <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="zho-spa.autobil.bin"/>
       </program>
       <program name="lrx-proc">
         <file name="zho-spa.autolex.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer -b -b">
         <file name="apertium-zho-spa.zho-spa.t1x"/>
         <file name="zho-spa.t1x.bin"/>
       </program>
@@ -27,175 +29,454 @@
         <file name="apertium-zho-spa.zho-spa.t3x"/>
         <file name="zho-spa.t3x.bin"/>
       </program>
-      <program name="lt-proc -g">
+      <program name="lt-proc $1">
         <file name="zho-spa.autogen.bin"/>
       </program>
+      <program name="lt-proc -p">
+        <file name="zho-spa.autopgen.bin"/>
+      </program>
     </pipeline>
   </mode>
 
-  <mode name="zho-spa-debug">
+
+  <mode name="zho-spa-anmor">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="zho-spa.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g">
-        <file name="zho-spa.prob"/>
-      </program>
-      <program name="lt-proc -b">
-        <file name="zho-spa.autobil.bin"/>
-      </program>
-      <program name="lrx-proc">
-        <file name="zho-spa.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-zho-spa.zho-spa.t1x"/>
-        <file name="zho-spa.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-zho-spa.zho-spa.t2x"/>
-        <file name="zho-spa.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-zho-spa.zho-spa.t3x"/>
-        <file name="zho-spa.t3x.bin"/>
-      </program>
-      <program name="lt-proc -d">
-        <file name="zho-spa.autogen.bin"/>
-      </program>
     </pipeline>
   </mode>
 
-
-
-  <mode name="zho-spa-postchunk">
+  <mode name="zho-spa-disam">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="zho-spa.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g">
-        <file name="zho-spa.prob"/>
-      </program>
-      <program name="lt-proc -b">
-        <file name="zho-spa.autobil.bin"/>
-      </program>
-      <program name="lrx-proc">
-        <file name="zho-spa.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-zho-spa.zho-spa.t1x"/>
-        <file name="zho-spa.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-zho-spa.zho-spa.t2x"/>
-        <file name="zho-spa.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-zho-spa.zho-spa.t3x"/>
-        <file name="zho-spa.t3x.bin"/>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="zho-spa.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
 
-
-  <mode name="zho-spa-interchunk">
+  <mode name="zho-spa-pretransfer">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="zho-spa.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g">
+      <program name="apertium-tagger -g $2">
         <file name="zho-spa.prob"/>
       </program>
-      <program name="lt-proc -b">
-        <file name="zho-spa.autobil.bin"/>
-      </program>
-      <program name="lrx-proc">
-        <file name="zho-spa.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-zho-spa.zho-spa.t1x"/>
-        <file name="zho-spa.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-zho-spa.zho-spa.t2x"/>
-        <file name="zho-spa.t2x.bin"/>
-      </program>
+      <program name="apertium-pretransfer"/>
     </pipeline>
   </mode>
-
-
-  <mode name="zho-spa-transfer">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="zho-spa.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g">
-        <file name="zho-spa.prob"/>
-      </program>
-      <program name="lt-proc -b">
-        <file name="zho-spa.autobil.bin"/>
-      </program>
-      <program name="lrx-proc">
-        <file name="zho-spa.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-zho-spa.zho-spa.t1x"/>
-        <file name="zho-spa.t1x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="zho-spa-lextor">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="zho-spa.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g">
-        <file name="zho-spa.prob"/>
-      </program>
-      <program name="lt-proc -b">
-        <file name="zho-spa.autobil.bin"/>
-      </program>
-      <program name="lrx-proc">
-        <file name="zho-spa.autolex.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
 
   <mode name="zho-spa-biltrans">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="zho-spa.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g">
+      <program name="apertium-tagger -g $2">
         <file name="zho-spa.prob"/>
       </program>
+      <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="zho-spa.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
+  
 
-  <mode name="zho-spa-tagger">
+  <mode name="zho-spa-lextor">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="zho-spa.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g">
+      <program name="apertium-tagger -g $2">
         <file name="zho-spa.prob"/>
       </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="zho-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -t">
+        <file name="zho-spa.autolex.bin"/>
+      </program>
     </pipeline>
   </mode>
 
-  <mode name="zho-spa-morph">
+  <mode name="zho-spa-transfer">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="zho-spa.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="zho-spa.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="zho-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="zho-spa.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -t -b">
+        <file name="apertium-zho-spa.zho-spa.t1x"/>
+        <file name="zho-spa.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  
+  <mode name="zho-spa-interchunk">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="zho-spa.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="zho-spa.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="zho-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="zho-spa.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-zho-spa.zho-spa.t1x"/>
+        <file name="zho-spa.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-zho-spa.zho-spa.t2x"/>
+        <file name="zho-spa.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="zho-spa-postchunk">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="zho-spa.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="zho-spa.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="zho-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="zho-spa.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-zho-spa.zho-spa.t1x"/>
+        <file name="zho-spa.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-zho-spa.zho-spa.t2x"/>
+        <file name="zho-spa.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-zho-spa.zho-spa.t3x"/>
+        <file name="zho-spa.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="zho-spa-generador">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="zho-spa.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="zho-spa.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="zho-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="zho-spa.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-zho-spa.zho-spa.t1x"/>
+        <file name="zho-spa.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-zho-spa.zho-spa.t2x"/>
+        <file name="zho-spa.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-zho-spa.zho-spa.t3x"/>
+        <file name="zho-spa.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="zho-spa.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- == Spanish → Chinese == -->
+  
+  <mode name="spa-zho" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="spa-zho.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-zho.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-zho.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="spa-zho.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-zho-spa.spa-zho.t1x"/>
+        <file name="spa-zho.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-zho-spa.spa-zho.t2x"/>
+        <file name="spa-zho.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-zho-spa.spa-zho.t3x"/>
+        <file name="spa-zho.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="spa-zho.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="spa-zho.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  
+  <mode name="spa-zho-debug">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="spa-zho.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-zho.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-zho.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="spa-zho.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-zho-spa.spa-zho.t1x"/>
+        <file name="spa-zho.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-zho-spa.spa-zho.t2x"/>
+        <file name="spa-zho.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-zho-spa.spa-zho.t3x"/>
+        <file name="spa-zho.t3x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="spa-zho.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  
+ 
+  <mode name="spa-zho-anmor">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="spa-zho.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="spa-zho-disam">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="spa-zho.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="spa-zho.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
+  <mode name="spa-zho-tagger">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="spa-zho.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-zho.prob"/>
+      </program>
+    </pipeline>
+  </mode>
 
+  <mode name="spa-zho-pretransfer">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="spa-zho.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-zho.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+
+  <mode name="spa-zho-biltrans">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="spa-zho.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-zho.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-zho.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="spa-zho-lextor">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="spa-zho.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-zho.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-zho.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -t">
+        <file name="spa-zho.autolex.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+ 
+  <mode name="spa-zho-transfer">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="spa-zho.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-zho.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-zho.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="spa-zho.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -t -b">
+        <file name="apertium-zho-spa.spa-zho.t1x"/>
+        <file name="spa-zho.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  
+  <mode name="spa-zho-interchunk">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="spa-zho.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-zho.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-zho.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="spa-zho.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-zho-spa.spa-zho.t1x"/>
+        <file name="spa-zho.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-zho-spa.spa-zho.t2x"/>
+        <file name="spa-zho.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="spa-zho-postchunk">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="spa-zho.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-zho.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-zho.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="spa-zho.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-zho-spa.spa-zho.t1x"/>
+        <file name="spa-zho.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-zho-spa.spa-zho.t2x"/>
+        <file name="spa-zho.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-zho-spa.spa-zho.t3x"/>
+        <file name="spa-zho.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="spa-zho-generador">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="spa-zho.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-zho.prob"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="spa-zho.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="spa-zho.autolex.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-zho.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-zho-spa.spa-zho.t1x"/>
+        <file name="spa-zho.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-zho-spa.spa-zho.t2x"/>
+        <file name="spa-zho.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-zho-spa.spa-zho.t3x"/>
+        <file name="spa-zho.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="spa-zho.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 
 </modes>

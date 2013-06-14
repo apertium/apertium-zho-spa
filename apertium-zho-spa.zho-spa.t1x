@@ -701,7 +701,7 @@
               <lit v="y"/>                             
               <lit-tag v="cnjcoo"/>
             </lu>
-            <b pos="3"/>   
+            <b/>   
             <lu>
               <clip pos="2" side="tl" part="lem"/>   <!--adj-->
               <clip pos="2" side="tl" part="a_adj"/>

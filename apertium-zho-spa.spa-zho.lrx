@@ -1,0 +1,5 @@
+<rules>
+  <rule>
+    <match lemma="暴怒" tags="n"><select lemma="rabia" tags="n.*"/></match>
+  </rule>
+</rules> 

@@ -1,15 +1,28 @@
 * text=auto !eol
 /AUTHORS -text
-/Makefile -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
 /README -text
+/apertium-zho-spa.post-spa.dix -text
+/apertium-zho-spa.spa-zho.lrx -text
+/apertium-zho-spa.spa-zho.t1x -text
+/apertium-zho-spa.spa-zho.t2x -text
+/apertium-zho-spa.spa-zho.t3x -text
+/apertium-zho-spa.spa.acx -text
 /apertium-zho-spa.spa.dix -text
 /apertium-zho-spa.zho-spa.dix -text
 /apertium-zho-spa.zho-spa.lrx -text
 /apertium-zho-spa.zho-spa.t1x -text
 /apertium-zho-spa.zho-spa.t2x -text
 /apertium-zho-spa.zho-spa.t3x -text
+/apertium-zho-spa.zho.acx -text
 /apertium-zho-spa.zho.dix -text
+/autogen.sh -text
+/configure.ac -text
 /modes.xml -text
+/spa-zho.prob -text svneol=unset#unset
 texts/cuento.spa.txt -text
 texts/cuento.zho.referencia.txt -text
 texts/cuento.zho.stanford.txt -text
