@@ -12,7 +12,7 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
      $(PREFIX1).autolex.bin \
      $(PREFIX2).autolex.bin \
      $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
-     $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin modes
+     $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin $(PREFIX1).mode modes
 
 TARGETS = $(TARGETS_COMMON) 
 
@@ -91,7 +91,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).metadix $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).$(LANG1).acx $(BASENAME).$(LANG2).acx \
 	   modes.xml
 
-apertium_ru_uk_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
+apertium_zho_spa_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		    $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 		    $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
 		    $(PREFIX1).autopgen.bin \
@@ -99,10 +99,10 @@ apertium_ru_uk_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		    $(PREFIX1).prob $(PREFIX2).prob \
 		    $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
 		    $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin \
-		    $(PREFIX1).mode $(PREFIX2).mode 
+		    $(PREFIX1).mode $(PREFIX2).mode  modes
 
-apertium_ru_ukdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_ru_modesdir=$(prefix)/share/apertium/modes/
+apertium_zho_spadir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
+apertium_zho_spa_modesdir=$(prefix)/share/apertium/modes/
 
 $(PREFIX1).mode: modes.xml
 	apertium-gen-modes modes.xml
@@ -114,6 +114,7 @@ $(PREFIX2).mode: modes.xml
 
 modes: modes.xml
 	apertium-gen-modes modes.xml
+	cp *.mode modes/
 
 install-data-local:
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
