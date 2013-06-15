@@ -237,18 +237,13 @@
 
   </section-def-attrs>
   <section-def-vars>
-    <def-var n="number"/>
+    <def-var n="numero"/>
+    <def-var n="genero"/>
+    <def-var n="concPrimero"/>
     <def-var n="current_verb"/>
   </section-def-vars>
   
   <section-def-macros>
-    
-    <def-macro n="test" npar="1">
-          <let>
-            <var n="number"/>
-            <lit v=""/>
-          </let>
-    </def-macro>
     
     <def-macro n="f_concord2" npar="2">
       <choose>
