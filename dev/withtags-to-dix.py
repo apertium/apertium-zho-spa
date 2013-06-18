@@ -1,10 +1,10 @@
+import sys;
 
 conv = {'Noun':'n', 'Particle':'part', 'Adverb':'adv', 'Postposition':'post', 'Adjective':'adj', 'Preposition':'pr', 'Verb':'vblex', 'Numeral':'num', 'Conjunction':'cnj', 'Pronoun':'prn', 'Interjection':'ij'};
 
-
 tagset = set();
 entries = [];
-for line in open('/tmp/x').readlines(): #{
+for line in open(sys.argv[1]).readlines(): #{
 	row = line.split('\t');
 	tags = row[1].strip().split(':');
 	lemma = row[0].replace('.wiki', '');
