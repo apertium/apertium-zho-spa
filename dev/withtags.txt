@@ -1,0 +1,1990 @@
+/tmp/一...就....wiki	
+
+/tmp/从...到....wiki	:Preposition
+
+/tmp/连...都....wiki	:Adverb
+
+/tmp/从...起.wiki	:Preposition
+
+/tmp/一.wiki	:Numeral
+
+/tmp/七.wiki	
+
+/tmp/万.wiki	:Adverb
+
+/tmp/三.wiki	:Numeral
+
+/tmp/上.wiki	
+
+/tmp/下.wiki	:Verb:Adjective:Preposition
+
+/tmp/不.wiki	:Adverb
+
+/tmp/东.wiki	:Noun
+
+/tmp/丢.wiki	:Verb
+
+/tmp/两.wiki	:Numeral
+
+/tmp/个.wiki	
+
+/tmp/中.wiki	:Preposition:Verb
+
+/tmp/为.wiki	:Preposition:Verb
+
+/tmp/举.wiki	
+
+/tmp/久.wiki	
+
+/tmp/九.wiki	
+
+/tmp/也.wiki	:Adjective
+
+/tmp/书.wiki	
+
+/tmp/买.wiki	:Verb
+
+/tmp/乱.wiki	:Adjective:Noun:Verb
+
+/tmp/了.wiki	:Particle:Verb
+
+/tmp/事.wiki	:Noun:Verb
+
+/tmp/二.wiki	:Numeral
+
+/tmp/云.wiki	:Noun:Verb
+
+/tmp/五.wiki	:Numeral
+
+/tmp/些.wiki	:Adjective:Adverb
+
+/tmp/交.wiki	
+
+/tmp/亮.wiki	
+
+/tmp/人.wiki	:Noun
+
+/tmp/亿.wiki	
+
+/tmp/从.wiki	:Preposition
+
+/tmp/他.wiki	:Pronoun
+
+/tmp/们.wiki	
+
+/tmp/件.wiki	
+
+/tmp/会.wiki	:Verb:Verb
+
+/tmp/位.wiki	
+
+/tmp/低.wiki	
+
+/tmp/住.wiki	
+
+/tmp/作.wiki	
+
+/tmp/你.wiki	:Pronoun
+
+/tmp/信.wiki	:Verb:Adverb:Noun
+
+/tmp/俩.wiki	
+
+/tmp/倍.wiki	
+
+/tmp/倒.wiki	
+
+/tmp/借.wiki	
+
+/tmp/做.wiki	
+
+/tmp/停.wiki	
+
+/tmp/像.wiki	
+
+/tmp/元.wiki	:Noun
+
+/tmp/先.wiki	
+
+/tmp/克.wiki	
+
+/tmp/全.wiki	
+
+/tmp/八.wiki	:Numeral
+
+/tmp/六.wiki	:Numeral
+
+/tmp/关.wiki	
+
+/tmp/内.wiki	
+
+/tmp/再.wiki	:Adverb
+
+/tmp/写.wiki	
+
+/tmp/冬.wiki	
+
+/tmp/冷.wiki	
+
+/tmp/几.wiki	
+
+/tmp/出.wiki	
+
+/tmp/刀.wiki	
+
+/tmp/分.wiki	
+
+/tmp/刚.wiki	:Adjective:Adverb
+
+/tmp/别.wiki	:Adverb
+
+/tmp/刮.wiki	
+
+/tmp/到.wiki	:Particle:Preposition:Verb
+
+/tmp/刻.wiki	
+
+/tmp/前.wiki	
+
+/tmp/剩.wiki	
+
+/tmp/办.wiki	:Verb
+
+/tmp/加.wiki	
+
+/tmp/动.wiki	
+
+/tmp/北.wiki	
+
+/tmp/十.wiki	:Numeral
+
+/tmp/千.wiki	
+
+/tmp/半.wiki	
+
+/tmp/卖.wiki	
+
+/tmp/南.wiki	
+
+/tmp/占.wiki	
+
+/tmp/去.wiki	
+
+/tmp/又.wiki	:Adverb
+
+/tmp/双.wiki	:Adjective
+
+/tmp/发.wiki	:Verb:Noun
+
+/tmp/变.wiki	
+
+/tmp/口.wiki	
+
+/tmp/句.wiki	
+
+/tmp/只.wiki	:Noun:Adverb
+
+/tmp/叫.wiki	:Verb
+
+/tmp/右.wiki	:Noun
+
+/tmp/号.wiki	:Noun
+
+/tmp/吃.wiki	
+
+/tmp/各.wiki	
+
+/tmp/后.wiki	:Adjective:Noun
+
+/tmp/向.wiki	
+
+/tmp/吗.wiki	:Particle
+
+/tmp/吧.wiki	:Particle
+
+/tmp/听.wiki	:Verb:Verb
+
+/tmp/吹.wiki	
+
+/tmp/呀.wiki	:Particle
+
+/tmp/呐.wiki	:Interjection:Verb:Verb
+
+/tmp/呢.wiki	:Particle
+
+/tmp/周.wiki	
+
+/tmp/和.wiki	:Adjective:Adjective:Conjunction:Noun:Verb:Verb:Verb
+
+/tmp/咱.wiki	:Pronoun
+
+/tmp/响.wiki	
+
+/tmp/哪.wiki	
+
+/tmp/哭.wiki	
+
+/tmp/唱.wiki	
+
+/tmp/啊.wiki	:Interjection:Particle
+
+/tmp/啦.wiki	
+
+/tmp/喂.wiki	:Interjection:Interjection
+
+/tmp/喊.wiki	
+
+/tmp/喝.wiki	:Verb:Verb
+
+/tmp/嗯.wiki	:Interjection
+
+/tmp/嘛.wiki	
+
+/tmp/嘴.wiki	
+
+/tmp/四.wiki	:Numeral:Noun
+
+/tmp/回.wiki	:Noun
+
+/tmp/国.wiki	:Noun
+
+/tmp/圆.wiki	
+
+/tmp/在.wiki	:Adverb:Preposition:Verb
+
+/tmp/地.wiki	:Noun
+
+/tmp/场.wiki	
+
+/tmp/坏.wiki	
+
+/tmp/坐.wiki	
+
+/tmp/块.wiki	
+
+/tmp/城.wiki	:Noun
+
+/tmp/墙.wiki	
+
+/tmp/声.wiki	
+
+/tmp/夏.wiki	
+
+/tmp/外.wiki	
+
+/tmp/多.wiki	
+
+/tmp/夜.wiki	
+
+/tmp/够.wiki	
+
+/tmp/大.wiki	:Adjective
+
+/tmp/天.wiki	:Noun
+
+/tmp/太.wiki	:Noun
+
+/tmp/头.wiki	:Noun
+
+/tmp/女.wiki	
+
+/tmp/她.wiki	:Pronoun
+
+/tmp/好.wiki	:Adjective
+
+/tmp/姓.wiki	
+
+/tmp/字.wiki	:Noun
+
+/tmp/学.wiki	:Verb
+
+/tmp/它.wiki	:Pronoun
+
+/tmp/完.wiki	
+
+/tmp/家.wiki	:Noun
+
+/tmp/寄.wiki	
+
+/tmp/对.wiki	:Interjection
+
+/tmp/封.wiki	
+
+/tmp/小.wiki	:Adjective
+
+/tmp/少.wiki	:Adjective:Adjective
+
+/tmp/就.wiki	:Adverb:Verb
+
+/tmp/层.wiki	
+
+/tmp/山.wiki	
+
+/tmp/岁.wiki	
+
+/tmp/左.wiki	
+
+/tmp/差.wiki	:Verb:Adjective
+
+/tmp/市.wiki	:Noun
+
+/tmp/布.wiki	
+
+/tmp/带.wiki	:Noun:Verb
+
+/tmp/常.wiki	
+
+/tmp/干.wiki	:Verb
+
+/tmp/年.wiki	
+
+/tmp/床.wiki	
+
+/tmp/座.wiki	
+
+/tmp/开.wiki	
+
+/tmp/张.wiki	
+
+/tmp/当.wiki	:Adverb
+
+/tmp/往.wiki	
+
+/tmp/很.wiki	:Adverb
+
+/tmp/得.wiki	
+
+/tmp/心.wiki	
+
+/tmp/忘.wiki	
+
+/tmp/忙.wiki	:Adjective:Verb
+
+/tmp/快.wiki	
+
+/tmp/念.wiki	
+
+/tmp/怕.wiki	
+
+/tmp/急.wiki	
+
+/tmp/您.wiki	:Pronoun
+
+/tmp/想.wiki	
+
+/tmp/慢.wiki	
+
+/tmp/懂.wiki	
+
+/tmp/成.wiki	
+
+/tmp/我.wiki	:Pronoun
+
+/tmp/戴.wiki	:Verb
+
+/tmp/手.wiki	:Noun
+
+/tmp/才.wiki	
+
+/tmp/打.wiki	
+
+/tmp/找.wiki	
+
+/tmp/把.wiki	:Noun:Verb
+
+/tmp/报.wiki	
+
+/tmp/抬.wiki	
+
+/tmp/抱.wiki	
+
+/tmp/抽.wiki	
+
+/tmp/拉.wiki	
+
+/tmp/拍.wiki	
+
+/tmp/拿.wiki	
+
+/tmp/挂.wiki	
+
+/tmp/指.wiki	
+
+/tmp/挤.wiki	
+
+/tmp/挺.wiki	
+
+/tmp/换.wiki	
+
+/tmp/掉.wiki	
+
+/tmp/接.wiki	
+
+/tmp/推.wiki	
+
+/tmp/提.wiki	:Verb
+
+/tmp/搞.wiki	
+
+/tmp/搬.wiki	
+
+/tmp/摆.wiki	
+
+/tmp/擦.wiki	
+
+/tmp/支.wiki	
+
+/tmp/收.wiki	:Verb
+
+/tmp/改.wiki	
+
+/tmp/放.wiki	
+
+/tmp/教.wiki	
+
+/tmp/敢.wiki	
+
+/tmp/数.wiki	
+
+/tmp/斤.wiki	:Noun
+
+/tmp/新.wiki	
+
+/tmp/日.wiki	:Noun
+
+/tmp/旧.wiki	
+
+/tmp/早.wiki	:Adverb:Interjection:Noun:Verb
+
+/tmp/春.wiki	
+
+/tmp/是.wiki	:Verb
+
+/tmp/晚.wiki	
+
+/tmp/晴.wiki	
+
+/tmp/更.wiki	
+
+/tmp/最.wiki	
+
+/tmp/月.wiki	:Noun
+
+/tmp/有.wiki	:Adjective:Adverb:Conjunction:Verb
+
+/tmp/朝.wiki	:Noun:Noun
+
+/tmp/本.wiki	
+
+/tmp/条.wiki	
+
+/tmp/来.wiki	:Verb
+
+/tmp/杯.wiki	
+
+/tmp/查.wiki	
+
+/tmp/树.wiki	
+
+/tmp/根.wiki	
+
+/tmp/桥.wiki	
+
+/tmp/棵.wiki	
+
+/tmp/楼.wiki	
+
+/tmp/次.wiki	
+
+/tmp/歌.wiki	
+
+/tmp/正.wiki	
+
+/tmp/死.wiki	
+
+/tmp/段.wiki	
+
+/tmp/每.wiki	
+
+/tmp/比.wiki	
+
+/tmp/毛.wiki	
+
+/tmp/水.wiki	
+
+/tmp/江.wiki	
+
+/tmp/汤.wiki	
+
+/tmp/没.wiki	:Verb
+
+/tmp/河.wiki	:Noun
+
+/tmp/洗.wiki	
+
+/tmp/活.wiki	
+
+/tmp/派.wiki	:Noun
+
+/tmp/流.wiki	
+
+/tmp/浅.wiki	
+
+/tmp/海.wiki	
+
+/tmp/深.wiki	
+
+/tmp/渴.wiki	
+
+/tmp/湖.wiki	
+
+/tmp/满.wiki	
+
+/tmp/灯.wiki	
+
+/tmp/点.wiki	
+
+/tmp/热.wiki	:Adjective
+
+/tmp/熟.wiki	
+
+/tmp/爬.wiki	
+
+/tmp/爱.wiki	:Noun:Verb
+
+/tmp/片.wiki	
+
+/tmp/牛.wiki	:Noun:Adjective
+
+/tmp/猪.wiki	:Noun
+
+/tmp/班.wiki	
+
+/tmp/球.wiki	
+
+/tmp/瓶.wiki	
+
+/tmp/用.wiki	:Verb
+
+/tmp/电.wiki	
+
+/tmp/男.wiki	
+
+/tmp/画.wiki	:Verb:Noun
+
+/tmp/留.wiki	
+
+/tmp/疼.wiki	
+
+/tmp/病.wiki	
+
+/tmp/白.wiki	:Adjective:Adverb
+
+/tmp/百.wiki	:Numeral
+
+/tmp/的.wiki	:Adverb:Noun:Particle
+
+/tmp/省.wiki	:Noun
+
+/tmp/看.wiki	:Verb:Verb
+
+/tmp/真.wiki	:Adverb:Noun
+
+/tmp/着.wiki	:Verb
+
+/tmp/睡.wiki	
+
+/tmp/短.wiki	:Adjective
+
+/tmp/矮.wiki	:Adjective
+
+/tmp/破.wiki	:Adjective
+
+/tmp/碗.wiki	
+
+/tmp/碰.wiki	
+
+/tmp/祝.wiki	
+
+/tmp/票.wiki	
+
+/tmp/离.wiki	
+
+/tmp/秋.wiki	
+
+/tmp/种.wiki	:Noun:Verb
+
+/tmp/穿.wiki	
+
+/tmp/窗.wiki	
+
+/tmp/站.wiki	
+
+/tmp/笑.wiki	
+
+/tmp/笔.wiki	
+
+/tmp/第.wiki	
+
+/tmp/等.wiki	
+
+/tmp/算.wiki	
+
+/tmp/篇.wiki	
+
+/tmp/米.wiki	
+
+/tmp/糖.wiki	
+
+/tmp/系.wiki	
+
+/tmp/紧.wiki	:Adjective
+
+/tmp/累.wiki	
+
+/tmp/红.wiki	:Adjective:Noun
+
+/tmp/纸.wiki	
+
+/tmp/细.wiki	
+
+/tmp/给.wiki	
+
+/tmp/绿.wiki	
+
+/tmp/羊.wiki	
+
+/tmp/翻.wiki	
+
+/tmp/老.wiki	:Adjective
+
+/tmp/肉.wiki	
+
+/tmp/能.wiki	:Verb
+
+/tmp/脏.wiki	
+
+/tmp/脚.wiki	:Noun
+
+/tmp/脱.wiki	:Verb
+
+/tmp/脸.wiki	
+
+/tmp/腿.wiki	
+
+/tmp/船.wiki	
+
+/tmp/节.wiki	
+
+/tmp/花.wiki	
+
+/tmp/苦.wiki	
+
+/tmp/茶.wiki	:Noun
+
+/tmp/草.wiki	
+
+/tmp/药.wiki	
+
+/tmp/菜.wiki	
+
+/tmp/蓝.wiki	:Adjective
+
+/tmp/行.wiki	
+
+/tmp/街.wiki	
+
+/tmp/表.wiki	:Noun:Noun:Verb
+
+/tmp/被.wiki	
+
+/tmp/装.wiki	
+
+/tmp/西.wiki	:Adjective:Noun
+
+/tmp/要.wiki	:Verb
+
+/tmp/见.wiki	:Adverb:Preposition:Verb
+
+/tmp/角.wiki	
+
+/tmp/让.wiki	:Preposition:Verb
+
+/tmp/记.wiki	
+
+/tmp/讲.wiki	
+
+/tmp/词.wiki	:Noun
+
+/tmp/试.wiki	
+
+/tmp/话.wiki	
+
+/tmp/该.wiki	
+
+/tmp/说.wiki	:Noun:Verb:Verb:Verb
+
+/tmp/请.wiki	:Verb
+
+/tmp/读.wiki	:Verb
+
+/tmp/课.wiki	
+
+/tmp/谁.wiki	
+
+/tmp/谈.wiki	
+
+/tmp/贵.wiki	
+
+/tmp/赢.wiki	:Verb
+
+/tmp/走.wiki	
+
+/tmp/起.wiki	
+
+/tmp/跑.wiki	
+
+/tmp/跟.wiki	
+
+/tmp/路.wiki	
+
+/tmp/跳.wiki	
+
+/tmp/踢.wiki	:Verb
+
+/tmp/躺.wiki	
+
+/tmp/车.wiki	:Noun:Noun
+
+/tmp/轻.wiki	
+
+/tmp/辆.wiki	
+
+/tmp/输.wiki	:Verb
+
+/tmp/边.wiki	
+
+/tmp/过.wiki	:Particle:Pronoun:Verb
+
+/tmp/近.wiki	
+
+/tmp/还.wiki	
+
+/tmp/这.wiki	:Pronoun
+
+/tmp/进.wiki	
+
+/tmp/远.wiki	
+
+/tmp/退.wiki	
+
+/tmp/送.wiki	
+
+/tmp/通.wiki	
+
+/tmp/遍.wiki	:Adverb:Noun
+
+/tmp/道.wiki	:Noun
+
+/tmp/那.wiki	:Adverb:Pronoun
+
+/tmp/都.wiki	
+
+/tmp/酒.wiki	:Noun
+
+/tmp/酸.wiki	
+
+/tmp/里.wiki	
+
+/tmp/重.wiki	
+
+/tmp/钟.wiki	
+
+/tmp/钱.wiki	
+
+/tmp/错.wiki	
+
+/tmp/长.wiki	
+
+/tmp/门.wiki	
+
+/tmp/问.wiki	:Verb
+
+/tmp/间.wiki	:Postposition
+
+/tmp/阴.wiki	:Adjective:Noun
+
+/tmp/难.wiki	
+
+/tmp/雨.wiki	:Noun
+
+/tmp/雪.wiki	:Noun
+
+/tmp/零.wiki	
+
+/tmp/鞋.wiki	
+
+/tmp/页.wiki	
+
+/tmp/顿.wiki	
+
+/tmp/风.wiki	:Noun
+
+/tmp/飞.wiki	
+
+/tmp/饭.wiki	:Noun
+
+/tmp/饱.wiki	
+
+/tmp/饿.wiki	
+
+/tmp/馆.wiki	
+
+/tmp/香.wiki	
+
+/tmp/马.wiki	:Noun
+
+/tmp/骑.wiki	:Noun:Verb
+
+/tmp/高.wiki	
+
+/tmp/鱼.wiki	:Noun
+
+/tmp/鸡.wiki	
+
+/tmp/黄.wiki	
+
+/tmp/黑.wiki	
+
+/tmp/一边...一边....wiki	:Adverb
+
+/tmp/除了...以外.wiki	
+
+/tmp/一些.wiki	:Noun
+
+/tmp/一共.wiki	:Noun
+
+/tmp/一切.wiki	:Adjective
+
+/tmp/一定.wiki	:Adjective:Adverb
+
+/tmp/一样.wiki	:Adjective
+
+/tmp/一直.wiki	:Adverb
+
+/tmp/一般.wiki	:Adjective:Adverb
+
+/tmp/一起.wiki	:Adverb
+
+/tmp/上午.wiki	:Noun
+
+/tmp/上去.wiki	:Verb
+
+/tmp/上学.wiki	:Verb
+
+/tmp/上来.wiki	:Verb
+
+/tmp/上课.wiki	:Verb
+
+/tmp/上边.wiki	:Noun
+
+/tmp/下午.wiki	:Noun
+
+/tmp/下去.wiki	:Verb
+
+/tmp/下来.wiki	:Verb
+
+/tmp/下课.wiki	:Verb
+
+/tmp/下边.wiki	:Noun
+
+/tmp/不久.wiki	:Adverb
+
+/tmp/不但.wiki	:Conjunction
+
+/tmp/不同.wiki	:Adjective:Noun:Verb
+
+/tmp/不如.wiki	:Conjunction:Verb
+
+/tmp/不用.wiki	:Adverb
+
+/tmp/不要.wiki	:Verb
+
+/tmp/不错.wiki	:Adjective
+
+/tmp/世界.wiki	:Noun
+
+/tmp/东西.wiki	:Noun:Noun
+
+/tmp/东边.wiki	:Noun
+
+/tmp/中午.wiki	:Noun
+
+/tmp/中学.wiki	:Noun
+
+/tmp/中文.wiki	
+
+/tmp/中间.wiki	:Adjective:Noun:Postposition
+
+/tmp/丰富.wiki	:Adjective
+
+/tmp/为了.wiki	:Preposition
+
+/tmp/主意.wiki	:Noun
+
+/tmp/主要.wiki	:Adjective
+
+/tmp/也许.wiki	:Adverb
+
+/tmp/习惯.wiki	:Noun:Verb
+
+/tmp/了解.wiki	:Verb
+
+/tmp/事情.wiki	:Noun
+
+/tmp/互相.wiki	:Adverb
+
+/tmp/人们.wiki	:Noun
+
+/tmp/人民.wiki	:Noun
+
+/tmp/什么.wiki	:Pronoun
+
+/tmp/今天.wiki	:Noun
+
+/tmp/今年.wiki	:Noun
+
+/tmp/介绍.wiki	:Verb
+
+/tmp/从前.wiki	:Adverb
+
+/tmp/他们.wiki	:Pronoun
+
+/tmp/代表.wiki	:Noun:Verb
+
+/tmp/以为.wiki	:Verb
+
+/tmp/以前.wiki	:Adverb:Postposition
+
+/tmp/以后.wiki	:Adverb:Postposition
+
+/tmp/任何.wiki	:Adjective
+
+/tmp/休息.wiki	:Verb
+
+/tmp/会话.wiki	:Noun
+
+/tmp/伟大.wiki	:Adjective
+
+/tmp/但是.wiki	:Adverb:Conjunction
+
+/tmp/体育.wiki	:Noun
+
+/tmp/作业.wiki	:Noun
+
+/tmp/你们.wiki	:Pronoun
+
+/tmp/使用.wiki	:Verb
+
+/tmp/例如.wiki	:Conjunction
+
+/tmp/便宜.wiki	:Adjective:Adjective:Noun:Verb
+
+/tmp/信封.wiki	:Noun
+
+/tmp/健康.wiki	:Adjective:Noun
+
+/tmp/儿子.wiki	:Noun
+
+/tmp/先生.wiki	:Noun
+
+/tmp/全体.wiki	:Noun
+
+/tmp/全部.wiki	:Adjective:Noun
+
+/tmp/公园.wiki	:Noun
+
+/tmp/公斤.wiki	:Noun
+
+/tmp/公里.wiki	:Noun
+
+/tmp/关心.wiki	:Verb
+
+/tmp/关系.wiki	:Noun
+
+/tmp/内容.wiki	:Noun
+
+/tmp/再见.wiki	:Interjection
+
+/tmp/农业.wiki	:Noun
+
+/tmp/农村.wiki	:Noun
+
+/tmp/农民.wiki	:Noun
+
+/tmp/冬天.wiki	:Noun
+
+/tmp/决定.wiki	:Noun:Verb
+
+/tmp/准备.wiki	:Noun:Verb
+
+/tmp/凉快.wiki	:Adjective
+
+/tmp/出去.wiki	:Verb:Particle
+
+/tmp/出发.wiki	:Verb
+
+/tmp/出来.wiki	:Verb
+
+/tmp/出现.wiki	:Noun:Verb
+
+/tmp/分之.wiki	:Conjunction
+
+/tmp/分钟.wiki	:Noun
+
+/tmp/刚才.wiki	:Adverb
+
+/tmp/利用.wiki	:Verb
+
+/tmp/别人.wiki	:Noun
+
+/tmp/别的.wiki	:Adjective
+
+/tmp/前边.wiki	:Noun
+
+/tmp/办法.wiki	:Noun
+
+/tmp/动物.wiki	:Noun
+
+/tmp/努力.wiki	:Adjective:Adverb:Verb
+
+/tmp/劳动.wiki	:Verb
+
+/tmp/劳驾.wiki	:Interjection
+
+/tmp/化学.wiki	:Noun
+
+/tmp/北边.wiki	:Noun
+
+/tmp/医生.wiki	:Noun
+
+/tmp/医院.wiki	:Noun
+
+/tmp/十分.wiki	:Adverb
+
+/tmp/午饭.wiki	:Noun
+
+/tmp/半天.wiki	:Noun
+
+/tmp/南边.wiki	:Noun
+
+/tmp/卡车.wiki	:Noun
+
+/tmp/危险.wiki	:Adjective:Noun
+
+/tmp/历史.wiki	:Noun
+
+/tmp/原来.wiki	:Adjective:Adverb
+
+/tmp/原谅.wiki	:Verb
+
+/tmp/去年.wiki	:Noun
+
+/tmp/参加.wiki	:Verb
+
+/tmp/参观.wiki	:Verb
+
+/tmp/友好.wiki	:Adjective:Noun
+
+/tmp/友谊.wiki	:Noun
+
+/tmp/反对.wiki	:Verb
+
+/tmp/发展.wiki	:Noun:Verb
+
+/tmp/发烧.wiki	:Verb
+
+/tmp/发现.wiki	:Verb
+
+/tmp/发生.wiki	:Verb
+
+/tmp/取得.wiki	:Verb
+
+/tmp/变化.wiki	:Noun:Verb
+
+/tmp/变成.wiki	:Verb
+
+/tmp/口语.wiki	:Adjective:Noun
+
+/tmp/句子.wiki	:Noun
+
+/tmp/只好.wiki	:Adverb
+
+/tmp/可以.wiki	:Adjective:Verb
+
+/tmp/可是.wiki	:Conjunction
+
+/tmp/可能.wiki	:Adjective:Adverb:Noun:Verb
+
+/tmp/各种.wiki	:Noun
+
+/tmp/合适.wiki	:Adjective
+
+/tmp/同学.wiki	:Noun
+
+/tmp/同志.wiki	:Adjective:Noun
+
+/tmp/同意.wiki	:Verb
+
+/tmp/同时.wiki	:Adjective:Adverb
+
+/tmp/名字.wiki	:Noun
+
+/tmp/后边.wiki	:Noun
+
+/tmp/听写.wiki	:Noun:Verb
+
+/tmp/听见.wiki	:Verb
+
+/tmp/听说.wiki	:Verb
+
+/tmp/告诉.wiki	:Verb:Verb
+
+/tmp/周围.wiki	:Noun
+
+/tmp/咖啡.wiki	:Noun
+
+/tmp/咱们.wiki	:Pronoun
+
+/tmp/咳嗽.wiki	:Verb
+
+/tmp/哈哈.wiki	:Adjective:Adverb
+
+/tmp/哥哥.wiki	:Noun
+
+/tmp/哪里.wiki	:Interjection:Pronoun
+
+/tmp/商店.wiki	:Noun
+
+/tmp/啤酒.wiki	:Noun
+
+/tmp/喜欢.wiki	:Verb
+
+/tmp/回去.wiki	:Verb
+
+/tmp/回来.wiki	:Verb
+
+/tmp/回答.wiki	:Verb
+
+/tmp/因为.wiki	:Conjunction
+
+/tmp/团结.wiki	:Verb:Adjective:Noun
+
+/tmp/困难.wiki	:Adjective:Noun
+
+/tmp/国家.wiki	:Adjective:Noun
+
+/tmp/地方.wiki	:Noun
+
+/tmp/坚持.wiki	:Verb
+
+/tmp/城市.wiki	:Noun
+
+/tmp/基本.wiki	:Adjective
+
+/tmp/基础.wiki	:Adjective:Noun
+
+/tmp/增加.wiki	:Verb
+
+/tmp/声调.wiki	:Noun
+
+/tmp/声音.wiki	:Noun
+
+/tmp/复习.wiki	:Verb
+
+/tmp/复杂.wiki	:Adjective
+
+/tmp/夏天.wiki	:Noun
+
+/tmp/外国.wiki	:Adjective:Noun
+
+/tmp/外语.wiki	:Noun
+
+/tmp/外边.wiki	:Noun
+
+/tmp/多么.wiki	:Adverb
+
+/tmp/多少.wiki	:Adjective
+
+/tmp/大声.wiki	:Adverb
+
+/tmp/大夫.wiki	:Noun
+
+/tmp/大学.wiki	:Noun
+
+/tmp/大家.wiki	:Noun
+
+/tmp/大概.wiki	:Adverb:Noun
+
+/tmp/天气.wiki	:Noun
+
+/tmp/太阳.wiki	:Adjective:Noun
+
+/tmp/夫人.wiki	:Noun
+
+/tmp/女儿.wiki	:Noun
+
+/tmp/她们.wiki	:Pronoun
+
+/tmp/好像.wiki	:Verb
+
+/tmp/好吃.wiki	:Adjective
+
+/tmp/好处.wiki	:Noun
+
+/tmp/好看.wiki	:Adjective
+
+/tmp/妈妈.wiki	:Noun
+
+/tmp/妹妹.wiki	:Noun
+
+/tmp/姐姐.wiki	:Noun
+
+/tmp/姑娘.wiki	:Noun
+
+/tmp/学习.wiki	:Noun:Verb
+
+/tmp/学校.wiki	:Noun
+
+/tmp/学生.wiki	:Noun
+
+/tmp/学院.wiki	:Noun
+
+/tmp/孩子.wiki	:Noun
+
+/tmp/它们.wiki	:Pronoun
+
+/tmp/安排.wiki	:Noun:Verb
+
+/tmp/安静.wiki	:Adjective
+
+/tmp/完全.wiki	:Adjective:Adverb
+
+/tmp/完成.wiki	:Verb
+
+/tmp/实现.wiki	:Verb
+
+/tmp/实践.wiki	:Verb
+
+/tmp/客气.wiki	:Adjective
+
+/tmp/宴会.wiki	:Noun
+
+/tmp/家庭.wiki	:Noun
+
+/tmp/容易.wiki	:Adjective
+
+/tmp/宿舍.wiki	:Noun
+
+/tmp/寒假.wiki	:Noun
+
+/tmp/将来.wiki	:Adverb:Noun
+
+/tmp/小姐.wiki	:Noun
+
+/tmp/小时.wiki	:Noun
+
+/tmp/尤其.wiki	:Adverb
+
+/tmp/屋子.wiki	:Noun
+
+/tmp/展览.wiki	:Noun:Verb
+
+/tmp/工业.wiki	:Noun
+
+/tmp/工人.wiki	:Noun
+
+/tmp/工作.wiki	:Noun:Verb
+
+/tmp/工厂.wiki	:Noun
+
+/tmp/已经.wiki	:Adverb
+
+/tmp/师傅.wiki	:Noun
+
+/tmp/希望.wiki	:Noun:Verb
+
+/tmp/帮助.wiki	:Noun:Verb
+
+/tmp/常常.wiki	:Adverb
+
+/tmp/帽子.wiki	:Noun
+
+/tmp/干净.wiki	:Adjective
+
+/tmp/干部.wiki	:Noun
+
+/tmp/年级.wiki	:Noun
+
+/tmp/年纪.wiki	:Noun
+
+/tmp/年轻.wiki	:Adjective
+
+/tmp/幸福.wiki	:Adjective:Noun
+
+/tmp/广播.wiki	:Noun
+
+/tmp/应该.wiki	:Verb
+
+/tmp/建设.wiki	:Noun:Verb
+
+/tmp/开始.wiki	:Verb
+
+/tmp/开学.wiki	:Verb
+
+/tmp/弟弟.wiki	:Noun
+
+/tmp/当然.wiki	:Adverb
+
+/tmp/录音.wiki	:Noun:Verb
+
+/tmp/影响.wiki	:Noun:Verb
+
+/tmp/得到.wiki	:Verb
+
+/tmp/得很.wiki	:Adverb
+
+/tmp/必须.wiki	:Verb
+
+/tmp/忽然.wiki	:Adverb
+
+/tmp/态度.wiki	:Noun
+
+/tmp/怎么.wiki	:Pronoun
+
+/tmp/怎样.wiki	:Adverb
+
+/tmp/思想.wiki	:Noun
+
+/tmp/总是.wiki	:Adverb
+
+/tmp/情况.wiki	:Noun
+
+/tmp/愉快.wiki	:Adjective
+
+/tmp/意义.wiki	:Noun
+
+/tmp/意思.wiki	:Noun
+
+/tmp/意见.wiki	:Noun
+
+/tmp/感冒.wiki	:Noun:Verb
+
+/tmp/感到.wiki	:Verb
+
+/tmp/感谢.wiki	:Noun:Verb
+
+/tmp/愿意.wiki	:Verb
+
+/tmp/成绩.wiki	:Noun
+
+/tmp/我们.wiki	:Pronoun
+
+/tmp/或者.wiki	:Conjunction
+
+/tmp/房间.wiki	:Noun
+
+/tmp/所以.wiki	:Adverb:Conjunction
+
+/tmp/所有.wiki	:Adjective:Noun
+
+/tmp/手表.wiki	:Noun
+
+/tmp/打算.wiki	:Verb
+
+/tmp/批评.wiki	:Verb
+
+/tmp/技术.wiki	:Noun
+
+/tmp/掌握.wiki	:Verb
+
+/tmp/排球.wiki	:Noun
+
+/tmp/接着.wiki	:Conjunction:Verb
+
+/tmp/提高.wiki	:Verb
+
+/tmp/握手.wiki	:Verb
+
+/tmp/操场.wiki	:Noun
+
+/tmp/收拾.wiki	:Verb
+
+/tmp/改变.wiki	:Noun:Verb
+
+/tmp/放假.wiki	:Verb
+
+/tmp/政府.wiki	:Noun
+
+/tmp/政治.wiki	:Noun
+
+/tmp/故事.wiki	:Noun
+
+/tmp/教室.wiki	:Noun
+
+/tmp/教育.wiki	:Noun
+
+/tmp/散步.wiki	:Verb
+
+/tmp/数学.wiki	:Noun
+
+/tmp/整齐.wiki	:Adjective
+
+/tmp/文化.wiki	:Noun
+
+/tmp/文学.wiki	:Noun
+
+/tmp/文章.wiki	:Noun
+
+/tmp/文艺.wiki	:Noun
+
+/tmp/新年.wiki	:Noun
+
+/tmp/新闻.wiki	:Noun
+
+/tmp/方便.wiki	:Adjective:Verb
+
+/tmp/方向.wiki	:Noun
+
+/tmp/方法.wiki	:Noun
+
+/tmp/方面.wiki	:Noun
+
+/tmp/旁边.wiki	:Noun
+
+/tmp/旅行.wiki	:Verb
+
+/tmp/日子.wiki	:Noun
+
+/tmp/日语.wiki	
+
+/tmp/早晨.wiki	:Noun
+
+/tmp/早饭.wiki	:Noun
+
+/tmp/时候.wiki	:Noun
+
+/tmp/时间.wiki	:Noun
+
+/tmp/明天.wiki	:Noun
+
+/tmp/明年.wiki	:Noun
+
+/tmp/星期.wiki	:Noun
+
+/tmp/春天.wiki	:Noun
+
+/tmp/昨天.wiki	:Noun
+
+/tmp/晚上.wiki	:Noun
+
+/tmp/晚会.wiki	:Noun
+
+/tmp/晚饭.wiki	:Noun
+
+/tmp/暖和.wiki	:Adjective
+
+/tmp/最初.wiki	:Adjective
+
+/tmp/最后.wiki	:Adjective
+
+/tmp/最近.wiki	:Adverb
+
+/tmp/月亮.wiki	:Noun
+
+/tmp/月球.wiki	:Noun
+
+/tmp/有些.wiki	:Adjective:Adverb
+
+/tmp/有名.wiki	:Adjective:Verb
+
+/tmp/有的.wiki	:Pronoun
+
+/tmp/朋友.wiki	:Noun
+
+/tmp/服务.wiki	:Noun:Verb
+
+/tmp/本子.wiki	:Noun
+
+/tmp/机会.wiki	:Noun
+
+/tmp/机器.wiki	:Noun
+
+/tmp/机场.wiki	:Noun
+
+/tmp/条件.wiki	:Noun
+
+/tmp/杯子.wiki	:Noun
+
+/tmp/样子.wiki	:Noun
+
+/tmp/桌子.wiki	:Noun
+
+/tmp/检查.wiki	:Verb
+
+/tmp/椅子.wiki	:Noun
+
+/tmp/橘子.wiki	:Noun
+
+/tmp/欢迎.wiki	:Interjection:Verb
+
+/tmp/正在.wiki	:Adverb
+
+/tmp/正确.wiki	:Adjective
+
+/tmp/母亲.wiki	:Noun
+
+/tmp/比赛.wiki	:Noun:Verb
+
+/tmp/比较.wiki	:Adverb:Verb
+
+/tmp/民族.wiki	:Noun
+
+/tmp/水平.wiki	:Adjective:Noun
+
+/tmp/水果.wiki	:Noun
+
+/tmp/永远.wiki	:Adverb
+
+/tmp/汉字.wiki	:Noun
+
+/tmp/汉语.wiki	
+
+/tmp/汽水.wiki	:Noun
+
+/tmp/汽车.wiki	:Noun
+
+/tmp/没有.wiki	:Adverb:Verb
+
+/tmp/法语.wiki	
+
+/tmp/注意.wiki	:Verb:Noun
+
+/tmp/洗澡.wiki	:Verb
+
+/tmp/活儿.wiki	:Noun
+
+/tmp/活动.wiki	:Adjective:Noun:Verb
+
+/tmp/消息.wiki	:Noun
+
+/tmp/清楚.wiki	:Adjective
+
+/tmp/游泳.wiki	:Verb
+
+/tmp/满意.wiki	:Adjective
+
+/tmp/漂亮.wiki	:Adjective
+
+/tmp/演出.wiki	:Noun:Verb
+
+/tmp/火车.wiki	:Noun
+
+/tmp/点心.wiki	:Noun:Verb
+
+/tmp/点钟.wiki	:Noun
+
+/tmp/热情.wiki	:Adjective:Noun
+
+/tmp/然后.wiki	:Adverb
+
+/tmp/照相.wiki	:Verb
+
+/tmp/照顾.wiki	:Verb
+
+/tmp/爱人.wiki	:Noun
+
+/tmp/父亲.wiki	:Noun
+
+/tmp/爸爸.wiki	:Noun
+
+/tmp/牛奶.wiki	:Noun
+
+/tmp/物理.wiki	:Noun
+
+/tmp/特别.wiki	:Adjective:Adverb
+
+/tmp/玩儿.wiki	:Verb
+
+/tmp/现代.wiki	:Adjective
+
+/tmp/现在.wiki	:Adverb
+
+/tmp/生产.wiki	:Noun:Verb
+
+/tmp/生日.wiki	:Noun
+
+/tmp/生活.wiki	:Noun:Verb
+
+/tmp/生词.wiki	:Noun
+
+/tmp/电影.wiki	:Noun
+
+/tmp/电灯.wiki	:Noun
+
+/tmp/电视.wiki	:Noun
+
+/tmp/电话.wiki	:Noun
+
+/tmp/电车.wiki	:Noun
+
+/tmp/画儿.wiki	:Noun
+
+/tmp/留念.wiki	:Verb
+
+/tmp/痛快.wiki	:Adjective:Adverb
+
+/tmp/目前.wiki	:Adverb
+
+/tmp/相信.wiki	:Verb
+
+/tmp/看病.wiki	:Verb
+
+/tmp/看见.wiki	:Verb
+
+/tmp/真正.wiki	:Noun
+
+/tmp/眼睛.wiki	:Noun
+
+/tmp/着急.wiki	:Adjective:Verb
+
+/tmp/睡觉.wiki	:Verb
+
+/tmp/知识.wiki	:Noun
+
+/tmp/知道.wiki	:Verb
+
+/tmp/研究.wiki	:Verb
+
+/tmp/确实.wiki	:Adjective:Adverb
+
+/tmp/磁带.wiki	:Noun
+
+/tmp/礼物.wiki	:Noun
+
+/tmp/社会.wiki	:Noun
+
+/tmp/祖国.wiki	:Noun
+
+/tmp/离开.wiki	:Verb
+
+/tmp/秋天.wiki	:Noun
+
+/tmp/科学.wiki	:Adjective:Noun
+
+/tmp/空气.wiki	:Noun
+
+/tmp/突然.wiki	:Adverb
+
+/tmp/窗户.wiki	:Noun
+
+/tmp/立刻.wiki	:Adverb
+
+/tmp/简单.wiki	:Adjective
+
+/tmp/篮球.wiki	:Noun
+
+/tmp/米饭.wiki	:Noun
+
+/tmp/精彩.wiki	:Adjective
+
+/tmp/精神.wiki	:Adjective:Noun
+
+/tmp/紧张.wiki	:Adjective
+
+/tmp/练习.wiki	:Verb
+
+/tmp/组织.wiki	:Noun:Verb
+
+/tmp/经常.wiki	:Adverb
+
+/tmp/经济.wiki	:Noun
+
+/tmp/经过.wiki	:Verb
+
+/tmp/经验.wiki	:Noun
+
+/tmp/结束.wiki	:Verb
+
+/tmp/结果.wiki	:Conjunction:Noun:Verb
+
+/tmp/继续.wiki	:Verb
+
+/tmp/翻译.wiki	:Noun:Verb
+
+/tmp/老师.wiki	:Noun
+
+/tmp/考试.wiki	:Noun:Verb
+
+/tmp/而且.wiki	:Conjunction
+
+/tmp/联系.wiki	:Noun:Verb
+
+/tmp/胜利.wiki	:Noun:Verb
+
+/tmp/能够.wiki	:Verb
+
+/tmp/自己.wiki	:Noun
+
+/tmp/舒服.wiki	:Adjective
+
+/tmp/艺术.wiki	:Noun
+
+/tmp/节日.wiki	:Noun
+
+/tmp/节目.wiki	:Noun
+
+/tmp/英语.wiki	
+
+/tmp/苹果.wiki	:Noun
+
+/tmp/虽然.wiki	:Conjunction
+
+/tmp/衣服.wiki	:Noun
+
+/tmp/表扬.wiki	:Verb
+
+/tmp/表演.wiki	:Noun:Verb
+
+/tmp/表现.wiki	:Verb
+
+/tmp/表示.wiki	:Noun:Verb
+
+/tmp/袜子.wiki	:Noun
+
+/tmp/西边.wiki	:Noun
+
+/tmp/要是.wiki	:Conjunction
+
+/tmp/要求.wiki	:Noun:Verb
+
+/tmp/见面.wiki	:Verb
+
+/tmp/觉得.wiki	:Verb
+
+/tmp/解决.wiki	:Verb
+
+/tmp/计划.wiki	:Noun
+
+/tmp/认为.wiki	:Verb
+
+/tmp/认真.wiki	:Adjective
+
+/tmp/认识.wiki	:Noun:Verb
+
+/tmp/讨论.wiki	:Verb
+
+/tmp/许多.wiki	:Adjective
+
+/tmp/访问.wiki	:Verb
+
+/tmp/词典.wiki	:Noun
+
+/tmp/语法.wiki	:Noun
+
+/tmp/语言.wiki	:Noun
+
+/tmp/说明.wiki	:Noun:Verb
+
+/tmp/请假.wiki	:Verb
+
+/tmp/请问.wiki	:Interjection
+
+/tmp/课文.wiki	:Noun
+
+/tmp/课本.wiki	:Noun
+
+/tmp/谢谢.wiki	:Interjection:Verb
+
+/tmp/负责.wiki	:Verb
+
+/tmp/贵姓.wiki	:Noun:Interjection
+
+/tmp/起床.wiki	:Verb
+
+/tmp/起来.wiki	:Verb
+
+/tmp/足球.wiki	:Noun
+
+/tmp/跑步.wiki	:Verb
+
+/tmp/跳舞.wiki	:Verb
+
+/tmp/身体.wiki	:Noun
+
+/tmp/车站.wiki	:Noun
+
+/tmp/辅导.wiki	:Verb
+
+/tmp/辛苦.wiki	:Adjective:Interjection
+
+/tmp/过去.wiki	:Noun:Verb
+
+/tmp/过来.wiki	:Verb
+
+/tmp/运动.wiki	:Noun
+
+/tmp/还是.wiki	:Adverb:Conjunction
+
+/tmp/这个.wiki	:Pronoun
+
+/tmp/这么.wiki	:Pronoun
+
+/tmp/这些.wiki	:Pronoun
+
+/tmp/这样.wiki	:Pronoun
+
+/tmp/这里.wiki	:Adverb
+
+/tmp/进去.wiki	:Verb
+
+/tmp/进来.wiki	:Verb
+
+/tmp/进行.wiki	:Verb
+
+/tmp/迟到.wiki	:Verb
+
+/tmp/通知.wiki	:Noun:Verb
+
+/tmp/通过.wiki	:Preposition:Verb
+
+/tmp/遇到.wiki	:Verb
+
+/tmp/道理.wiki	:Noun
+
+/tmp/那个.wiki	:Pronoun:Interjection
+
+/tmp/那么.wiki	:Adverb:Conjunction
+
+/tmp/那些.wiki	:Pronoun
+
+/tmp/那样.wiki	:Adverb
+
+/tmp/那里.wiki	:Pronoun:Pronoun
+
+/tmp/邮局.wiki	:Noun
+
+/tmp/邮票.wiki	:Noun
+
+/tmp/部分.wiki	:Noun
+
+/tmp/里边.wiki	:Noun
+
+/tmp/重要.wiki	:Adjective
+
+/tmp/钟头.wiki	:Noun
+
+/tmp/钢笔.wiki	:Noun
+
+/tmp/铅笔.wiki	:Noun
+
+/tmp/银行.wiki	:Noun
+
+/tmp/错误.wiki	:Noun
+
+/tmp/锻炼.wiki	:Verb
+
+/tmp/门口.wiki	:Noun
+
+/tmp/问好.wiki	:Verb
+
+/tmp/问题.wiki	:Noun
+
+/tmp/附近.wiki	:Noun
+
+/tmp/集合.wiki	:Verb
+
+/tmp/需要.wiki	:Noun:Verb
+
+/tmp/青年.wiki	:Noun
+
+/tmp/非常.wiki	:Adjective:Adverb
+
+/tmp/面包.wiki	:Noun
+
+/tmp/音乐.wiki	:Noun
+
+/tmp/预习.wiki	:Noun
+
+/tmp/领导.wiki	:Noun:Verb
+
+/tmp/颜色.wiki	:Noun
+
+/tmp/飞机.wiki	:Noun
+
+/tmp/食堂.wiki	:Noun
+
+/tmp/饭店.wiki	:Noun
+
+/tmp/饺子.wiki	:Noun
+
+/tmp/首都.wiki	:Noun
+
+/tmp/香蕉.wiki	:Noun
+
+/tmp/马上.wiki	:Adverb
+
+/tmp/高兴.wiki	:Adjective
+
+/tmp/鸡蛋.wiki	:Noun
+
+/tmp/麻烦.wiki	:Adjective:Verb:Noun
+
+/tmp/黑板.wiki	:Noun
+
+/tmp/一下儿.wiki	:Adverb:Postposition
+
+/tmp/一会儿.wiki	:Adverb
+
+/tmp/一块儿.wiki	:Adverb:Noun
+
+/tmp/一点儿.wiki	:Adjective
+
+/tmp/为什么.wiki	:Adverb
+
+/tmp/办公室.wiki	:Noun
+
+/tmp/图书馆.wiki	:Noun
+
+/tmp/对不起.wiki	:Interjection:Verb
+
+/tmp/小孩儿.wiki	:Noun
+
+/tmp/开玩笑.wiki	:Verb
+
+/tmp/怎么样.wiki	:Adjective:Interjection
+
+/tmp/文学家.wiki	:Noun
+
+/tmp/星期日.wiki	:Noun
+
+/tmp/有意思.wiki	:Adjective
+
+/tmp/有时候.wiki	:Adverb
+
+/tmp/服务员.wiki	:Noun
+
+/tmp/没关系.wiki	:Interjection
+
+/tmp/没意思.wiki	:Adjective:Verb
+
+/tmp/留学生.wiki	:Noun
+
+/tmp/自行车.wiki	:Noun
+
+/tmp/面条儿.wiki	:Noun
+
+/tmp/公共汽车.wiki	:Noun
+
+/tmp/出租汽车.wiki	:Noun
+
