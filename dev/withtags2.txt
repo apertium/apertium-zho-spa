@@ -1,0 +1,1990 @@
+/Users/jordiCentelles/Desktop/tmp2/一...就....wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/从...到....wiki	:Preposition
+
+/Users/jordiCentelles/Desktop/tmp2/连...都....wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/从...起.wiki	:Preposition
+
+/Users/jordiCentelles/Desktop/tmp2/一.wiki	:Numeral
+
+/Users/jordiCentelles/Desktop/tmp2/七.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/万.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/三.wiki	:Numeral
+
+/Users/jordiCentelles/Desktop/tmp2/上.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/下.wiki	:Verb:Adjective:Preposition
+
+/Users/jordiCentelles/Desktop/tmp2/不.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/东.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/丢.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/两.wiki	:Numeral
+
+/Users/jordiCentelles/Desktop/tmp2/个.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/中.wiki	:Preposition:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/为.wiki	:Preposition:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/举.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/久.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/九.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/也.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/书.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/买.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/乱.wiki	:Adjective:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/了.wiki	:Particle:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/事.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/二.wiki	:Numeral
+
+/Users/jordiCentelles/Desktop/tmp2/云.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/五.wiki	:Numeral
+
+/Users/jordiCentelles/Desktop/tmp2/些.wiki	:Adjective:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/交.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/亮.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/人.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/亿.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/从.wiki	:Preposition
+
+/Users/jordiCentelles/Desktop/tmp2/他.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/们.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/件.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/会.wiki	:Verb:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/位.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/低.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/住.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/作.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/你.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/信.wiki	:Verb:Adverb:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/俩.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/倍.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/倒.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/借.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/做.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/停.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/像.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/元.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/先.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/克.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/全.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/八.wiki	:Numeral
+
+/Users/jordiCentelles/Desktop/tmp2/六.wiki	:Numeral
+
+/Users/jordiCentelles/Desktop/tmp2/关.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/内.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/再.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/写.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/冬.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/冷.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/几.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/出.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/刀.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/分.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/刚.wiki	:Adjective:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/别.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/刮.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/到.wiki	:Particle:Preposition:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/刻.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/前.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/剩.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/办.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/加.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/动.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/北.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/十.wiki	:Numeral
+
+/Users/jordiCentelles/Desktop/tmp2/千.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/半.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/卖.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/南.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/占.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/去.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/又.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/双.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/发.wiki	:Verb:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/变.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/口.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/句.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/只.wiki	:Noun:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/叫.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/右.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/号.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/吃.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/各.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/后.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/向.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/吗.wiki	:Particle
+
+/Users/jordiCentelles/Desktop/tmp2/吧.wiki	:Particle
+
+/Users/jordiCentelles/Desktop/tmp2/听.wiki	:Verb:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/吹.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/呀.wiki	:Particle
+
+/Users/jordiCentelles/Desktop/tmp2/呐.wiki	:Interjection:Verb:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/呢.wiki	:Particle
+
+/Users/jordiCentelles/Desktop/tmp2/周.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/和.wiki	:Adjective:Adjective:Conjunction:Noun:Verb:Verb:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/咱.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/响.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/哪.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/哭.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/唱.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/啊.wiki	:Interjection:Particle
+
+/Users/jordiCentelles/Desktop/tmp2/啦.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/喂.wiki	:Interjection:Interjection
+
+/Users/jordiCentelles/Desktop/tmp2/喊.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/喝.wiki	:Verb:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/嗯.wiki	:Interjection
+
+/Users/jordiCentelles/Desktop/tmp2/嘛.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/嘴.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/四.wiki	:Numeral:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/回.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/国.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/圆.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/在.wiki	:Adverb:Preposition:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/地.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/场.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/坏.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/坐.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/块.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/城.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/墙.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/声.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/夏.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/外.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/多.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/夜.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/够.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/大.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/天.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/太.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/头.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/女.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/她.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/好.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/姓.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/字.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/学.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/它.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/完.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/家.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/寄.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/对.wiki	:Interjection
+
+/Users/jordiCentelles/Desktop/tmp2/封.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/小.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/少.wiki	:Adjective:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/就.wiki	:Adverb:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/层.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/山.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/岁.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/左.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/差.wiki	:Verb:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/市.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/布.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/带.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/常.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/干.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/年.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/床.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/座.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/开.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/张.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/当.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/往.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/很.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/得.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/心.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/忘.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/忙.wiki	:Adjective:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/快.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/念.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/怕.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/急.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/您.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/想.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/慢.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/懂.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/成.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/我.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/戴.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/手.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/才.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/打.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/找.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/把.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/报.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/抬.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/抱.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/抽.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/拉.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/拍.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/拿.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/挂.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/指.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/挤.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/挺.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/换.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/掉.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/接.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/推.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/提.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/搞.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/搬.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/摆.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/擦.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/支.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/收.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/改.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/放.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/教.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/敢.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/数.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/斤.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/新.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/日.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/旧.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/早.wiki	:Adverb:Interjection:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/春.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/是.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/晚.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/晴.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/更.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/最.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/月.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/有.wiki	:Adjective:Adverb:Conjunction:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/朝.wiki	:Noun:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/本.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/条.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/来.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/杯.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/查.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/树.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/根.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/桥.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/棵.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/楼.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/次.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/歌.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/正.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/死.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/段.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/每.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/比.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/毛.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/水.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/江.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/汤.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/没.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/河.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/洗.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/活.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/派.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/流.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/浅.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/海.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/深.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/渴.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/湖.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/满.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/灯.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/点.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/热.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/熟.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/爬.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/爱.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/片.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/牛.wiki	:Noun:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/猪.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/班.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/球.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/瓶.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/用.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/电.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/男.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/画.wiki	:Verb:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/留.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/疼.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/病.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/白.wiki	:Adjective:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/百.wiki	:Numeral
+
+/Users/jordiCentelles/Desktop/tmp2/的.wiki	:Adverb:Noun:Particle
+
+/Users/jordiCentelles/Desktop/tmp2/省.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/看.wiki	:Verb:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/真.wiki	:Adverb:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/着.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/睡.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/短.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/矮.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/破.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/碗.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/碰.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/祝.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/票.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/离.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/秋.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/种.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/穿.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/窗.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/站.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/笑.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/笔.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/第.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/等.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/算.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/篇.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/米.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/糖.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/系.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/紧.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/累.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/红.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/纸.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/细.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/给.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/绿.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/羊.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/翻.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/老.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/肉.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/能.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/脏.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/脚.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/脱.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/脸.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/腿.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/船.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/节.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/花.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/苦.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/茶.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/草.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/药.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/菜.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/蓝.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/行.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/街.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/表.wiki	:Noun:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/被.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/装.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/西.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/要.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/见.wiki	:Adverb:Preposition:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/角.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/让.wiki	:Preposition:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/记.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/讲.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/词.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/试.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/话.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/该.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/说.wiki	:Noun:Verb:Verb:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/请.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/读.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/课.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/谁.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/谈.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/贵.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/赢.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/走.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/起.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/跑.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/跟.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/路.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/跳.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/踢.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/躺.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/车.wiki	:Noun:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/轻.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/辆.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/输.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/边.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/过.wiki	:Particle:Pronoun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/近.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/还.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/这.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/进.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/远.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/退.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/送.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/通.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/遍.wiki	:Adverb:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/道.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/那.wiki	:Adverb:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/都.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/酒.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/酸.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/里.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/重.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/钟.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/钱.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/错.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/长.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/门.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/问.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/间.wiki	:Postposition
+
+/Users/jordiCentelles/Desktop/tmp2/阴.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/难.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/雨.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/雪.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/零.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/鞋.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/页.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/顿.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/风.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/飞.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/饭.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/饱.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/饿.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/馆.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/香.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/马.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/骑.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/高.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/鱼.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/鸡.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/黄.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/黑.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/一边...一边....wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/除了...以外.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/一些.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/一共.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/一切.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/一定.wiki	:Adjective:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/一样.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/一直.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/一般.wiki	:Adjective:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/一起.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/上午.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/上去.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/上学.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/上来.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/上课.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/上边.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/下午.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/下去.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/下来.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/下课.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/下边.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/不久.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/不但.wiki	:Conjunction
+
+/Users/jordiCentelles/Desktop/tmp2/不同.wiki	:Adjective:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/不如.wiki	:Conjunction:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/不用.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/不要.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/不错.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/世界.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/东西.wiki	:Noun:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/东边.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/中午.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/中学.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/中文.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/中间.wiki	:Adjective:Noun:Postposition
+
+/Users/jordiCentelles/Desktop/tmp2/丰富.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/为了.wiki	:Preposition
+
+/Users/jordiCentelles/Desktop/tmp2/主意.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/主要.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/也许.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/习惯.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/了解.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/事情.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/互相.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/人们.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/人民.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/什么.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/今天.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/今年.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/介绍.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/从前.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/他们.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/代表.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/以为.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/以前.wiki	:Adverb:Postposition
+
+/Users/jordiCentelles/Desktop/tmp2/以后.wiki	:Adverb:Postposition
+
+/Users/jordiCentelles/Desktop/tmp2/任何.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/休息.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/会话.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/伟大.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/但是.wiki	:Adverb:Conjunction
+
+/Users/jordiCentelles/Desktop/tmp2/体育.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/作业.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/你们.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/使用.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/例如.wiki	:Conjunction
+
+/Users/jordiCentelles/Desktop/tmp2/便宜.wiki	:Adjective:Adjective:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/信封.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/健康.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/儿子.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/先生.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/全体.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/全部.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/公园.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/公斤.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/公里.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/关心.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/关系.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/内容.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/再见.wiki	:Interjection
+
+/Users/jordiCentelles/Desktop/tmp2/农业.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/农村.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/农民.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/冬天.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/决定.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/准备.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/凉快.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/出去.wiki	:Verb:Particle
+
+/Users/jordiCentelles/Desktop/tmp2/出发.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/出来.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/出现.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/分之.wiki	:Conjunction
+
+/Users/jordiCentelles/Desktop/tmp2/分钟.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/刚才.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/利用.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/别人.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/别的.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/前边.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/办法.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/动物.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/努力.wiki	:Adjective:Adverb:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/劳动.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/劳驾.wiki	:Interjection
+
+/Users/jordiCentelles/Desktop/tmp2/化学.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/北边.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/医生.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/医院.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/十分.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/午饭.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/半天.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/南边.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/卡车.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/危险.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/历史.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/原来.wiki	:Adjective:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/原谅.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/去年.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/参加.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/参观.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/友好.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/友谊.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/反对.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/发展.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/发烧.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/发现.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/发生.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/取得.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/变化.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/变成.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/口语.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/句子.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/只好.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/可以.wiki	:Adjective:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/可是.wiki	:Conjunction
+
+/Users/jordiCentelles/Desktop/tmp2/可能.wiki	:Adjective:Adverb:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/各种.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/合适.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/同学.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/同志.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/同意.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/同时.wiki	:Adjective:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/名字.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/后边.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/听写.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/听见.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/听说.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/告诉.wiki	:Verb:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/周围.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/咖啡.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/咱们.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/咳嗽.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/哈哈.wiki	:Adjective:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/哥哥.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/哪里.wiki	:Interjection:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/商店.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/啤酒.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/喜欢.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/回去.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/回来.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/回答.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/因为.wiki	:Conjunction
+
+/Users/jordiCentelles/Desktop/tmp2/团结.wiki	:Verb:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/困难.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/国家.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/地方.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/坚持.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/城市.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/基本.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/基础.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/增加.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/声调.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/声音.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/复习.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/复杂.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/夏天.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/外国.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/外语.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/外边.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/多么.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/多少.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/大声.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/大夫.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/大学.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/大家.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/大概.wiki	:Adverb:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/天气.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/太阳.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/夫人.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/女儿.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/她们.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/好像.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/好吃.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/好处.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/好看.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/妈妈.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/妹妹.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/姐姐.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/姑娘.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/学习.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/学校.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/学生.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/学院.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/孩子.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/它们.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/安排.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/安静.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/完全.wiki	:Adjective:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/完成.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/实现.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/实践.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/客气.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/宴会.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/家庭.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/容易.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/宿舍.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/寒假.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/将来.wiki	:Adverb:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/小姐.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/小时.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/尤其.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/屋子.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/展览.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/工业.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/工人.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/工作.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/工厂.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/已经.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/师傅.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/希望.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/帮助.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/常常.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/帽子.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/干净.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/干部.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/年级.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/年纪.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/年轻.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/幸福.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/广播.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/应该.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/建设.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/开始.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/开学.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/弟弟.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/当然.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/录音.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/影响.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/得到.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/得很.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/必须.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/忽然.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/态度.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/怎么.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/怎样.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/思想.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/总是.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/情况.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/愉快.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/意义.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/意思.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/意见.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/感冒.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/感到.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/感谢.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/愿意.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/成绩.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/我们.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/或者.wiki	:Conjunction
+
+/Users/jordiCentelles/Desktop/tmp2/房间.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/所以.wiki	:Adverb:Conjunction
+
+/Users/jordiCentelles/Desktop/tmp2/所有.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/手表.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/打算.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/批评.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/技术.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/掌握.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/排球.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/接着.wiki	:Conjunction:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/提高.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/握手.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/操场.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/收拾.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/改变.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/放假.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/政府.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/政治.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/故事.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/教室.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/教育.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/散步.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/数学.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/整齐.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/文化.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/文学.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/文章.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/文艺.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/新年.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/新闻.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/方便.wiki	:Adjective:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/方向.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/方法.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/方面.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/旁边.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/旅行.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/日子.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/日语.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/早晨.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/早饭.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/时候.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/时间.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/明天.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/明年.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/星期.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/春天.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/昨天.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/晚上.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/晚会.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/晚饭.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/暖和.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/最初.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/最后.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/最近.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/月亮.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/月球.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/有些.wiki	:Adjective:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/有名.wiki	:Adjective:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/有的.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/朋友.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/服务.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/本子.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/机会.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/机器.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/机场.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/条件.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/杯子.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/样子.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/桌子.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/检查.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/椅子.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/橘子.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/欢迎.wiki	:Interjection:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/正在.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/正确.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/母亲.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/比赛.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/比较.wiki	:Adverb:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/民族.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/水平.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/水果.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/永远.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/汉字.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/汉语.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/汽水.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/汽车.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/没有.wiki	:Adverb:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/法语.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/注意.wiki	:Verb:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/洗澡.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/活儿.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/活动.wiki	:Adjective:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/消息.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/清楚.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/游泳.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/满意.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/漂亮.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/演出.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/火车.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/点心.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/点钟.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/热情.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/然后.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/照相.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/照顾.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/爱人.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/父亲.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/爸爸.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/牛奶.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/物理.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/特别.wiki	:Adjective:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/玩儿.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/现代.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/现在.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/生产.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/生日.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/生活.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/生词.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/电影.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/电灯.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/电视.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/电话.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/电车.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/画儿.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/留念.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/痛快.wiki	:Adjective:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/目前.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/相信.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/看病.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/看见.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/真正.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/眼睛.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/着急.wiki	:Adjective:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/睡觉.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/知识.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/知道.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/研究.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/确实.wiki	:Adjective:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/磁带.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/礼物.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/社会.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/祖国.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/离开.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/秋天.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/科学.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/空气.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/突然.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/窗户.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/立刻.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/简单.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/篮球.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/米饭.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/精彩.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/精神.wiki	:Adjective:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/紧张.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/练习.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/组织.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/经常.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/经济.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/经过.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/经验.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/结束.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/结果.wiki	:Conjunction:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/继续.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/翻译.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/老师.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/考试.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/而且.wiki	:Conjunction
+
+/Users/jordiCentelles/Desktop/tmp2/联系.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/胜利.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/能够.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/自己.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/舒服.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/艺术.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/节日.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/节目.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/英语.wiki	
+
+/Users/jordiCentelles/Desktop/tmp2/苹果.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/虽然.wiki	:Conjunction
+
+/Users/jordiCentelles/Desktop/tmp2/衣服.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/表扬.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/表演.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/表现.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/表示.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/袜子.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/西边.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/要是.wiki	:Conjunction
+
+/Users/jordiCentelles/Desktop/tmp2/要求.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/见面.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/觉得.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/解决.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/计划.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/认为.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/认真.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/认识.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/讨论.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/许多.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/访问.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/词典.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/语法.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/语言.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/说明.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/请假.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/请问.wiki	:Interjection
+
+/Users/jordiCentelles/Desktop/tmp2/课文.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/课本.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/谢谢.wiki	:Interjection:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/负责.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/贵姓.wiki	:Noun:Interjection
+
+/Users/jordiCentelles/Desktop/tmp2/起床.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/起来.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/足球.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/跑步.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/跳舞.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/身体.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/车站.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/辅导.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/辛苦.wiki	:Adjective:Interjection
+
+/Users/jordiCentelles/Desktop/tmp2/过去.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/过来.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/运动.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/还是.wiki	:Adverb:Conjunction
+
+/Users/jordiCentelles/Desktop/tmp2/这个.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/这么.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/这些.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/这样.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/这里.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/进去.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/进来.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/进行.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/迟到.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/通知.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/通过.wiki	:Preposition:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/遇到.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/道理.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/那个.wiki	:Pronoun:Interjection
+
+/Users/jordiCentelles/Desktop/tmp2/那么.wiki	:Adverb:Conjunction
+
+/Users/jordiCentelles/Desktop/tmp2/那些.wiki	:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/那样.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/那里.wiki	:Pronoun:Pronoun
+
+/Users/jordiCentelles/Desktop/tmp2/邮局.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/邮票.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/部分.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/里边.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/重要.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/钟头.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/钢笔.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/铅笔.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/银行.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/错误.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/锻炼.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/门口.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/问好.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/问题.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/附近.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/集合.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/需要.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/青年.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/非常.wiki	:Adjective:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/面包.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/音乐.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/预习.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/领导.wiki	:Noun:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/颜色.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/飞机.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/食堂.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/饭店.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/饺子.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/首都.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/香蕉.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/马上.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/高兴.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/鸡蛋.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/麻烦.wiki	:Adjective:Verb:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/黑板.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/一下儿.wiki	:Adverb:Postposition
+
+/Users/jordiCentelles/Desktop/tmp2/一会儿.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/一块儿.wiki	:Adverb:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/一点儿.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/为什么.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/办公室.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/图书馆.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/对不起.wiki	:Interjection:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/小孩儿.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/开玩笑.wiki	:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/怎么样.wiki	:Adjective:Interjection
+
+/Users/jordiCentelles/Desktop/tmp2/文学家.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/星期日.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/有意思.wiki	:Adjective
+
+/Users/jordiCentelles/Desktop/tmp2/有时候.wiki	:Adverb
+
+/Users/jordiCentelles/Desktop/tmp2/服务员.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/没关系.wiki	:Interjection
+
+/Users/jordiCentelles/Desktop/tmp2/没意思.wiki	:Adjective:Verb
+
+/Users/jordiCentelles/Desktop/tmp2/留学生.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/自行车.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/面条儿.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/公共汽车.wiki	:Noun
+
+/Users/jordiCentelles/Desktop/tmp2/出租汽车.wiki	:Noun
+

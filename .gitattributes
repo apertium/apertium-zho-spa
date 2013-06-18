@@ -25,6 +25,8 @@ dev/dicc.zh-es.txt -text
 dev/dicc14.zh.txt -text
 dev/dicc15.zh.txt -text
 dev/withtags.txt -text
+dev/withtags2.txt -text
+dev/withtags3.txt -text
 dev/zho-wiki.py -text
 /modes.xml -text
 /spa-zho.prob -text svneol=unset#unset
