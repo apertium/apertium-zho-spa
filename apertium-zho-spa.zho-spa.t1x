@@ -549,13 +549,17 @@
     </rule>
 
 
-    <rule comment="REGLA: prep adj nom">  <!--el coche pequeo-->
+    <rule comment="REGLA: prep adj nom">  
       <pattern>
         <pattern-item n="prep"/>
         <pattern-item n="adj"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
+		<call-macro n="f_concord2">
+          <with-param pos="3"/>
+          <with-param pos="2"/>
+        </call-macro>
         <out>
           <chunk name="p_j_n" case="caseFirstWord">
             <tags>
@@ -572,45 +576,15 @@
             <lu>
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="a_adj"/>
-              <clip pos="3" side="tl" part="gen"/>    <!--agafa genere i nombre del nom-->
-              <clip pos="3" side="tl" part="nbr"/>   
+              <clip pos="2" side="tl" part="gen"/>    
+              <clip pos="2" side="tl" part="nbr"/>   
             </lu>
           </chunk>
         </out>
       </action>
     </rule>
     
-     <rule comment="REGLA: prep adj nom">  <!--el coche grande-->
-      <pattern>
-        <pattern-item n="prep"/>
-        <pattern-item n="adj"/>
-        <pattern-item n="nom"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="p_j_n" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SP"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-            <b pos="1"/>
-            <lu>
-              <clip pos="3" side="tl" part="whole"/>
-            </lu>
-            <b pos="2"/>
-            <lu>
-              <clip pos="2" side="tl" part="lem"/>
-              <clip pos="2" side="tl" part="a_adj"/>
-              <clip pos="2" side="tl" part="gen"/>
-              <clip pos="3" side="tl" part="nbr"/>    <!--agafa nomes nombre, el gnere es mf-->
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-       
+            
     <rule comment="REGLA: adj adj nom">  <!--arbol grande y viejo -->
       <pattern>
         <pattern-item n="adj"/>
@@ -621,6 +595,10 @@
         <call-macro n="f_concord2">
           <with-param pos="3"/>
           <with-param pos="1"/>
+        </call-macro>
+      <call-macro n="f_concord2">
+          <with-param pos="3"/>
+          <with-param pos="2"/>
         </call-macro>
         <out>
           <chunk name="j_j_n" case="caseFirstWord">
@@ -638,7 +616,7 @@
               <clip pos="1" side="tl" part="lem"/>     <!--adj-->
               <clip pos="1" side="tl" part="a_adj"/>
               <clip pos="1" side="tl" part="gen"/>
-              <clip pos="3" side="tl" part="nbr"/>    
+              <clip pos="1" side="tl" part="nbr"/>    
             </lu>
             <b pos="2"/>
            <lu>
@@ -649,8 +627,8 @@
             <lu>
               <clip pos="2" side="tl" part="lem"/>   <!--adj-->
               <clip pos="2" side="tl" part="a_adj"/>
-              <clip pos="3" side="tl" part="gen"/>
-              <clip pos="3" side="tl" part="nbr"/>    
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>    
             </lu>
 
           </chunk>
@@ -658,7 +636,7 @@
       </action>
     </rule>
  
-    <rule comment="REGLA: adj nom">  <!--coche grande-->
+    <rule comment="REGLA: adj nom">  
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="nom"/>
