@@ -62,9 +62,6 @@
     <def-cat n="adj">
       <cat-item tags="adj"/>
     </def-cat>
-     <def-cat n="adj_mf">
-      <cat-item tags="adj.mf"/>
-    </def-cat>
     
     <def-cat n="prn">
       <cat-item tags="prn"/>
@@ -550,29 +547,6 @@
         </out>
       </action>
     </rule>
-    
-    <rule comment="REGLA: adj_mf">
-      <pattern>
-        <pattern-item n="adj_mf"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="adj_mf" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SAmf"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_adj"/>
-              <clip pos="1" side="tl" part="gen"/> <!--genere deixem el que te-->
-              <lit-tag v="2"/>        
-
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
 
 
     <rule comment="REGLA: prep adj nom">  <!--el coche pequeo-->
@@ -606,10 +580,10 @@
       </action>
     </rule>
     
-     <rule comment="REGLA: prep adj_mf nom">  <!--el coche grande-->
+     <rule comment="REGLA: prep adj nom">  <!--el coche grande-->
       <pattern>
         <pattern-item n="prep"/>
-        <pattern-item n="adj_mf"/>
+        <pattern-item n="adj"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -636,43 +610,18 @@
         </out>
       </action>
     </rule>
-    
-     <rule comment="REGLA: adj nom">  <!--coche pequeño-->
+       
+    <rule comment="REGLA: adj adj nom">  <!--arbol grande y viejo -->
       <pattern>
+        <pattern-item n="adj"/>
         <pattern-item n="adj"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
-        <out>
-          <chunk name="j_n" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><clip pos="2" side="tl" part="gen"/></tag>
-              <tag><clip pos="2" side="tl" part="nbr"/></tag>
-              <tag><lit-tag v="p3"/></tag>
-            </tags>
-            <lu>
-              <clip pos="2" side="tl" part="whole"/>
-            </lu>
-            <b pos="1"/>
-            <lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_adj"/>
-              <clip pos="2" side="tl" part="gen"/>
-              <clip pos="2" side="tl" part="nbr"/>    <!--agafa nomes nombre, el gnere es mf-->
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-    
-    <rule comment="REGLA: adj_mf adj nom">  <!--arbol grande y viejo -->
-      <pattern>
-        <pattern-item n="adj_mf"/>
-        <pattern-item n="adj"/>
-        <pattern-item n="nom"/>
-      </pattern>
-      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="3"/>
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <chunk name="j_j_n" case="caseFirstWord">
             <tags>
@@ -686,7 +635,7 @@
             </lu>
             <b pos="1"/>
             <lu>
-              <clip pos="1" side="tl" part="lem"/>     <!--adj_mf-->
+              <clip pos="1" side="tl" part="lem"/>     <!--adj-->
               <clip pos="1" side="tl" part="a_adj"/>
               <clip pos="1" side="tl" part="gen"/>
               <clip pos="3" side="tl" part="nbr"/>    
@@ -708,14 +657,17 @@
         </out>
       </action>
     </rule>
-
-
-    <rule comment="REGLA: adj_mf nom">  <!--coche grande-->
+ 
+    <rule comment="REGLA: adj nom">  <!--coche grande-->
       <pattern>
-        <pattern-item n="adj_mf"/>
+        <pattern-item n="adj"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <chunk name="j_n" case="caseFirstWord">
             <tags>
@@ -733,7 +685,7 @@
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_adj"/>
               <clip pos="1" side="tl" part="gen"/>
-              <clip pos="2" side="tl" part="nbr"/>    <!--agafa nomes nombre, el gnere es mf-->
+              <clip pos="1" side="tl" part="nbr"/>    <!--agafa nomes nombre, el gnere es mf-->
             </lu>
           </chunk>
         </out>
