@@ -37,6 +37,42 @@
       </program>
     </pipeline>
   </mode>
+  
+  <mode name="wiktionary" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="zho-spa.wiktionary.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="zho-spa.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="zho-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="zho-spa.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b -b">
+        <file name="apertium-zho-spa.zho-spa.t1x"/>
+        <file name="zho-spa.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-zho-spa.zho-spa.t2x"/>
+        <file name="zho-spa.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-zho-spa.zho-spa.t3x"/>
+        <file name="zho-spa.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="zho-spa.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="zho-spa.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 
 
   <mode name="zho-spa-anmor">
