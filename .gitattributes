@@ -21,6 +21,7 @@
 /apertium-zho-spa.zho.dix -text
 /autogen.sh -text
 /configure.ac -text
+dev/bilingue4.dix -text
 dev/dicc.zh-es.txt -text
 dev/dicc14.zh.txt -text
 dev/dicc15.zh.dix.txt -text
@@ -32,6 +33,7 @@ dev/withtags3.txt -text
 dev/withtags4.txt -text
 dev/zho-wiki.py -text
 dev/zho.dix -text
+/extretanalisi.automorf.bin -text
 /modes.xml -text
 /spa-zho.prob -text svneol=unset#unset
 texts/cuento.spa.txt -text
@@ -41,3 +43,4 @@ texts/cuento.zho.txt -text svneol=unset#application/octet-stream
 texts/cuento.zho.zhseg.txt -text
 texts/cuento2.zho.zhseg.txt -text
 /zho-spa.prob -text svneol=unset#unset
+/zho-spabil.autobil.bin -text

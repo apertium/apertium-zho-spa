@@ -367,6 +367,12 @@
     <e><p><l>可以<s n="vbmod"/></l><r>poder<s n="vbmod"/></r></p></e>
     <e><p><l>难道<s n="vbmod"/></l><r>poder<s n="vbmod"/></r></p></e>
     <e><p><l>能<s n="vbmod"/></l><r>poder<s n="vbmod"/></r></p></e>
+    
+    <e><p><l>是<s n="vblex"/></l><r>ser<s n="vbser"/></r></p></e>    <!--Aixo es pel dicc15 que tots son vblex-->
+    <e><p><l>不能<s n="vblex"/></l><r>poder<s n="vbmod"/></r></p></e>
+    <e><p><l>可以<s n="vblex"/></l><r>poder<s n="vbmod"/></r></p></e>
+    <e><p><l>难道<s n="vblex"/></l><r>poder<s n="vbmod"/></r></p></e>
+    <e><p><l>能<s n="vblex"/></l><r>poder<s n="vbmod"/></r></p></e>
 
     <e><p><l>看<s n="vblex"/></l><r>ver<s n="vblex"/></r></p></e>
     <e><p><l>玩耍<s n="vblex"/></l><r>jugar<s n="vblex"/></r></p></e>
