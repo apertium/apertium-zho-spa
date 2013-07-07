@@ -5,6 +5,7 @@ conv = {'Noun':'n', 'Particle':'part', 'Adverb':'adv', 'Postposition':'post', 'A
 tagset = set();
 entries = [];
 for line in open(sys.argv[1]).readlines(): #{
+	print(line, file=sys.stderr);
 	row = line.split('\t');
 	tags = row[1].strip().split(':');
 	lemma = row[0].replace('.wiki', '');
