@@ -21,6 +21,7 @@
 /apertium-zho-spa.zho.dix -text
 /autogen.sh -text
 /configure.ac -text
+dev/adj.dix -text
 dev/adv.dix -text
 dev/bilingue4.dix -text
 dev/conj.dix -text
@@ -28,6 +29,8 @@ dev/dicc.zh-es.txt -text
 dev/dicc14.zh.txt -text
 dev/dicc15.zh.dix.txt -text
 dev/dicc15.zh.txt -text
+dev/num.dix -text
+dev/prn.dix -text
 dev/testvoc/inconsistency-summary.sh -text
 dev/testvoc/inconsistency.sh -text
 dev/testvoc/testvoc-summary.zho-spa.txt -text
