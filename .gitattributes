@@ -25,6 +25,7 @@ dev/Makefile -text
 dev/adj.dix -text
 dev/adv.dix -text
 dev/bilingue4.dix -text
+dev/cobertura.sh -text
 dev/conj.dix -text
 dev/dicc.zh-es.txt -text
 dev/dicc14.zh.txt -text
