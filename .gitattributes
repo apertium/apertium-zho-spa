@@ -21,6 +21,7 @@
 /apertium-zho-spa.zho.dix -text
 /autogen.sh -text
 /configure.ac -text
+dev/Makefile -text
 dev/adj.dix -text
 dev/adv.dix -text
 dev/bilingue4.dix -text
