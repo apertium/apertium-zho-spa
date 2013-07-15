@@ -23,6 +23,7 @@
 /configure.ac -text
 dev/Makefile -text
 dev/adj.dix -text
+dev/adj2.dix -text
 dev/adv.dix -text
 dev/bilingue4.dix -text
 dev/cobertura.sh -text
