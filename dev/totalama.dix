@@ -9393,6 +9393,161 @@
 <e><p><l>至<s n="pr"/></l><r>para<s n="pr"/></r></p></e>
 <e><p><l>至于<s n="cnjcoo"/></l><r>en<b/>cuanto<b/>a<s n="cnjcoo"/></r></p></e>
 
+<e><p><l>八<s n=“num”/></l><r>ocho<s n=“num”/></r></p></e> 
+<e><p><l>捌<s n=“num”/></l><r>ocho<s n=“num”/></r></p></e> 
+<e><p><l>八十<s n=“num”/></l><r>ochenta<s n=“num”/></r></p></e> 
+<e><p><l>百<s n=“num”/></l><r>cien<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>百万<s n=“num”/></l><r>millon<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>百亿<s n=“num”/></l><r>diez<b/>millones<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>半<s n=“num”/></l><r>y<b/>medio<s n=“num”/></r></p></e> 
+<e><p><l>二<s n=“num”/></l><r>dos<s n=“num”/></r></p></e> 
+<e><p><l>贰<s n=“num”/></l><r>dos<s n=“num”/></r></p></e> 
+<e><p><l>二十<s n=“num”/></l><r>veinte<s n=“num”/></r></p></e> 
+<e><p><l>九<s n=“num”/></l><r>nueve<s n=“num”/></r></p></e> 
+<e><p><l>玖<s n=“num”/></l><r>nueve<s n=“num”/></r></p></e> 
+<e><p><l>九十<s n=“num”/></l><r>noventa<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>俩<s n=“num”/></l><r>dos<s n=“num”/></r></p></e> 
+<e><p><l>两<s n=“num”/></l><r>dos<s n=“num”/></r></p></e> 
+<e><p><l>两百<s n=“num”/></l><r>doscientos<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>两百万<s n=“num”/></l><r>dos<b/>millones<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>零<s n=“num”/></l><r>cero<s n=“num”/></r></p></e> 
+<e><p><l>六<s n=“num”/></l><r>seis<s n=“num”/></r></p></e> 
+<e><p><l>陆<s n=“num”/></l><r>seis<s n=“num”/></r></p></e> 
+<e><p><l>六十<s n=“num”/></l><r>sesenta<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>七<s n=“num”/></l><r>siete<s n=“num”/></r></p></e> 
+<e><p><l>柒<s n=“num”/></l><r>siete<s n=“num”/></r></p></e> 
+<e><p><l>七百万<s n=“num”/></l><r>siete<b/>millones<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>七十<s n=“num”/></l><r>setenta<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>仟<s n=“num”/></l><r>mil<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>千<s n=“num”/></l><r>mil<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>千万<s n=“num”/></l><r>diez<b/>millones<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>千亿<s n=“num”/></l><r>cien<b/>mil<b/>millones<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>三<s n=“num”/></l><r>tres<s n=“num”/></r></p></e> 
+<e><p><l>三百<s n=“num”/></l><r>trescientos<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>三十<s n=“num”/></l><r>treinta<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>十<s n=“num”/></l><r>diez<s n=“num”/></r></p></e> 
+<e><p><l>十八<s n=“num”/></l><r>dieciocho<s n=“num”/></r></p></e> 
+<e><p><l>十二<s n=“num”/></l><r>doce<s n=“num”/></r></p></e> 
+<e><p><l>十九<s n=“num”/></l><r>diecinueve<s n=“num”/></r></p></e> 
+<e><p><l>十六<s n=“num”/></l><r>dieciséis<s n=“num”/></r></p></e> 
+<e><p><l>十七<s n=“num”/></l><r>diecisiete<s n=“num”/></r></p></e> 
+<e><p><l>十三<s n=“num”/></l><r>trece<s n=“num”/></r></p></e> 
+<e><p><l>十四<s n=“num”/></l><r>catorce<s n=“num”/></r></p></e> 
+<e><p><l>十五<s n=“num”/></l><r>quince<s n=“num”/></r></p></e> 
+<e><p><l>四<s n=“num”/></l><r>cuatro<s n=“num”/></r></p></e> 
+<e><p><l>肆<s n=“num”/></l><r>cuatro<s n=“num”/></r></p></e> 
+<e><p><l>四十<s n=“num”/></l><r>cuarenta<s n=“num”/></r></p></e> 
+<e><p><l>万<s n=“num”/></l><r>diez<b/>mil<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>五<s n=“num”/></l><r>cinco<s n=“num”/></r></p></e> 
+<e><p><l>五十<s n=“num”/></l><r>cincuenta<s n=“num”/></r></p></e> 
+<e><p><l>一<s n=“num”/></l><r>uno<s n=“num”/></r></p></e> 
+<e><p><l>壹<s n=“num”/></l><r>uno<s n=“num”/></r></p></e> 
+<e><p><l>一万<s n=“num”/></l><r>diez<b/>mil<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>亿<s n=“num”/></l><r>cien<b/>millones<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>十<s n=“num”/></l><r>diez<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>二十<s n=“num”/></l><r>veinte<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>三十<s n=“num”/></l><r>treinta<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>四十<s n=“num”/></l><r>cuarenta<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>五十<s n=“num”/></l><r>cincuenta<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>六十<s n=“num”/></l><r>sesenta<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>七十<s n=“num”/></l><r>setenta<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>八十<s n=“num”/></l><r>ochenta<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>九十<s n=“num”/></l><r>noventa<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>一百<s n=“num”/></l><r>cien<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>十九<s n=“num”/></l><r>diecinueve<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>十一<s n=“num”/></l><r>once<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>十二<s n=“num”/></l><r>doce<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>十三<s n=“num”/></l><r>trece<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>十四<s n=“num”/></l><r>catorce<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>十五<s n=“num”/></l><r>quince<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>十六<s n=“num”/></l><r>dieciséis<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>十七<s n=“num”/></l><r>diecisiete<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>十八<s n=“num”/></l><r>dieciocho<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>二十<s n=“num”/></l><r>veinte<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>二十一<s n=“num”/></l><r>veintiún<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>二十二<s n=“num”/></l><r>veintidós<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>二十三<s n=“num”/></l><r>veintitrés<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>二十四<s n=“num”/></l><r>veinticuatro<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>二十五<s n=“num”/></l><r>veinticinco<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>二十六<s n=“num”/></l><r>veintiséis<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>二十七<s n=“num”/></l><r>veintisiete<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>二十八<s n=“num”/></l><r>veintiocho<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>二十九<s n=“num”/></l><r>veintinueve<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>三十<s n=“num”/></l><r>treinta<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>三十一<s n=“num”/></l><r>treinta<b/>y<b/>uno<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>三十二<s n=“num”/></l><r>treinta<b/>y<b/>dos<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>三十三<s n=“num”/></l><r>treinta<b/>y<b/>tres<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>三十四<s n=“num”/></l><r>treinta<b/>y<b/>cuatro<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>三十五<s n=“num”/></l><r>treinta<b/>y<b/>cinco<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>三十六<s n=“num”/></l><r>treinta<b/>y<b/>seis<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>三十七<s n=“num”/></l><r>treinta<b/>y<b/>siete<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>三十八<s n=“num”/></l><r>treinta<b/>y<b/>ocho<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>三十九<s n=“num”/></l><r>treinta<b/>y<b/>nueve<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>三十九<s n=“num”/></l><r>treinta<b/>y<b/>nueve<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>三十九<s n=“num”/></l><r>treinta<b/>y<b/>nueve<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>四十<s n=“num”/></l><r>cuarenta<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>四十一<s n=“num”/></l><r>cuarenta<b/>y<b/>uno<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>四十二<s n=“num”/></l><r>cuarenta<b/>y<b/>dos<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>四十三<s n=“num”/></l><r>cuarenta<b/>y<b/>tres<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>四十四<s n=“num”/></l><r>cuarenta<b/>y<b/>cuatro<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>四十五<s n=“num”/></l><r>cuarenta<b/>y<b/>cinco<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>四十六<s n=“num”/></l><r>cuarenta<b/>y<b/>seis<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>四十七<s n=“num”/></l><r>cuarenta<b/>y<b/>siete<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>四十八<s n=“num”/></l><r>cuarenta<b/>y<b/>ocho<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>四十九<s n=“num”/></l><r>cuarenta<b/>y<b/>nueve<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>五十<s n=“num”/></l><r>cincuenta<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>五十一<s n=“num”/></l><r>cincuenta<b/>y<b/>uno<s n=“num”/><s n=“mf”/></r></p></e> 
+<e><p><l>五十二<s n=“num”/></l><r>cincuenta<b/>y<b/>dos<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>五十三<s n=“num”/></l><r>cincuenta<b/>y<b/>tres<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>五十四<s n=“num”/></l><r>cincuenta<b/>y<b/>cuatro<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>五十五<s n=“num”/></l><r>cincuenta<b/>y<b/>cinco<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>五十六<s n=“num”/></l><r>cincuenta<b/>y<b/>seis<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>五十七<s n=“num”/></l><r>cincuenta<b/>y<b/>siete<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>五十八<s n=“num”/></l><r>cincuenta<b/>y<b/>ocho<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>五十九<s n=“num”/></l><r>cincuenta<b/>y<b/>nueve<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>六十<s n=“num”/></l><r>sesenta<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>六十一<s n=“num”/></l><r>sesenta<b/>y<b/>uno<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>六十二<s n=“num”/></l><r>sesenta<b/>y<b/>dos<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>六十三<s n=“num”/></l><r>sesenta<b/>y<b/>tres<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>六十四<s n=“num”/></l><r>sesenta<b/>y<b/>cuatro<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>六十五<s n=“num”/></l><r>sesenta<b/>y<b/>cinco<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>六十六<s n=“num”/></l><r>sesenta<b/>y<b/>seis<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>六十七<s n=“num”/></l><r>sesenta<b/>y<b/>siete<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>六十八<s n=“num”/></l><r>sesenta<b/>y<b/>ocho<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>六十九<s n=“num”/></l><r>sesenta<b/>y<b/>nueve<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>七十<s n=“num”/></l><r>setenta<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>七十一<s n=“num”/></l><r>setenta<b/>y<b/>uno<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>七十二<s n=“num”/></l><r>setenta<b/>y<b/>dos<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>七十三<s n=“num”/></l><r>setenta<b/>y<b/>tres<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>七十四<s n=“num”/></l><r>setenta<b/>y<b/>cuatro<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>七十五<s n=“num”/></l><r>setenta<b/>y<b/>cinco<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>七十六<s n=“num”/></l><r>setenta<b/>y<b/>seis<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>七十七<s n=“num”/></l><r>setenta<b/>y<b/>siete<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>七十八<s n=“num”/></l><r>setenta<b/>y<b/>ocho<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>七十九<s n=“num”/></l><r>setenta<b/>y<b/>nueve<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>八十<s n=“num”/></l><r>ochenta<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>八十一<s n=“num”/></l><r>ochenta<b/>y<b/>uno<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>八十二<s n=“num”/></l><r>ochenta<b/>y<b/>dos<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>八十三<s n=“num”/></l><r>ochenta<b/>y<b/>tres<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>八十四<s n=“num”/></l><r>ochenta<b/>y<b/>cuatro<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>八十五<s n=“num”/></l><r>ochenta<b/>y<b/>cinco<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>八十六<s n=“num”/></l><r>ochenta<b/>y<b/>seis<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>八十七<s n=“num”/></l><r>ochenta<b/>y<b/>siete<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>八十八<s n=“num”/></l><r>ochenta<b/>y<b/>ocho<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>八十九<s n=“num”/></l><r>ochenta<b/>y<b/>nueve<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>九十<s n=“num”/></l><r>noventa<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>九十一<s n=“num”/></l><r>noventa<b/>y<b/>uno<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>九十二<s n=“num”/></l><r>noventa<b/>y<b/>dos<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>九十三<s n=“num”/></l><r>noventa<b/>y<b/>tres<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>九十四<s n=“num”/></l><r>noventa<b/>y<b/>cuatro<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>九十五<s n=“num”/></l><r>noventa<b/>y<b/>cinco<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>九十六<s n=“num”/></l><r>noventa<b/>y<b/>seis<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>九十七<s n=“num”/></l><r>noventa<b/>y<b/>siete<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>九十八<s n=“num”/></l><r>noventa<b/>y<b/>ocho<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>九十九<s n=“num”/></l><r>noventa<b/>y<b/>nueve<s n=“num”/><s n=“mf”/></r></p></e>
+<e><p><l>一百<s n=“num”/></l><r>cien<s n=“num”/><s n=“mf”/></r></p></e>
+
+
 
     <!-- Evaluacio1 -->
 <e><p><l>7 月<s n="n"/></l><r>Julio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
