@@ -168,7 +168,6 @@
 <e><p><l>尚<s n="adv"/></l><r>aún<s n="adv"/></r></p></e>
 <e><p><l>近<s n="adv"/></l><r>casi<s n="adv"/></r></p></e>
 <e><p><l>如<s n="adv"/></l><r>ejemplo<s n="adv"/></r></p></e>
-<e><p><l>但<s n="adv"/></l><r>embargo<s n="adv"/></r></p></e>
 <e><p><l>只<s n="adv"/></l><r>exclusivamente<s n="adv"/></r></p></e>
 <e><p><l>专<s n="adv"/></l><r>expresamente<s n="adv"/></r></p></e>
 <e><p><l>更<s n="adv"/></l><r>más<s n="adv"/></r></p></e>
@@ -178,11 +177,8 @@
 <e><p><l>非<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
 <e><p><l>再<s n="adv"/></l><r>nuevamente<s n="adv"/></r></p></e>
 <e><p><l>还<s n="adv"/></l><r>nuevamente<s n="adv"/></r></p></e>
-<e><p><l>但<s n="adv"/></l><r>obstante<s n="adv"/></r></p></e>
 <e><p><l>始<s n="adv"/></l><r>posterioridad<s n="adv"/></r></p></e>
 <e><p><l>深<s n="adv"/></l><r>profundamente<s n="adv"/></r></p></e>
-<e><p><l>新<s n="adv"/></l><r>recientemente<s n="adv"/></r></p></e>
-<e><p><l>新<s n="adv"/></l><r>recién<s n="adv"/></r></p></e>
 <e><p><l>才<s n="adv"/></l><r>solamente<s n="adv"/></r></p></e>
 <e><p><l>极<s n="adv"/></l><r>sumamente<s n="adv"/></r></p></e>
 <e><p><l>只<s n="adv"/></l><r>sólo<s n="adv"/></r></p></e>
@@ -263,7 +259,6 @@
 <e><p><l>籍<s n="n"/></l><r>composición<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>文<s n="n"/></l><r>comunicación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>税<s n="n"/></l><r>concepto<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>调<s n="n"/></l><r>conclusión<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>囚<s n="n"/></l><r>condenado<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>供<s n="n"/></l><r>consideración<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>宪<s n="n"/></l><r>constituyente<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -275,7 +270,7 @@
 <e><p><l>员<s n="n"/></l><r>coordinador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>流<s n="n"/></l><r>corriente<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>潮<s n="n"/></l><r>corriente<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>外<s n="n"/></l><r>cosa<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>外<s n="adj"/></l><r>externo<s n="n"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>价<s n="n"/></l><r>costo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>公<s n="n"/></l><r>credibilidad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>罪<s n="n"/></l><r>crimen<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -317,7 +312,7 @@
 <e><p><l>倡<s n="n"/></l><r>donación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>果<s n="n"/></l><r>duración<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>日<s n="n"/></l><r>día<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>型<s n="n"/></l><r>economía<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>型<s n="n"/></l><r>tipo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>龄<s n="n"/></l><r>edad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>版<s n="n"/></l><r>edición<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>版<s n="n"/></l><r>electrónica<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -330,7 +325,6 @@
 <e><p><l>者<s n="n"/></l><r>entidad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>龄<s n="n"/></l><r>envejecimiento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>队<s n="n"/></l><r>equipo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>比<s n="n"/></l><r>escala<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>级<s n="n"/></l><r>escala<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>事<s n="n"/></l><r>esfera<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>众<s n="n"/></l><r>espectro<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -561,7 +555,7 @@
 <e><p><l>盖<s n="vblex"/></l><r>abarcar<s n="vblex"/></r></p></e>
 <e><p><l>欣<s n="vblex"/></l><r>acoger<s n="vblex"/></r></p></e>
 <e><p><l>积<s n="vblex"/></l><r>acumular<s n="vblex"/></r></p></e>
-<e><p><l>控<s n="vblex"/></l><r>acusar<s n="vblex"/></r></p></e>
+<e><p><l>控<s n="vblex"/></l><r>controlar<s n="vblex"/></r></p></e>
 <e><p><l>响<s n="vblex"/></l><r>adecuar<s n="vblex"/></r></p></e>
 <e><p><l>亏<s n="vblex"/></l><r>adeudar<s n="vblex"/></r></p></e>
 <e><p><l>受<s n="vblex"/></l><r>afectar<s n="vblex"/></r></p></e>
@@ -641,7 +635,7 @@
 <e><p><l>辨<s n="vblex"/></l><r>distinguir<s n="vblex"/></r></p></e>
 <e><p><l>持<s n="vblex"/></l><r>documentar<s n="vblex"/></r></p></e>
 <e><p><l>出<s n="vblex"/></l><r>efectuar<s n="vblex"/></r></p></e>
-<e><p><l>为<s n="vblex"/></l><r>encaminar<s n="vblex"/></r></p></e>
+<e><p><l>为<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
 <e><p><l>是<s n="vblex"/></l><r>encaminar<s n="vblex"/></r></p></e>
 <e><p><l>授<s n="vblex"/></l><r>encomendar<s n="vblex"/></r></p></e>
 <e><p><l>获<s n="vblex"/></l><r>encomendar<s n="vblex"/></r></p></e>
@@ -717,10 +711,10 @@
 <e><p><l>使<s n="vblex"/></l><r>proporcionar<s n="vblex"/></r></p></e>
 <e><p><l>致<s n="vblex"/></l><r>provocar<s n="vblex"/></r></p></e>
 <e><p><l>告<s n="vblex"/></l><r>quedar<s n="vblex"/></r></p></e>
-<e><p><l>要<s n="vblex"/></l><r>quedar<s n="vblex"/></r></p></e>
+<e><p><l>要<s n="vblex"/></l><r>querer<s n="vblex"/></r></p></e>
 <e><p><l>作<s n="vblex"/></l><r>realizar<s n="vblex"/></r></p></e>
 <e><p><l>做<s n="vblex"/></l><r>realizar<s n="vblex"/></r></p></e>
-<e><p><l>调<s n="vblex"/></l><r>reasignar<s n="vblex"/></r></p></e>
+<e><p><l>调<s n="vblex"/></l><r>ajustar<s n="vblex"/></r></p></e>
 <e><p><l>拒<s n="vblex"/></l><r>rechazar<s n="vblex"/></r></p></e>
 <e><p><l>摒<s n="vblex"/></l><r>rechazar<s n="vblex"/></r></p></e>
 <e><p><l>予<s n="vblex"/></l><r>recibir<s n="vblex"/></r></p></e>
@@ -739,7 +733,6 @@
 <e><p><l>重<s n="vblex"/></l><r>reiterar<s n="vblex"/></r></p></e>
 <e><p><l>回<s n="vblex"/></l><r>repatriar<s n="vblex"/></r></p></e>
 <e><p><l>返<s n="vblex"/></l><r>repatriar<s n="vblex"/></r></p></e>
-<e><p><l>要<s n="vblex"/></l><r>requerir<s n="vblex"/></r></p></e>
 <e><p><l>需<s n="vblex"/></l><r>requerir<s n="vblex"/></r></p></e>
 <e><p><l>救<s n="vblex"/></l><r>rescatar<s n="vblex"/></r></p></e>
 <e><p><l>享<s n="vblex"/></l><r>reseñar<s n="vblex"/></r></p></e>
@@ -750,7 +743,6 @@
 <e><p><l>选<s n="vblex"/></l><r>seleccionar<s n="vblex"/></r></p></e>
 <e><p><l>埋<s n="vblex"/></l><r>sembrar<s n="vblex"/></r></p></e>
 <e><p><l>提<s n="vblex"/></l><r>señalar<s n="vblex"/></r></p></e>
-<e><p><l>要<s n="vblex"/></l><r>señalar<s n="vblex"/></r></p></e>
 <e><p><l>述<s n="vblex"/></l><r>señalar<s n="vblex"/></r></p></e>
 <e><p><l>指<s n="vblex"/></l><r>significar<s n="vblex"/></r></p></e>
 <e><p><l>请<s n="vblex"/></l><r>solicitar<s n="vblex"/></r></p></e>
@@ -760,7 +752,6 @@
 <e><p><l>到<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
 <e><p><l>念<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
 <e><p><l>有<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
-<e><p><l>要<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
 <e><p><l>订<s n="vblex"/></l><r>terminar<s n="vblex"/></r></p></e>
 <e><p><l>题<s n="vblex"/></l><r>titular<s n="vblex"/></r></p></e>
 <e><p><l>递<s n="vblex"/></l><r>transmitir<s n="vblex"/></r></p></e>
@@ -1117,7 +1108,6 @@
 <e><p><l>非常<s n="adj"/></l><r>imprevisto<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>不当<s n="adj"/></l><r>inadecuado<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>不足<s n="adj"/></l><r>inadecuado<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
-<e><p><l>不可<s n="adj"/></l><r>inalienable<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>终审<s n="adj"/></l><r>inapelable<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>创始<s n="adj"/></l><r>inaugural<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>不懈<s n="adj"/></l><r>incansable<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
@@ -1261,7 +1251,7 @@
 <e><p><l>高级<s n="adj"/></l><r>posible<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>积极<s n="adj"/></l><r>positivo<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>后来<s n="adj"/></l><r>posterior<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
-<e><p><l>随后<s n="adj"/></l><r>posterior<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e><p><l>随后<s n="adv"/></l><r>luego<s n="adv"/></r></p></e>
 <e><p><l>洁净<s n="adj"/></l><r>potable<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>潜在<s n="adj"/></l><r>potencial<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>务实<s n="adj"/></l><r>pragmático<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
@@ -1370,7 +1360,6 @@
 <e><p><l>持续<s n="adj"/></l><r>sostenible<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>附属<s n="adj"/></l><r>subsidiario<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>后继<s n="adj"/></l><r>subsiguiente<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
-<e><p><l>随后<s n="adj"/></l><r>subsiguiente<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>简短<s n="adj"/></l><r>sucinto<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>充分<s n="adj"/></l><r>suficiente<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>充足<s n="adj"/></l><r>suficiente<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
@@ -1857,7 +1846,6 @@
 <e><p><l>核准<s n="n"/></l><r>aprobación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>认可<s n="n"/></l><r>aprobación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>通过<s n="n"/></l><r>aprobación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>占有<s n="n"/></l><r>apropiación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>技能<s n="n"/></l><r>aptitud<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>附录<s n="n"/></l><r>apéndice<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>仲裁<s n="n"/></l><r>arbitraje<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1990,7 +1978,6 @@
 <e><p><l>基数<s n="n"/></l><r>base<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>基础<s n="n"/></l><r>base<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>核心<s n="n"/></l><r>base<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>根据<s n="n"/></l><r>base<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>学员<s n="n"/></l><r>becario<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>利益<s n="n"/></l><r>beneficio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>好处<s n="n"/></l><r>beneficio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -2268,7 +2255,6 @@
 <e><p><l>组合<s n="n"/></l><r>configuración<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>证明<s n="n"/></l><r>confirmación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>冲突<s n="n"/></l><r>conflicto<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>根据<s n="n"/></l><r>conformidad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>规定<s n="n"/></l><r>conformidad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>筹备<s n="n"/></l><r>congreso<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>预防<s n="n"/></l><r>congreso<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -2294,7 +2280,6 @@
 <e><p><l>审议<s n="n"/></l><r>consideración<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>考虑<s n="n"/></l><r>consideración<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>问题<s n="n"/></l><r>consideración<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>一种<s n="n"/></l><r>consolidación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>加强<s n="n"/></l><r>consolidación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>合并<s n="n"/></l><r>consolidación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>巩固<s n="n"/></l><r>consolidación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -3076,7 +3061,6 @@
 <e><p><l>制订<s n="n"/></l><r>formulación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>发展<s n="n"/></l><r>formulación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>拟订<s n="n"/></l><r>formulación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>政策<s n="n"/></l><r>formulación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>设计<s n="n"/></l><r>formulación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>论坛<s n="n"/></l><r>foro<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>加强<s n="n"/></l><r>fortalecimiento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -3422,7 +3406,6 @@
 <e><p><l>内部<s n="n"/></l><r>justicia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>司法<s n="n"/></l><r>justicia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>正义<s n="n"/></l><r>justicia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>不能<s n="n"/></l><r>justificación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>理由<s n="n"/></l><r>justificación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>青年<s n="n"/></l><r>juventud<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>公里<s n="n"/></l><r>kilómetro<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -3736,7 +3719,6 @@
 <e><p><l>名称<s n="n"/></l><r>nomenclatura<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>西北<s n="n"/></l><r>nordeste<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>准则<s n="n"/></l><r>norma<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>政策<s n="n"/></l><r>norma<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>条例<s n="n"/></l><r>norma<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>标准<s n="n"/></l><r>norma<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>法规<s n="n"/></l><r>norma<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -3745,7 +3727,6 @@
 <e><p><l>规范<s n="n"/></l><r>norma<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>汇报<s n="n"/></l><r>normalización<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>同类<s n="n"/></l><r>normativa<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>政策<s n="n"/></l><r>normativa<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>规则<s n="n"/></l><r>normativa<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>北方<s n="n"/></l><r>norte<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>南北<s n="n"/></l><r>norte<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -4009,7 +3990,6 @@
 <e><p><l>细节<s n="n"/></l><r>pormenor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e><p><l>制品<s n="n"/></l><r>pornografía<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>色情<s n="n"/></l><r>pornografía<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>占有<s n="n"/></l><r>posesión<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>战后<s n="n"/></l><r>posguerra<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>可能<s n="n"/></l><r>posibilidad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>机会<s n="n"/></l><r>posibilidad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -4046,7 +4026,6 @@
 <e><p><l>筛选<s n="n"/></l><r>preselección<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>存在<s n="n"/></l><r>presencia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>报告<s n="n"/></l><r>presentación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>提出<s n="n"/></l><r>presentación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>时限<s n="n"/></l><r>presentación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>格式<s n="n"/></l><r>presentación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>汇报<s n="n"/></l><r>presentación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -4528,7 +4507,6 @@
 <e><p><l>情势<s n="n"/></l><r>situación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>状况<s n="n"/></l><r>situación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>主权<s n="n"/></l><r>soberanía<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e><p><l>社会<s n="n"/></l><r>social<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>民间<s n="n"/></l><r>sociedad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>社会<s n="n"/></l><r>sociedad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>阶层<s n="n"/></l><r>sociedad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -5267,8 +5245,6 @@
 <e><p><l>合并<s n="vblex"/></l><r>consolidar<s n="vblex"/></r></p></e>
 <e><p><l>大有<s n="vblex"/></l><r>consolidar<s n="vblex"/></r></p></e>
 <e><p><l>巩固<s n="vblex"/></l><r>consolidar<s n="vblex"/></r></p></e>
-<e><p><l>综合<s n="vblex"/></l><r>consolidar<s n="vblex"/></r></p></e>
-<e><p><l>成为<s n="vblex"/></l><r>constituir<s n="vblex"/></r></p></e>
 <e><p><l>构成<s n="vblex"/></l><r>constituir<s n="vblex"/></r></p></e>
 <e><p><l>建造<s n="vblex"/></l><r>construir<s n="vblex"/></r></p></e>
 <e><p><l>协商<s n="vblex"/></l><r>consultar<s n="vblex"/></r></p></e>
@@ -5320,7 +5296,6 @@
 <e><p><l>分送<s n="vblex"/></l><r>copiar<s n="vblex"/></r></p></e>
 <e><p><l>纠正<s n="vblex"/></l><r>corregir<s n="vblex"/></r></p></e>
 <e><p><l>面对<s n="vblex"/></l><r>corregir<s n="vblex"/></r></p></e>
-<e><p><l>显示<s n="vblex"/></l><r>correr<s n="vblex"/></r></p></e>
 <e><p><l>授权<s n="vblex"/></l><r>corresponder<s n="vblex"/></r></p></e>
 <e><p><l>确凿<s n="vblex"/></l><r>corroborar<s n="vblex"/></r></p></e>
 <e><p><l>整理<s n="vblex"/></l><r>cotejar<s n="vblex"/></r></p></e>
@@ -5752,7 +5727,6 @@
 <e><p><l>开发<s n="vblex"/></l><r>formular<s n="vblex"/></r></p></e>
 <e><p><l>拟定<s n="vblex"/></l><r>formular<s n="vblex"/></r></p></e>
 <e><p><l>拟订<s n="vblex"/></l><r>formular<s n="vblex"/></r></p></e>
-<e><p><l>提出<s n="vblex"/></l><r>formular<s n="vblex"/></r></p></e>
 <e><p><l>确定<s n="vblex"/></l><r>formular<s n="vblex"/></r></p></e>
 <e><p><l>加强<s n="vblex"/></l><r>fortalecer<s n="vblex"/></r></p></e>
 <e><p><l>增强<s n="vblex"/></l><r>fortalecer<s n="vblex"/></r></p></e>
@@ -5787,9 +5761,8 @@
 <e><p><l>遵循<s n="vblex"/></l><r>guiar<s n="vblex"/></r></p></e>
 <e><p><l>作出<s n="vblex"/></l><r>hacer<s n="vblex"/></r></p></e>
 <e><p><l>同意<s n="vblex"/></l><r>hacer<s n="vblex"/></r></p></e>
-<e><p><l>成为<s n="vblex"/></l><r>hacer<s n="vblex"/></r></p></e>
+<e><p><l>成为<s n="vblex"/></l><r>convertir<s n="vblex"/></r></p></e>
 <e><p><l>敦促<s n="vblex"/></l><r>hacer<s n="vblex"/></r></p></e>
-<e><p><l>确保<s n="vblex"/></l><r>hacer<s n="vblex"/></r></p></e>
 <e><p><l>落实<s n="vblex"/></l><r>hacer<s n="vblex"/></r></p></e>
 <e><p><l>认可<s n="vblex"/></l><r>hacer<s n="vblex"/></r></p></e>
 <e><p><l>赞同<s n="vblex"/></l><r>hacer<s n="vblex"/></r></p></e>
@@ -5845,7 +5818,6 @@
 <e><p><l>扩大<s n="vblex"/></l><r>incrementar<s n="vblex"/></r></p></e>
 <e><p><l>提高<s n="vblex"/></l><r>incrementar<s n="vblex"/></r></p></e>
 <e><p><l>用来<s n="vblex"/></l><r>incriminar<s n="vblex"/></r></p></e>
-<e><p><l>达到<s n="vblex"/></l><r>incumplir<s n="vblex"/></r></p></e>
 <e><p><l>终止<s n="vblex"/></l><r>incurrir<s n="vblex"/></r></p></e>
 <e><p><l>列举<s n="vblex"/></l><r>indicar<s n="vblex"/></r></p></e>
 <e><p><l>反映<s n="vblex"/></l><r>indicar<s n="vblex"/></r></p></e>
@@ -5929,7 +5901,6 @@
 <e><p><l>遗憾<s n="vblex"/></l><r>lamentar<s n="vblex"/></r></p></e>
 <e><p><l>发起<s n="vblex"/></l><r>lanzar<s n="vblex"/></r></p></e>
 <e><p><l>展开<s n="vblex"/></l><r>lanzar<s n="vblex"/></r></p></e>
-<e><p><l>取消<s n="vblex"/></l><r>levantar<s n="vblex"/></r></p></e>
 <e><p><l>撤销<s n="vblex"/></l><r>levantar<s n="vblex"/></r></p></e>
 <e><p><l>解除<s n="vblex"/></l><r>levantar<s n="vblex"/></r></p></e>
 <e><p><l>放松<s n="vblex"/></l><r>liberalizar<s n="vblex"/></r></p></e>
@@ -5956,7 +5927,6 @@
 <e><p><l>促成<s n="vblex"/></l><r>lograr<s n="vblex"/></r></p></e>
 <e><p><l>取得<s n="vblex"/></l><r>lograr<s n="vblex"/></r></p></e>
 <e><p><l>实现<s n="vblex"/></l><r>lograr<s n="vblex"/></r></p></e>
-<e><p><l>确保<s n="vblex"/></l><r>lograr<s n="vblex"/></r></p></e>
 <e><p><l>达成<s n="vblex"/></l><r>lograr<s n="vblex"/></r></p></e>
 <e><p><l>制止<s n="vblex"/></l><r>luchar<s n="vblex"/></r></p></e>
 <e><p><l>打击<s n="vblex"/></l><r>luchar<s n="vblex"/></r></p></e>
@@ -6186,7 +6156,6 @@
 <e><p><l>力求<s n="vblex"/></l><r>procurar<s n="vblex"/></r></p></e>
 <e><p><l>努力<s n="vblex"/></l><r>procurar<s n="vblex"/></r></p></e>
 <e><p><l>寻求<s n="vblex"/></l><r>procurar<s n="vblex"/></r></p></e>
-<e><p><l>确保<s n="vblex"/></l><r>procurar<s n="vblex"/></r></p></e>
 <e><p><l>致力<s n="vblex"/></l><r>procurar<s n="vblex"/></r></p></e>
 <e><p><l>设法<s n="vblex"/></l><r>procurar<s n="vblex"/></r></p></e>
 <e><p><l>谋求<s n="vblex"/></l><r>procurar<s n="vblex"/></r></p></e>
@@ -6499,6 +6468,7 @@
 <e><p><l>打击<s n="vblex"/></l><r>suprimir<s n="vblex"/></r></p></e>
 <e><p><l>裁撤<s n="vblex"/></l><r>suprimir<s n="vblex"/></r></p></e>
 <e><p><l>出现<s n="vblex"/></l><r>surgir<s n="vblex"/></r></p></e>
+<e><p><l>出现 了<s n="vblex"/></l><r>surgir<s n="vblex"/></r></p></e>
 <e><p><l>签署<s n="vblex"/></l><r>suscribir<s n="vblex"/></r></p></e>
 <e><p><l>赞同<s n="vblex"/></l><r>suscribir<s n="vblex"/></r></p></e>
 <e><p><l>中断<s n="vblex"/></l><r>suspender<s n="vblex"/></r></p></e>
@@ -6637,7 +6607,7 @@
 <e><p><l>单方面<s n="adj"/></l><r>unilateral<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>有价值<s n="adj"/></l><r>valioso<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>进一步<s n="adv"/></l><r>además<s n="adv"/></r></p></e>
-<e><p><l>进一步<s n="adv"/></l><r>aun<s n="adv"/></r></p></e>
+<e><p><l>进一步<s n="adv"/></l><r>aún<s n="adv"/></r></p></e>
 <e><p><l>进一步<s n="adv"/></l><r>aún<s n="adv"/></r></p></e>
 <e><p><l>差不多<s n="adv"/></l><r>casi<s n="adv"/></r></p></e>
 <e><p><l>根本上<s n="adv"/></l><r>comúnmente<s n="adv"/></r></p></e>
@@ -7298,7 +7268,6 @@
 
     <e><p><l>从<s n="pr"/></l><r>desde<s n="pr"/></r></p></e>
     <e><p><l>到<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
-    <e><p><l>和<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
     <e><p><l>在<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
     <e><p><l>到<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
     <e><p><l>前面<s n="pr"/></l><r>frente<b/>a<s n="pr"/></r></p></e>
@@ -7438,7 +7407,6 @@
     <e><p><l>能<s n="vbmod"/></l><r>poder<s n="vbmod"/></r></p></e>
     
     <e><p><l>是<s n="vblex"/></l><r>ser<s n="vbser"/></r></p></e>    <!--Aixo es pel dicc15 que tots son vblex-->
-    <e><p><l>不能<s n="vblex"/></l><r>poder<s n="vbmod"/></r></p></e>
     <e><p><l>可以<s n="vblex"/></l><r>poder<s n="vbmod"/></r></p></e>
     <e><p><l>难道<s n="vblex"/></l><r>poder<s n="vbmod"/></r></p></e>
     <e><p><l>能<s n="vblex"/></l><r>poder<s n="vbmod"/></r></p></e>
@@ -7867,7 +7835,6 @@
 <e><p><l>轰轰烈烈<s n="adj"/></l><r>vigoroso<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>红<s n="adj"/></l><r>rojo<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>宏大<s n="adj"/></l><r>magnifico<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
-<e><p><l>宏观<s n="adj"/></l><r>holístico<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>洪亮<s n="adj"/></l><r>sonoro<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>宏伟<s n="adj"/></l><r>magnífico<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>厚<s n="adj"/></l><r>grueso<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
@@ -8404,7 +8371,6 @@
 <e><p><l>轰轰烈烈<s n="adj"/></l><r>vigoroso<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>红<s n="adj"/></l><r>rojo<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>宏大<s n="adj"/></l><r>magnifico<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
-<e><p><l>宏观<s n="adj"/></l><r>holístico<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>洪亮<s n="adj"/></l><r>sonoro<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>宏伟<s n="adj"/></l><r>magnífico<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>厚<s n="adj"/></l><r>grueso<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
@@ -8968,7 +8934,7 @@
 <e><p><l>大致<s n="adv"/></l><r>aproximadamente<s n="adv"/></r></p></e>
 <e><p><l>单<s n="adv"/></l><r>solo<s n="adv"/></r></p></e>
 <e><p><l>单独<s n="adv"/></l><r>solo<s n="adv"/></r></p></e>
-<e><p><l>但<s n="adv"/></l><r>aún<s n="adv"/></r></p></e>
+<e><p><l>但<s n="adv"/></l><r>sin<b/>embargo<s n="adv"/></r></p></e>
 <e><p><l>当场<s n="adv"/></l><r>in<b/>situ<s n="adv"/></r></p></e>
 <e><p><l>当中<s n="adv"/></l><r>entre<s n="adv"/></r></p></e>
 <e><p><l>到处<s n="adv"/></l><r>en<b/>todas<b/>partes<s n="adv"/></r></p></e>
@@ -9683,6 +9649,159 @@
 <e><p><l>小心<s n="n"/></l><r>cuidado<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e><p><l>形<s n="n"/></l><r>forma<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e><p><l>大港<s n="adj"/></l><r>Dagang<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+
+<!-- Evaluacio2 -->
+<e><p><l>北京<s n="np"/></l><r>Beijing<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>人民 网<s n="np"/></l><r>pueblo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>电<s n="n"/></l><r>electricidad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>中国<s n="np"/></l><r>China<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>炉<s n="n"/></l><r>horno<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>区间<s n="n"/></l><r>intervalo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>被<s n="vblex"/></l><r>ser<s n="vbser"/></r></p></e>
+<e><p><l>热 议<s n="adj"/></l><r>caliente<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e><p><l>处于<s n="vblex"/></l><r>estar<s n="vblex"/></r></p></e>
+<e><p><l>水平<s n="n"/></l><r>nivel<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>等<s n="vblex"/></l><r>esperar<s n="vblex"/></r></p></e>
+<e><p><l>滑 出<s n="vblex"/></l><r>salir<s n="vblex"/></r></p></e>
+<e><p><l>下限<s n="vblex"/></l><r>bajar<s n="vblex"/></r></p></e>
+<e><p><l>物价<s n="n"/></l><r>precio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>涨<s n="vblex"/></l><r>subir<s n="vblex"/></r></p></e>
+<e><p><l>幅<s n="adj"/></l><r>ancho<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>上限<s n="n"/></l><r>techo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>宏观 调<s n="adj"/></l><r>macro<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e> <!--????-->
+<e><p><l>的 指针<s n="n"/></l><r>indicador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>全年<s n="n"/></l><r>anual<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e><p><l>次<s n="adj"/></l><r>secundario<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>首次<s n="adv"/></l><r>por<b/>primera<b/>vez<s n="adv"/></r></p></e>
+<e><p><l>天<s n="n"/></l><r>día<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e><p><l>连<s n="adv"/></l><r>incluso<s n="adv"/></r></p></e>
+<e><p><l>涨<s n="pr"/></l><r>hasta<s n="pr"/></r></p></e>
+<e><p><l>增强<s n="vblex"/></l><r>fortalecer<s n="vblex"/></r></p></e>
+<e><p><l>当下<s n="adv"/></l><r>inmeditamente<s n="adv"/></r></p></e>
+<e><p><l>宏观 经济<s n="adj"/></l><r>macroeconómico<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>何 深意<s n="n"/></l><r>significado<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>看待<s n="vblex"/></l><r>tratar<s n="vblex"/></r></p></e>
+<e><p><l>决策 层<s n="n"/></l><r>toma<b/>de<b/>decisiones<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>稳<s n="adj"/></l><r>constante<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e><p><l>增长<s n="n"/></l><r>crecimiento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>决心<s n="n"/></l><r>determinación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>这些<s n="det"/></l><r>esto<s n="prn"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>至 关 重要<s n="adj"/></l><r>crucial<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e><p><l>发布<s n="vblex"/></l><r>liberar<s n="vblex"/></r></p></e>
+<e><p><l>发布 了<s n="vblex"/></l><r>liberar<s n="vblex"/></r></p></e>
+<e><p><l>缓<s n="adj"/></l><r>lento<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>通道 中<s n="n"/></l><r>canal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>增 速<s n="n"/></l><r>tasa<b/>de<b/>crecimiento<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>悲观<s n="adj"/></l><r>pesimista<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e><p><l>担心<s n="vblex"/></l><r>preocuparse<s n="vblex"/></r></p></e>
+<e><p><l>日渐<s n="adv"/></l><r>día<b/>a<b/>día<s n="adv"/></r></p></e>
+<e><p><l>增多<s n="vblex"/></l><r>aumentar<s n="vblex"/></r></p></e>
+<e><p><l>各种<s n="adv"/></l><r>en<b/>todos<b/>los<b/>aspectos<s n="adv"/></r></p></e>
+<e><p><l>唱<s n="vblex"/></l><r>cantar<s n="vblex"/></r></p></e>
+<e><p><l>空 论<s n="adv"/></l><r>al<b/>aire<b/>libre<s n="adv"/></r></p></e>
+<e><p><l>不绝<s n="adv"/></l><r>sin<b/>descanso<s n="adv"/></r></p></e>
+<e><p><l>于<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
+<e><p><l>耳<s n="n"/></l><r>oído<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>种 背景 下<s n="n"/></l><r>contexto<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>正是<s n="vblex"/></l><r>tratar<s n="vblex"/></r></p></e>
+<e><p><l>表述<s n="n"/></l><r>representación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>突出<s n="adj"/></l><r>destacado<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>稳定<s n="adj"/></l><r>estable<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e><p><l>大 起 大 落<s n="n"/></l><r>altibajo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>意识到<s n="adj"/></l><r>realizado<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>只是<s n="adv"/></l><r>sólo<s n="adv"/></r></p></e>
+<e><p><l>前 几<s n="adj"/></l><r>previo<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>的 方式<s n="n"/></l><r>manera<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>的 表态<s n="n"/></l><r>posición<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>举 措<s n="n"/></l><r>iniciativa<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>常务 副院长<s n="n"/></l><r>vicepresidente<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>来 看<s n="vblex"/></l><r>ver<s n="vblex"/></r></p></e>
+<e><p><l>证券<s n="n"/></l><r>valor<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e><p><l>首席<s n="n"/></l><r>jefe<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e><p><l>经济学家<s n="n"/></l><r>economista<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>守<s n="vblex"/></l><r>observar<s n="vblex"/></r></p></e>
+<e><p><l>据<s n="pr"/></l><r>según<s n="pr"/></r></p></e>
+<e><p><l>找不到<s n="vblex"/><s n="neg"/></l><r>encontrar<s n="vblex"/></r></p></e>
+<e><p><l>出现<s n="vblex"/></l><r>aparecer<s n="vblex"/></r></p></e>
+<e><p><l>城镇<s n="n"/></l><r>ciudad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>比<s n="n"/></l><r>coeficiente<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>去年 同期<s n="adv"/></l><r>año<b/>pasado<s n="adv"/></r></p></e>
+<e><p><l>特约<s n="adj"/></l><r>especial<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e><p><l>表示<s n="n"/></l><r>declaración<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>姚 景 源<s n="n"/></l><r>Yao<b/>Jingyuan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>把<s n="prn"/></l><r>el</l><r>el<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>不会<s n="vblex"/><s n="neg"/></l><r>ir<s n="vblex"/></r></p></e>
+<e><p><l>才能 为<s n="adv"/></l><r>con<b/>el<b/>fin<s n="adv"/></r></p></e>
+<e><p><l>基础<s n="n"/></l><r>base<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>来<s n="vblex"/></l><r>llegar<s n="vblex"/></r></p></e>
+<e><p><l>最<s n="adv"/></l><r>más<s n="adv"/></r></p></e>
+<e><p><l>重要<s n="adj"/></l><r>importante<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e><p><l>转<s n="vblex"/></l><r>convertir<s n="vblex"/></r></p></e>
+<e><p><l>没<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+<e><p><l>动力<s n="n"/></l><r>poder<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>万<s n="num"/></l><r>diez<b/>mil<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e><p><l>参事<s n="n"/></l><r>consejero<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>不可<s n="vbmod"/><s n="neg"/></l><r>poder<s n="vbmod"/></r></p></e>
+<e><p><l>持续<s n="adj"/></l><r>continuado<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>无<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+<e><p><l>矛盾<s n="n"/></l><r>contradiccion<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>显<s n="vblex"/></l><r>mostrar<s n="vblex"/></r></p></e>
+<e><p><l>不是<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+<e><p><l>一种<s n="n"/></l><r>un<b/>tipo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>底线<s n="n"/></l><r>conclusión<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>思维<s n="vblex"/></l><r>pensar<s n="vblex"/></r></p></e>
+<e><p><l>主动<s n="n"/></l><r>inicitiva<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>危及<s n="vblex"/></l><r>comprometer<s n="vblex"/></r></p></e>
+<e><p><l>而 言<s n="n"/></l><r>declaracion<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>根据<s n="pr"/></l><r>según<s n="pr"/></r></p></e>
+<e><p><l>的 目标<s n="n"/></l><r>objetivo<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e><p><l>全面 建成<s n="adj"/></l><r>completado<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>小康<s n="adj"/></l><r>acomodado<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>翻一番<s n="vblex"/></l><r>duplicar<s n="vblex"/></r></p></e>
+<e><p><l>今 后几年<s n="adv"/></l><r>proximos<b/>años<s n="adv"/></r></p></e>
+<e><p><l>年 均<s n="n"/></l><r>promedio<b/>anual<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e><p><l>增长速度<s n="n"/></l><r>tasa<b/>de<b/>crecimiento<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e><p><l>至少<s n="adv"/></l><r>al<b/>menos<s n="adv"/></r></p></e>
+<e><p><l>将 防 通 胀<s n="n"/></l><r>antiinflación<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>防 通 胀<s n="n"/></l><r>antiinflación<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+或 
+<e><p><l>较<s n="adv"/></l><r>relativamente<s n="adv"/></r></p></e>
+<e><p><l>同<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
+<e><p><l>通 胀<s n="n"/></l><r>inflación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>控制 之下<s n="adv"/></l><r>bajo<b/>control<s n="adv"/></r></p></e>
+<e><p><l>由于<s n="cnjadv"/></l><r>dado<b/>que<s n="cnjadv"/></r></p></e>
+<e><p><l>中<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
+<e><p><l>权 重<s n="n"/></l><r>ponderación<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>夏粮<s n="n"/></l><r>verano<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>增产<s n="n"/></l><r>producción<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>稳定<s n="adj"/></l><r>estable<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e><p><l>稳定 器<s n="n"/></l><r>estabilizador<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>的 经验 看<s n="n"/></l><r>experiencia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>就 上<s n="adj"/></l><r>último<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e><p><l>对于<s n="pr"/></l><r>para<s n="pr"/></r></p></e>
+<e><p><l>之下<s n="pr"/></l><r>bajo<s n="pr"/></r></p></e>
+<e><p><l>同时<s n="adv"/></l><r>simultáneamente<s n="adv"/></r></p></e>
+<e><p><l>以来<s n="pr"/></l><r>desde<s n="pr"/></r></p></e>
+<e><p><l>理 顺<s n="vblex"/></l><r>racionalizar<s n="vblex"/></r></p></e>
+<e><p><l>审批<s n="n"/></l><r>aprobación<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>创造性<s n="n"/></l><r>creatividad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>由此<s n="adv"/></l><r>así<s n="adv"/></r></p></e>
+<e><p><l>所<s n="prn"/></l><r>la</l><r>la<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>求 进<s n="adj"/></l><r>progresivo<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e><p><l>取<s n="vblex"/></l><r>llevar<s n="vblex"/></r></p></e>
+<e><p><l>正如<s n="cnjadv"/></l><r>como<s n="cnjadv"/></r></p></e>
+<e><p><l>内<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
+<e><p><l>线<s n="n"/></l><r>linea<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>自我<s n="n"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+<e><p><l>劲<s n="n"/></l><r>fuerza<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>逼近<s n="n"/></l><r>enfoque<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>宏观<s n="adj"/></l><r>macro<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e><p><l>或 <s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
+<e><p><l>长期<s n="adv"/></l><r>a<b/>largo<b/>plazo<s n="adv"/></r></p></e>
+<e><p><l>主体<s n="n"/></l><r>tema<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e><p><l>思<s n="vblex"/></l><r>pensar<s n="vblex"/></r></p></e>
+<e><p><l>走向<s n="n"/></l><r>huelga<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+
 
 
  </section>
