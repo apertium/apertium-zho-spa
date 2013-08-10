@@ -31,9 +31,30 @@
         <sdef n="qst"/> <!--question tag, no te traduccio-->
          <sdef n="cm"/>	 
                  <sdef n="sent"/>
+                 <sdef n="percent"/>
 	</sdefs>
 	
 	<pardefs>
+
+    <pardef n="numeros">
+    <e>
+      <re>[0-9]+([.,][0-9]+)?</re>
+      <p>
+        <l></l>
+        <r><s n="num"/></r>
+      </p>
+    </e>
+
+
+    <e>
+      <re>[0-9]+([.,][0-9]+)?%</re>
+      <p>
+        <l></l>
+        <r><s n="num"/><s n="percent"/></r>
+      </p>
+    </e>
+           </pardef>	 
+
     
          <pardef n="coma">	 
              <e><p><l>，</l><r>，<s n="cm"/></r></p></e>	  
@@ -1062,6 +1083,7 @@
          <section id="final" type="inconditional">
             <e><par n="separa"/></e>
             <e><par n="coma"/></e>
+            <e><par n="numeros"/></e>
 	</section>
 
 
