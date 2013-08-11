@@ -71,6 +71,10 @@
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
+    <def-cat n="día">
+    <cat-item lemma="día" tags="n"/>
+    </def-cat>
+    
   </section-def-cats>
   <section-def-attrs>
     	<def-attr n="a_nom">
@@ -463,6 +467,46 @@
   
   
   <section-rules>
+  
+  
+  
+   <rule comment="REGLA: nom num día">  <!--Dates "12月" "15" "日"-->
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="num"/>
+        <pattern-item n="día"/>
+      </pattern>
+      <action>
+        
+        <out>
+          <chunk name="dates" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="data"/></tag>
+              
+            </tags>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>  
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>     
+              
+            </lu>
+            <b pos="2"/>
+           <lu>
+              <lit v="de"/>                             
+              <lit-tag v="prep"/>
+            </lu>
+            <b/>   
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>   
+              
+            </lu>
+
+          </chunk>
+        </out>
+      </action>
+    </rule>
     
   
     <rule comment="REGLA: prn-subj">
@@ -670,6 +714,39 @@
       </action>
     </rule>
 
+<rule comment="REGLA: nom adj">  
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="n_j" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><lit-tag v="p3"/></tag>
+
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_adj"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>    <!--agafa nomes nombre, el gnere es mf-->
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
      <rule comment="REGLA: prep nom">
       <pattern>

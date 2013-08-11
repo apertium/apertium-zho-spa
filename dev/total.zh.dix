@@ -4,6 +4,8 @@
   <alphabet/>
   <sdefs>
     <sdef n="n" c="Noun"/>
+    <sdef n="percent" c="percent"/>
+
     <sdef n="pr" c="Preposition"/>
     <sdef n="post" c="Postposition"/>
     <sdef n="part" c="Particle"/>
@@ -45,7 +47,25 @@
 
   </sdefs>
   <pardefs>
-  
+   <pardef n="numeros">
+    <e>
+      <re>[0-9]+([.,][0-9]+)?</re>
+      <p>
+        <l></l>
+        <r><s n="num"/></r>
+      </p>
+    </e>
+
+
+    <e>
+      <re>[0-9]+([.,][0-9]+)?%</re>
+      <p>
+        <l></l>
+        <r><s n="num"/><s n="percent"/></r>
+      </p>
+    </e>
+           </pardef>	 
+
     
          <pardef n="coma">	 
              <e><p><l>，</l><r>，<s n="cm"/></r></p></e>	  
@@ -1960,6 +1980,36 @@
 <e lm="7"><i>7</i><par n="个__num"/></e>
 <e lm="8"><i>8</i><par n="个__num"/></e>
 <e lm="9"><i>9</i><par n="个__num"/></e>
+<e lm="10"><i>10</i><par n="个__num"/></e>
+<e lm="11"><i>11</i><par n="个__num"/></e>
+<e lm="12"><i>12</i><par n="个__num"/></e>
+<e lm="13"><i>13</i><par n="个__num"/></e>
+<e lm="14"><i>14</i><par n="个__num"/></e>
+<e lm="15"><i>15</i><par n="个__num"/></e>
+<e lm="16"><i>16</i><par n="个__num"/></e>
+<e lm="17"><i>17</i><par n="个__num"/></e>
+<e lm="18"><i>18</i><par n="个__num"/></e>
+<e lm="19"><i>19</i><par n="个__num"/></e>
+<e lm="20"><i>20</i><par n="个__num"/></e>
+<e lm="21"><i>21</i><par n="个__num"/></e>
+<e lm="22"><i>22</i><par n="个__num"/></e>
+<e lm="23"><i>23</i><par n="个__num"/></e>
+<e lm="24"><i>24</i><par n="个__num"/></e>
+<e lm="25"><i>25</i><par n="个__num"/></e>
+<e lm="26"><i>26</i><par n="个__num"/></e>
+<e lm="27"><i>27</i><par n="个__num"/></e>
+<e lm="28"><i>28</i><par n="个__num"/></e>
+<e lm="29"><i>29</i><par n="个__num"/></e>
+<e lm="30"><i>30</i><par n="个__num"/></e>
+<e lm="31"><i>31</i><par n="个__num"/></e>
+<e lm="32"><i>32</i><par n="个__num"/></e>
+<e lm="33"><i>33</i><par n="个__num"/></e>
+<e lm="34"><i>34</i><par n="个__num"/></e>
+<e lm="35"><i>35</i><par n="个__num"/></e>
+<e lm="36"><i>36</i><par n="个__num"/></e>
+<e lm="37"><i>37</i><par n="个__num"/></e>
+<e lm="38"><i>38</i><par n="个__num"/></e>
+<e lm="39"><i>39</i><par n="个__num"/></e>
 <e lm="一"><i>一</i><par n="个__num"/></e>
 <e lm="一一"><i>一一</i><par n="暗暗__adv"/></e>
 <e lm="一些"><i>一些</i><par n="个__num"/></e>
@@ -10275,9 +10325,7 @@
 <e lm="长崎"><i>长崎</i><par n="爱人__np"/></e>
 <e lm="长年"><i>长年</i><par n="暗暗__adv"/></e>
 <e lm="长度"><i>长度</i><par n="爱人__n"/></e>
-<e lm="长期"><i>长期</i><par n="暗暗__adv"/></e>
-<e lm="长期"><i>长期</i><par n="平__adj"/></e>
-<e lm="长期"><i>长期</i><par n="爱人__n"/></e>
+
 <e lm="长短"><i>长短</i><par n="爱人__n"/></e>
 <e lm="长老"><i>长老</i><par n="爱人__n"/></e>
 <e lm="长者"><i>长者</i><par n="爱人__n"/></e>
@@ -10856,6 +10904,18 @@
 <e lm="劲"><i>劲</i><par n="x__n"/></e> <!-- fuerza -->
 <e lm="逼近"><i>逼近</i><par n="x__n"/></e> <!-- enfoque -->
 <e lm="走向"><i>走向</i><par n="x__n"/></e> <!-- enfoque -->
+<e lm="1月"><i>1月</i><par n="x__n"/></e>   <!--Mesos-->
+<e lm="2月"><i>2月</i><par n="x__n"/></e>
+<e lm="3月"><i>3月</i><par n="x__n"/></e>
+<e lm="4月"><i>4月</i><par n="x__n"/></e>
+<e lm="5月"><i>5月</i><par n="x__n"/></e>
+<e lm="6月"><i>6月</i><par n="x__n"/></e>
+<e lm="7月"><i>7月</i><par n="x__n"/></e>
+<e lm="8月"><i>8月</i><par n="x__n"/></e>
+<e lm="9月"><i>9月</i><par n="x__n"/></e>
+<e lm="10月"><i>10月</i><par n="x__n"/></e>
+<e lm="11月"><i>11月</i><par n="x__n"/></e>
+<e lm="12月"><i>12月</i><par n="x__n"/></e>
 
 
 
@@ -10863,6 +10923,8 @@
 
 </section>
          <section id="final" type="inconditional">
-            <e><par n="separa"/></e>
+          <e><par n="separa"/></e>
+         <e><par n="coma"/></e>
+         <e><par n="numeros"/></e>
 	</section>
 </dictionary>
