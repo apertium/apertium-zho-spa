@@ -5,7 +5,7 @@
   <sdefs>
     <sdef n="n" c="Noun"/>
     <sdef n="percent" c="percent"/>
-
+<sdef n="predet" c="predet"/>
     <sdef n="pr" c="Preposition"/>
     <sdef n="post" c="Postposition"/>
     <sdef n="part" c="Particle"/>
@@ -287,6 +287,9 @@
     </pardef>
     <pardef n="x__adv">
       <e><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+    <pardef n="x__predet">
+      <e><p><l></l><r><s n="predet"/></r></p></e>
     </pardef>
     <pardef n="x__num">
       <e><p><l></l><r><s n="num"/></r></p></e>
@@ -956,7 +959,7 @@
 		<e lm="建设"><i>建设</i><par n="爱__vblex"/></e>
 		<e lm="讲"><i>讲</i><par n="爱__vblex"/></e>
 		<e lm="交"><i>交</i><par n="爱__vblex"/></e>
-		<e lm="教"><i>教</i><par n="爱__vblex"/></e>
+		<e lm="教"><i>教</i><par n="x__n"/></e>
 		<e lm="教育"><i>教育</i><par n="爱__vblex"/></e>
 		<e lm="叫"><i>叫</i><par n="爱__vblex"/></e>
 		<e lm="接"><i>接</i><par n="爱__vblex"/></e>
@@ -1009,7 +1012,6 @@
 		<e lm="碰"><i>碰</i><par n="爱__vblex"/></e>
 		<e lm="批评"><i>批评</i><par n="爱__vblex"/></e>
 		<e lm="骑"><i>骑</i><par n="爱__vblex"/></e>
-		<e lm="起"><i>起</i><par n="爱__vblex"/></e>
 		<e lm="请"><i>请</i><par n="爱__vblex"/></e>
 		<e lm="取得"><i>取得</i><par n="爱__vblex"/></e>
 		<e lm="去"><i>去</i><par n="爱__vblex"/></e>
@@ -1620,8 +1622,6 @@
     <e lm="房间"><i>房间</i><par n="x__n"/></e>
     <e lm="所以"><i>所以</i><par n="x__adv"/></e>
     <e lm="所以"><i>所以</i><par n="x__cnj"/></e>
-    <e lm="所有"><i>所有</i><par n="x__adj"/></e>
-    <e lm="所有"><i>所有</i><par n="x__n"/></e>
     <e lm="手表"><i>手表</i><par n="x__n"/></e>
     <e lm="打算"><i>打算</i><par n="x__vblex"/></e>
     <e lm="批评"><i>批评</i><par n="x__vblex"/></e>
@@ -1791,7 +1791,6 @@
     <e lm="篮球"><i>篮球</i><par n="x__n"/></e>
     <e lm="米饭"><i>米饭</i><par n="x__n"/></e>
     <e lm="精彩"><i>精彩</i><par n="x__adj"/></e>
-    <e lm="精神"><i>精神</i><par n="x__adj"/></e>
     <e lm="精神"><i>精神</i><par n="x__n"/></e>
     <e lm="紧张"><i>紧张</i><par n="x__adj"/></e>
     <e lm="练习"><i>练习</i><par n="x__vblex"/></e>
@@ -2989,8 +2988,7 @@
 <e lm="保持"><i>保持</i><par n="爱__vblex"/></e>
 <e lm="保持平衡"><i>保持平衡</i><par n="爱__vblex"/></e>
 <e lm="保持警惕"><i>保持警惕</i><par n="爱__vblex"/></e>
-<e lm="保留"><i>保留</i><par n="爱人__n"/></e>
-<e lm="保留"><i>保留</i><par n="平__adj"/></e>
+
 <e lm="保留"><i>保留</i><par n="爱__vblex"/></e>
 <e lm="保管"><i>保管</i><par n="爱人__n"/></e>
 <e lm="保管"><i>保管</i><par n="爱__vblex"/></e>
@@ -3755,7 +3753,6 @@
 <e lm="动荡"><i>动荡</i><par n="平__adj"/></e>
 <e lm="动荡"><i>动荡</i><par n="爱__vblex"/></e>
 <e lm="动议"><i>动议</i><par n="爱人__n"/></e>
-<e lm="助"><i>助</i><par n="爱人__n"/></e>
 <e lm="助"><i>助</i><par n="爱__vblex"/></e>
 <e lm="助学金"><i>助学金</i><par n="爱人__n"/></e>
 <e lm="助教"><i>助教</i><par n="爱人__n"/></e>
@@ -4998,7 +4995,7 @@
 <e lm="始终如一"><i>始终如一</i><par n="暗暗__adv"/></e>
 <e lm="姑息"><i>姑息</i><par n="爱__vblex"/></e>
 <e lm="姓名"><i>姓名</i><par n="爱人__n"/></e>
-<e lm="委"><i>委</i><par n="爱人__np"/></e>
+<e lm="委"><i>委</i><par n="x__vblex"/></e>
 <e lm="委任"><i>委任</i><par n="爱人__n"/></e>
 <e lm="委内瑞拉"><i>委内瑞拉</i><par n="爱人__np"/></e>
 <e lm="委员"><i>委员</i><par n="爱人__n"/></e>
@@ -5106,7 +5103,7 @@
 <e lm="完"><i>完</i><par n="爱__vblex"/></e>
 <e lm="完全"><i>完全</i><par n="暗暗__adv"/></e>
 <e lm="完全"><i>完全</i><par n="平__adj"/></e>
-<e lm="完善"><i>完善</i><par n="爱__vblex"/></e>
+<e lm="完善"><i>完善</i><par n="x__adj"/></e>
 <e lm="完备"><i>完备</i><par n="平__adj"/></e>
 <e lm="完成"><i>完成</i><par n="爱人__n"/></e>
 <e lm="完成"><i>完成</i><par n="爱__vblex"/></e>
@@ -6084,8 +6081,6 @@
 <e lm="所在"><i>所在</i><par n="爱__vblex"/></e>
 <e lm="所在地"><i>所在地</i><par n="爱人__n"/></e>
 <e lm="所得"><i>所得</i><par n="爱人__n"/></e>
-<e lm="所有"><i>所有</i><par n="这__det"/></e>
-<e lm="所有"><i>所有</i><par n="爱__vblex"/></e>
 <e lm="所有权"><i>所有权</i><par n="爱人__n"/></e>
 <e lm="所生"><i>所生</i><par n="爱__vblex"/></e>
 <e lm="所罗门群岛"><i>所罗门群岛</i><par n="爱人__np"/></e>
@@ -9740,7 +9735,7 @@
 <e lm="走廊"><i>走廊</i><par n="爱人__n"/></e>
 <e lm="走访"><i>走访</i><par n="爱__vblex"/></e>
 <e lm="赶"><i>赶</i><par n="爱__vblex"/></e>
-<e lm="起"><i>起</i><par n="爱__vblex"/></e>
+<e lm="起"><i>起</i><par n="x__adv"/></e>
 <e lm="起义"><i>起义</i><par n="爱人__n"/></e>
 <e lm="起因"><i>起因</i><par n="爱人__n"/></e>
 <e lm="起始"><i>起始</i><par n="爱人__n"/></e>
@@ -10916,6 +10911,29 @@
 <e lm="10月"><i>10月</i><par n="x__n"/></e>
 <e lm="11月"><i>11月</i><par n="x__n"/></e>
 <e lm="12月"><i>12月</i><par n="x__n"/></e>
+<e lm="学期"><i>学期</i><par n="x__n"/></e> <!-- semestre -->
+<e lm="奖学金"><i>奖学金</i><par n="x__n"/></e> <!-- beca -->
+<e lm="研究生"><i>研究生</i><par n="x__n"/></e> <!-- postgrado -->
+<e lm="每 生 每"><i>每 生 每</i><par n="x__adv"/></e> <!-- por estudiante -->
+<e lm="每生每"><i>每生每</i><par n="x__adv"/></e> <!-- por estudiante -->
+<e lm="低 于"><i>低 于</i><par n="x__adj"/></e> <!-- inferior -->
+<e lm="低于"><i>低于</i><par n="x__adj"/></e> <!-- inferior -->
+<e lm="简称"><i>简称</i><par n="x__n"/></e> <!-- abreviatura -->
+<e lm="为完善"><i>为完善</i><par n="x__adv"/></e> <!-- para mejorar -->
+<e lm="奖 助"><i>奖 助</i><par n="x__n"/></e> 
+<e lm="奖助"><i>奖助</i><par n="x__n"/></e> 
+<e lm="高校"><i>高校</i><par n="x__n"/></e> <!-- universidades -->
+<e lm="招生计划"><i>招生计划</i><par n="x__n"/></e> <!-- plan de matriculacion -->
+<e lm="按 月"><i>按 月</i><par n="x__adj"/></e> <!-- mensual -->
+<e lm="按月"><i>按月</i><par n="x__adj"/></e> <!-- mensual -->
+<e lm="所有"><i>所有</i><par n="x__predet"/></e> <!-- todo -->
+<e lm="全日制"><i>全日制</i><par n="x__n"/></e> <!-- jornada completa -->
+<e lm="中华"><i>中华</i><par n="x__n"/></e> <!-- China -->
+<e lm="招生 简章"><i>招生 简章</i><par n="x__n"/></e> <!-- Catálogos -->
+<e lm="明"><i>明</i><par n="x__adj"/></e> <!-- proximo -->
+<e lm="学位"><i>学位</i><par n="x__n"/></e> <!-- título -->
+<e lm="修"><i>修</i><par n="x__n"/></e> <!-- reparación -->
+<e lm="学制"><i>学制</i><par n="x__n"/></e> <!-- sistema escolar -->
 
 
 
