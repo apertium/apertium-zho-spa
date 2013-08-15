@@ -72,7 +72,10 @@
       <cat-item tags="sent"/>
     </def-cat>
     <def-cat n="día">
-    <cat-item lemma="día" tags="n"/>
+    <cat-item lemma="日" tags="n"/>
+    </def-cat>
+    <def-cat n="año">
+    <cat-item lemma="年" tags="n"/>
     </def-cat>
     
   </section-def-cats>
@@ -485,19 +488,85 @@
               
             </tags>
             <lu>
+              <lit v="el"/>                             
+              <lit-tag v="det"/>
+              <lit-tag v="def"/>
+              <lit-tag v="m"/>
+              <lit-tag v="sg"/>
+            </lu>
+           <b/>
+            <lu>
               <clip pos="3" side="tl" part="whole"/>  
             </lu>
-            <b pos="1"/>
+            <b/>
             <lu>
-              <clip pos="2" side="tl" part="lem"/>     
+              <clip pos="2" side="tl" part="whole"/>     
               
             </lu>
-            <b pos="2"/>
+            <b/>
            <lu>
               <lit v="de"/>                             
-              <lit-tag v="prep"/>
+              <lit-tag v="pr"/>
             </lu>
             <b/>   
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>   
+              
+            </lu>
+
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="REGLA: num año nom num día">  <!--Dates "2014年" "9月" "1日" el día 1 de septiembre de 2014-->
+      <pattern>
+        <pattern-item n="num"/> <!--2014-->
+        <pattern-item n="año"/> <!--año-->
+        <pattern-item n="nom"/> <!--septiembre-->
+        <pattern-item n="num"/> <!--1-->
+        <pattern-item n="día"/> <!--dia-->
+      </pattern>
+      <action>
+        
+        <out>
+          <chunk name="dates" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="data"/></tag>
+              
+            </tags>
+            <lu>
+              <lit v="el"/>                             
+              <lit-tag v="det"/>
+              <lit-tag v="def"/>
+              <lit-tag v="m"/>
+              <lit-tag v="sg"/>
+            </lu>
+           <b/>
+            <lu>
+              <clip pos="5" side="tl" part="whole"/>  
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="4" side="tl" part="whole"/>     
+              
+            </lu>
+            <b/>
+           <lu>
+              <lit v="de"/>                             
+              <lit-tag v="pr"/>
+            </lu>
+            <b/>   
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>   
+              
+            </lu>
+           <b/>
+           <lu>
+              <lit v="de"/>                             
+              <lit-tag v="pr"/>
+            </lu>
+            <b/>   
+           <b/>   
             <lu>
               <clip pos="1" side="tl" part="whole"/>   
               
