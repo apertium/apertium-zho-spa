@@ -577,6 +577,42 @@
       </action>
     </rule>
     
+    <rule comment="REGLA: num año ">  <!--Dates "2014年" -->
+      <pattern>
+        <pattern-item n="num"/> <!--2014-->
+        <pattern-item n="año"/> <!--año-->
+    </pattern>
+      <action>
+        
+        <out>
+          <chunk name="dates" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="data"/></tag>
+              
+            </tags>
+        <lu>
+              <lit v="el"/>                             
+              <lit-tag v="det"/>
+              <lit-tag v="def"/>
+              <lit-tag v="m"/>
+              <lit-tag v="sg"/>
+            </lu>
+           <b/>
+            <lu>
+             <clip pos="2" side="tl" part="whole"/>  
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>     
+              
+            </lu>
+    
+     </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    
   
     <rule comment="REGLA: prn-subj">
       <pattern>
