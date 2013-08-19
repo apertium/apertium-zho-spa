@@ -42,6 +42,7 @@ dev/testvoc/testvoc-summary.zho-spa.txt -text
 dev/testvoc/testvoc.sh -text
 dev/total.zh.dix -text
 dev/totalama.dix -text
+dev/verb.dix -text
 dev/withtags-to-dix.py -text
 dev/withtags.txt -text
 dev/withtags2.txt -text
