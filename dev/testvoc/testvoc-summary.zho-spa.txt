@@ -1,27 +1,23 @@
-lunes,  9 de septiembre de 2013, 23:22:56 CEST
+dl set  9 21:43:10 GMT 2013
 ===============================================
 POS	Total	Clean	With @	With #	Clean %
-n	4856		 772	 0	
-vblex	2978		 477	 0	
-adj	928		 103	 0	
-adv	755		 106	 0	
-np	583		 2	 0	
-num	200		 14	 0	
-pr	85		 18	 0	
-prn	69		 37	 0	
-det	42		 5	 0	
-cnjcoo	29		 5	 0	
-ij	17		 14	 0	
-vbmod	7		 5	 0	
-preadv	6		 6	 0	
-cnjadv	6		 4	 0	
-post	5		 4	 0	
-vbser	2		 2	 0	
-cm	1		 0	 0	
-vbhaver	0		 0	 0	
-vaux	0		 0	 0	
-rel	0		 0	 0	
-guio	0		 0	 0	
-cnjsub	0		 0	 0	
-abbr	0		 0	 0	
+n	4857	3277	1322	258	67.47
+vblex	2978	2	1246	1730	07
+adj	929	2	327	600	22
+adv	756	320	345	91	42.33
+np	594	9	578	7	1.52
+num	200	42	49	109	21.00
+pr	85	39	46	0	45.89
+prn	70	25	44	1	35.72
+det	43	4	34	5	9.31
+cnjcoo	29	18	4	7	62.07
+ij	17	0	17	0	0
+vbmod	7	4	0	3	57.15
+preadv	7	4	0	3	57.15
+vbser	6	0	0	6	0
+cnjadv	6	6	0	0	100
+post	5	0	5	0	0
+rel	1	1	0	0	100
+cm	1	1	0	0	100
+cnjsub	0	0	0	0	
 ===============================================

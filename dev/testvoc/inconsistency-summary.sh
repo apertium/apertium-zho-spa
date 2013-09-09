@@ -1,7 +1,7 @@
 INC=$1
 PAIR=$2
 OUT=testvoc-summary.$PAIR.txt
-POS="abbr adj adv cm cnjadv cnjcoo cnjsub det guio ij n np num pr preadv prn rel vaux vbhaver vblex vbser vbmod post"
+POS="adj adv cm cnjadv cnjcoo cnjsub det ij n np num pr preadv prn rel vblex vbser vbmod post"
 
 echo -n "" > $OUT;
 
@@ -58,14 +58,14 @@ for i in $POS; do
 		AT=`cat $INC | grep "<$i>" | grep '@'  | grep -v REGEX | wc -l`;
 		HASH=`cat $INC | grep "<$i>" | grep '>  *#' | grep -v REGEX |  wc -l`;
 	fi
-	UNCLEAN=`calc $AT+$HASH`;
-	CLEAN=`calc $TOTAL-$UNCLEAN`;
-	PERCLEAN=`calc $UNCLEAN/$TOTAL*100 |sed 's/^\W*//g' | sed 's/~//g' | head -c 5`;
+	UNCLEAN=`echo $AT+$HASH | bc`;
+	CLEAN=`echo $TOTAL-$UNCLEAN | bc`;
+	PERCLEAN=`echo "$UNCLEAN/$TOTAL*100" | bc -l |sed 's/^\W*//g' | sed 's/~//g' | head -c 5`;
 	echo $PERCLEAN | grep "Err" > /dev/null;
 	if [ $? -eq 0 ]; then
 		TOTPERCLEAN="100";
 	else
-		TOTPERCLEAN=`calc 100-$PERCLEAN | sed 's/^\W*//g' | sed 's/~//g' | head -c 5`;
+		TOTPERCLEAN=`echo "100-$PERCLEAN" | bc -l | sed 's/^\W*//g' | sed 's/~//g' | head -c 5`;
 	fi
 
 	echo -e $TOTAL";"$i";"$CLEAN";"$AT";"$HASH";"$TOTPERCLEAN;
