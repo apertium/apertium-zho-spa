@@ -1,27 +1,27 @@
-dg jul  7 11:24:44 GMT 2013
+lunes,  9 de septiembre de 2013, 23:22:56 CEST
 ===============================================
 POS	Total	Clean	With @	With #	Clean %
-n	437	 39	398	0	8.93
-vblex	286	 2	246	38	0.7
-adv	34	 34	0	0	100
-pr	11	 11	0	0	100
-prn	10	 7	3	0	70
-adj	10	 0	0	10	0
-vbmod	5	 2	0	3	40
-det	5	 2	0	3	40
-cnjcoo	5	 5	0	0	100
-preadv	4	 4	0	0	100
-num	4	 4	0	0	100
-cnjadv	4	 4	0	0	100
-np	2	 2	0	0	100
-vbser	1	 0	0	1	0
-vbhaver	0	 0	0	0	100
-vaux	0	 0	0	0	100
-rel	0	 0	0	0	100
-post	0	 0	0	0	100
-ij	0	 0	0	0	100
-guio	0	 0	0	0	100
-cnjsub	0	 0	0	0	100
-cm	0	 0	0	0	100
-abbr	0	 0	0	0	100
+n	4856		 772	 0	
+vblex	2978		 477	 0	
+adj	928		 103	 0	
+adv	755		 106	 0	
+np	583		 2	 0	
+num	200		 14	 0	
+pr	85		 18	 0	
+prn	69		 37	 0	
+det	42		 5	 0	
+cnjcoo	29		 5	 0	
+ij	17		 14	 0	
+vbmod	7		 5	 0	
+preadv	6		 6	 0	
+cnjadv	6		 4	 0	
+post	5		 4	 0	
+vbser	2		 2	 0	
+cm	1		 0	 0	
+vbhaver	0		 0	 0	
+vaux	0		 0	 0	
+rel	0		 0	 0	
+guio	0		 0	 0	
+cnjsub	0		 0	 0	
+abbr	0		 0	 0	
 ===============================================
