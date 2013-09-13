@@ -103,7 +103,7 @@
 
 <section id="main" type="standard"> 
 
-
+<e r="LR"><p><l>.<s n="sent"/></l><r>.<s n="sent"/></r></p></e>
 <e><p><l>现<s n="adj"/></l><r>actual<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
 <e><p><l>新<s n="adj"/></l><r>actualizado<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e><p><l>多<s n="adj"/></l><r>adicional<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
@@ -7270,6 +7270,9 @@
     <e><p><l>他们的<s n="det"/></l><r>suyo<s n="det"/><s n="pos"/><s n="GD"/><s n="ND"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
+    <e><p><l>您<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>它<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>咱<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
 
     <e><p><l>我<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>你<s n="prn"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
