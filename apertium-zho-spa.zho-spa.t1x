@@ -1202,7 +1202,7 @@
       </pattern>
       <action>
         <out>
-          <chunk name="prn-subj/prn" case="caseFirstWord">
+          <chunk name="prn-subj_prn" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="1" side="tl" part="pers"/></tag>

@@ -2,12 +2,30 @@
 <!-- -*- nxml -*- -->
 <postchunk>
   <section-def-cats>
+    <def-cat n="v">
+      <cat-item name="v"/>
+    </def-cat>
     <def-cat n="sent">
       <cat-item name="punt"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
-    <def-attr n="nbr">
+    <def-attr n="a_temps">
+      <attr-item tags="pri"/>
+      <attr-item tags="prs"/>
+      <attr-item tags="ifi"/>
+      <attr-item tags="ZD"/>
+    </def-attr>
+
+    <def-attr n="a_pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
+    </def-attr>
+
+
+    <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
@@ -23,6 +41,37 @@
         <pattern-item n="sent"/>
       </pattern>
       <action>
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="CHUNK: v">
+      <pattern>
+        <pattern-item n="v"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test><equal><clip pos="1" part="a_nbr"/><lit-tag v="ND"/></equal></test>
+            <let><clip pos="1" part="a_nbr"/><lit-tag v="sg"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test><equal><clip pos="1" part="a_pers"/><lit-tag v="PD"/></equal></test>
+            <let><clip pos="1" part="a_pers"/><lit-tag v="p3"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test><equal><clip pos="1" part="a_temps"/><lit-tag v="ZD"/></equal></test>
+            <let><clip pos="1" part="a_temps"/><lit-tag v="pri"/></let>
+          </when>
+        </choose>
         <out>
           <lu>
             <clip pos="1" part="whole"/>
