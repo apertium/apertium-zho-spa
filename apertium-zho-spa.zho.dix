@@ -750,7 +750,7 @@
 		<e lm="参加"><i>参加</i><par n="爱__vblex"/></e>
 		<e lm="查"><i>查</i><par n="爱__vblex"/></e>
 		<e lm="唱"><i>唱</i><par n="爱__vblex"/></e>
-¡		<e lm="成"><i>成</i><par n="爱__vblex"/></e>
+		<e lm="成"><i>成</i><par n="爱__vblex"/></e>
 		<e lm="吃"><i>吃</i><par n="爱__vblex"/></e>
 		<e lm="出"><i>出</i><par n="爱__vblex"/></e>
 		<e lm="出发"><i>出发</i><par n="爱__vblex"/></e>
@@ -8672,43 +8672,43 @@
 <e lm="沿海"><i>沿海</i><par n="x__n"/></e> <!-- costa -->
 <e lm="港口"><i>港口</i><par n="x__n"/></e> 
 <e lm="港"><i>港</i><par n="x__n"/></e> 
-<e lm="钦州"><i>钦州</i><par n="x__n"/></e> <!-- Quinzou->
+<e lm="钦州"><i>钦州</i><par n="x__n"/></e> <!--Quinzou->
 <e lm="面 向"><i>面 向</i><par n="x__adj"/></e> 
 <e lm="东南亚"><i>东南亚</i><par n="x__n"/></e> 
 <e lm="防"><i>防</i><par n="x__pr"/></e>
 <e lm="海港"><i>海港</i><par n="x__n"/></e> 
-<e lm="形成"><i>形成</i><par n="x__n"/></e> <!-forma-->
+<e lm="形成"><i>形成</i><par n="x__n"/></e> <!--forma-->
 <e lm="多 元 化"><i>多 元 化</i><par n="x__n"/></e> <!-- diversificación -->
-<e lm="北部湾"><i>北部湾</i><par n="x__n"/></e> <!-- bahía -->
-<e lm="向东"><i>向东</i><par n="x__n"/></e> <!-- Oriente Medio-->
-<e lm="盟"><i>盟</i><par n="x__n"/></e> <!-- alianza-->
+<e lm="北部湾"><i>北部湾</i><par n="x__n"/></e> <!--bahía -->
+<e lm="向东"><i>向东</i><par n="x__n"/></e> <!--Oriente Medio-->
+<e lm="盟"><i>盟</i><par n="x__n"/></e> <!--alianza-->
 <e lm="下午"><i>下午</i><par n="x__n"/></e> <!--tarde-->
 <e lm="一行 冒雨"><i>一行 冒雨</i><par n="x__n"/></e> <!--lluvia-->
 <e lm="冒雨"><i>冒雨</i><par n="x__n"/></e> <!--lluvia-->
 
 <e lm="来到"><i>来到</i><par n="x__vblex"/></e> <!--venir-->
 <e lm="深水"><i>深水</i><par n="x__n"/></e> 
-<e lm="大港"><i>大港</i><par n="x__adj"/></e> <!-- profundo  -->
-<e lm="亲切"><i>亲切</i><par n="x__adj"/></e> <!--cordial  -->
-<e lm="工作 人员"><i>工作 人员</i><par n="x__n"/></e> <!--personal  -->
+<e lm="大港"><i>大港</i><par n="x__adj"/></e> <!--profundo-->
+<e lm="亲切"><i>亲切</i><par n="x__adj"/></e> <!--cordial-->
+<e lm="工作 人员"><i>工作 人员</i><par n="x__n"/></e> <!--personal-->
 <e lm="得知"><i>得知</i><par n="x__vblex"/></e> <!--enterar-->
-<e lm="吞吐量"><i>吞吐量</i><par n="x__n"/></e> <!--movimiento  -->
-<e lm="比 以前 增加"><i>比 以前 增加</i><par n="x__n"/></e> <!--aumento  -->
-<e lm="航线"><i>航线</i><par n="x__n"/></e> <!--ruta -->
+<e lm="吞吐量"><i>吞吐量</i><par n="x__n"/></e> <!--movimiento-->
+<e lm="比 以前 增加"><i>比 以前 增加</i><par n="x__n"/></e> <!--aumento-->
+<e lm="航线"><i>航线</i><par n="x__n"/></e> <!--ruta-->
 <e lm="增加 了"><i>增加 了</i><par n="x__vblex"/></e> <!--aumentar-->
 <e lm="比 以前 更"><i>比 以前 更</i><par n="x__det"/></e> <!--más-->
 <e lm="地 说"><i>地 说</i><par n="x__vblex"/></e> <!--decir-->
 <e lm="你们"><i>你们</i><par n="x__prn"/></e> <!--usted-->
-<e lm="国家 在"><i>国家 在</i><par n="x__n"/></e> <!-- país  -->
-<e lm="西方"><i>西方</i><par n="x__n"/></e> <!-- oeste  -->
+<e lm="国家 在"><i>国家 在</i><par n="x__n"/></e> <!-- país-->
+<e lm="西方"><i>西方</i><par n="x__n"/></e> <!--oeste-->
 <e lm="几 个"><i>几 个</i><par n="x__det"/></e> <!--varios-->
-<e lm="下"><i>下</i><par n="x__adj"/></e> <!-- próximo  -->
+<e lm="下"><i>下</i><par n="x__adj"/></e> <!--próximo-->
 <e lm="经济"><i>经济</i><par n="x__adj"/></e> <!--economico-->
-<e lm="余地"><i>余地</i><par n="x__n"/></e> <!-- márgen  -->
-<e lm="回旋 余地"><i>回旋 余地</i><par n="x__n"/></e> <!-- "márgen"  -->
-<e lm="小 微 企业"><i>小 微 企业</i><par n="x__n"/></e> <!-- microempresa  -->
-<e lm="微 企业"><i>小 微 企业</i><par n="x__n"/></e> <!-- microempresa  -->
-<e lm="座谈"><i>座谈</i><par n="x__n"/></e> <!-- discusión  -->
+<e lm="余地"><i>余地</i><par n="x__n"/></e> <!--márgen-->
+<e lm="回旋 余地"><i>回旋 余地</i><par n="x__n"/></e> <!--"márgen"-->
+<e lm="小 微 企业"><i>小 微 企业</i><par n="x__n"/></e> <!--microempresa-->
+<e lm="微 企业"><i>小 微 企业</i><par n="x__n"/></e> <!--microempresa-->
+<e lm="座谈"><i>座谈</i><par n="x__n"/></e> <!--discusión-->
 <e lm="针对 提出"><i>针对 提出</i><par n="x__vblex"/></e> <!--proponer-->
 <e lm="的 汇率"><i>的 汇率</i><par n="x__n"/></e> <!-- timpo de cambio  -->
 <e lm="等 建议"><i>等 建议</i><par n="x__n"/></e> <!-- propuesta  -->
