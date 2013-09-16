@@ -18,27 +18,17 @@
     <sdef n="prn" c="Pronoun"/>
                     <sdef n="cnjadv" /> 
             <sdef n="vblexestar" /> 
-                <sdef n="n"/>
                  <sdef n="mf"/>
                 <sdef n="neg"/>
 		<sdef n="np"/>
-	   <sdef n="vblex"/>
            <sdef n="vbmod"/>
        <sdef n="vbser"/>
-	   <sdef n="adj"/>
-	   <sdef n="part"/>
 	   <sdef n="count"/>
 	   <sdef n="sg"/>
 	   <sdef n="pl"/>
-	   <sdef n="prn"/>
-       <sdef n="num"/>
 		<sdef n="det"/>
-		<sdef n="pr"/>
 		<sdef n="cnjcoo"/>
-		<sdef n="cnjca"/>
                 <sdef n="cm"/>
-		<sdef n="adv"/>
-		<sdef n="cnjadv"/>
         		<sdef n="sent"/>
             		<sdef n="qt"/>
             		<sdef n="qst"/>
