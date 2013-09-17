@@ -79,5 +79,32 @@
         </out>
       </action>
     </rule>
+    
+    
+      <rule comment="CHUNK: adj">
+      <pattern>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test><equal><clip pos="1" part="a_nbr"/><lit-tag v="ND"/></equal></test>
+            <let><clip pos="1" part="a_nbr"/><lit-tag v="sg"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test><equal><clip pos="1" part="a_gen"/><lit-tag v="GD"/></equal></test>
+            <let><clip pos="1" part="a_pers"/><lit-tag v="m"/></let>
+          </when>
+        </choose>
+        
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
   </section-rules>
 </postchunk>
