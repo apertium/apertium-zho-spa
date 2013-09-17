@@ -5,6 +5,9 @@
     <def-cat n="v">
       <cat-item name="v"/>
     </def-cat>
+    <def-cat n="adj">
+      <cat-item name="adj"/>
+    </def-cat>
     <def-cat n="sent">
       <cat-item name="punt"/>
     </def-cat>
