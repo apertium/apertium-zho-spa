@@ -16,6 +16,13 @@
       <attr-item tags="ifi"/>
       <attr-item tags="ZD"/>
     </def-attr>
+    
+    <def-attr n="a_gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="GD"/>
+    </def-attr>
 
     <def-attr n="a_pers">
       <attr-item tags="p1"/>
@@ -95,7 +102,7 @@
         <choose>
           <when>
             <test><equal><clip pos="1" part="a_gen"/><lit-tag v="GD"/></equal></test>
-            <let><clip pos="1" part="a_pers"/><lit-tag v="m"/></let>
+            <let><clip pos="1" part="a_gen"/><lit-tag v="m"/></let>
           </when>
         </choose>
         
