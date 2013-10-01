@@ -48,6 +48,8 @@ dev/withtags.txt -text
 dev/withtags2.txt -text
 dev/withtags3.txt -text
 dev/withtags4.txt -text
+dev/zho-spa-maxent.autolex.bin -text
+dev/zho-spa-maxent.lex.xml -text
 dev/zho-wiki.py -text
 dev/zho.dix -text
 /modes.xml -text
