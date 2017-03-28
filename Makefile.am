@@ -11,38 +11,46 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
      $(PREFIX2).autogen.bin \
      $(PREFIX1).autolex.bin \
      $(PREFIX2).autolex.bin \
+     $(PREFIX1).prob \
+     $(PREFIX2).prob \
      $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
-     $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin $(PREFIX1).mode modes
+     $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin
 
-TARGETS = $(TARGETS_COMMON) 
+# This include defines goals for install-modes, .deps/.d and .mode files:
+@ap_include@
 
-$(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
-	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
-	lt-comp lr $(BASENAME).$(LANG1).dix $@ $(BASENAME).$(LANG1).acx
+TARGETS = $(TARGETS_COMMON)
+
+
+$(PREFIX1).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1).autobil.bin
+	lt-trim $^ $@
 
 $(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
 	lt-comp lr $(BASENAME).$(PREFIX1).dix $@
 
-$(PREFIX1).autogen.bin: $(BASENAME).$(LANG2).dix
-	apertium-validate-dictionary $(BASENAME).$(LANG2).dix
-	lt-comp rl $(BASENAME).$(LANG2).dix $@
+$(PREFIX1).autogen.bin: $(AP_SRC2)/$(LANG2).autogen.bin
+	cp $< $@
 
-$(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG2).dix
-	apertium-validate-dictionary $(BASENAME).post-$(LANG2).dix
-	lt-comp lr $(BASENAME).post-$(LANG2).dix $@
+$(PREFIX1).autopgen.bin: $(AP_SRC2)/$(LANG2).autopgen.bin
+	cp $< $@
 
-$(PREFIX2).automorf.bin: $(BASENAME).$(LANG2).dix $(BASENAME).$(LANG2).acx
-	apertium-validate-acx $(BASENAME).$(LANG2).acx
-	apertium-validate-dictionary $(BASENAME).$(LANG2).dix
-	lt-comp lr $(BASENAME).$(LANG2).dix $@ $(BASENAME).$(LANG2).acx
+$(PREFIX2).automorf.bin: $(AP_SRC2)/$(LANG2).automorf.bin $(PREFIX2).autobil.bin
+	lt-trim $^ $@
 
 $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@
 
-$(PREFIX2).autogen.bin: $(BASENAME).$(LANG1).dix
-	lt-comp rl $(BASENAME).$(LANG1).dix $@
+$(PREFIX2).autogen.bin: $(AP_SRC1)/$(LANG1).autogen.bin
+	cp $< $@
+
+$(PREFIX1).prob: $(AP_SRC1)/$(LANG1).prob
+	cp $< $@
+
+$(PREFIX2).prob: $(AP_SRC2)/$(LANG2).prob
+	cp $< $@
+
 
 #$(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 #	apertium-validate-dictionary $(BASENAME).post-$(LANG1).dix
@@ -80,51 +88,46 @@ $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
 
 
 
-EXTRA_DIST=$(BASENAME).$(LANG1).metadix $(BASENAME).$(PREFIX1).dix \
-	   $(BASENAME).post-$(LANG2).dix \
-	   $(BASENAME).$(LANG2).dix $(BASENAME).$(LANG1).tsx \
+EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
+	   $(BASENAME).$(PREFIX1).t1x \
+	   $(BASENAME).$(PREFIX1).t2x \
+	   $(BASENAME).$(PREFIX1).t3x \
+	   $(BASENAME).$(PREFIX2).t1x \
+	   $(BASENAME).$(PREFIX2).t2x \
+	   $(BASENAME).$(PREFIX2).t3x \
+	   $(BASENAME).$(PREFIX1).lrx \
+	   $(BASENAME).$(PREFIX2).lrx \
+	   $(BASENAME).$(LANG1).tsx \
 	   $(BASENAME).$(LANG2).tsx  \
-	   $(PREFIX1).prob $(PREFIX2).prob \
-	   $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
-	   $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \
-	   $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x \
-           $(BASENAME).$(LANG1).acx $(BASENAME).$(LANG2).acx \
 	   modes.xml
 
-apertium_zho_spa_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
-		    $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
-		    $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
-		    $(PREFIX1).autopgen.bin \
-		    $(PREFIX1).autolex.bin $(PREFIX2).autolex.bin \
-		    $(PREFIX1).prob $(PREFIX2).prob \
-		    $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
-		    $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin \
-		    $(PREFIX1).mode $(PREFIX2).mode  modes
+# Files which should be installed to $(prefix)/share/apertium/$(BASENAME)/:
+apertium_zho_spa_DATA=$(TARGETS_COMMON) \
+	$(BASENAME).$(PREFIX1).t1x \
+	$(BASENAME).$(PREFIX1).t2x \
+	$(BASENAME).$(PREFIX1).t3x \
+	$(BASENAME).$(PREFIX2).t1x \
+	$(BASENAME).$(PREFIX2).t2x \
+	$(BASENAME).$(PREFIX2).t3x
 
-apertium_zho_spadir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_zho_spa_modesdir=$(prefix)/share/apertium/modes/
+apertium_zho_spadir=$(prefix)/share/apertium/$(BASENAME)/
 
-$(PREFIX1).mode: modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
+# All modes are created by the same goal, listing several will just give problems with make -j2
+noinst_DATA=modes/$(PREFIX1).mode
 
-$(PREFIX2).mode: modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
-modes: modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
-install-data-local:
-	apertium-gen-modes modes.xml apertium-$(PREFIX1)
-	test -d $(DESTDIR)$(apertium_en_modesdir) || mkdir $(DESTDIR)$(apertium_en_modesdir)
-	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_en_modesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_en_modesdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_en_cadir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_en_cadir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_en_cadir)
+install-data-local: install-modes
 
 
-CLEANFILES = -rf $(TARGETS) modes
+CLEANFILES = $(TARGETS_COMMON)
+clean-local: 
+	-rm -rf .deps modes
 
+
+test: all
+	echo "a" | apertium -d . zho-spa | tee .test-mt
+	@echo "d" > .test-ref
+	@diff .test-ref .test-mt
+	echo "b" | apertium -d . spa-zho | tee .test-mt
+	@echo "c" > .test-ref
+	@diff .test-ref .test-mt
+	@rm .test-ref .test-mt

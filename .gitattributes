@@ -10,15 +10,11 @@
 /apertium-zho-spa.spa-zho.t1x -text
 /apertium-zho-spa.spa-zho.t2x -text
 /apertium-zho-spa.spa-zho.t3x -text
-/apertium-zho-spa.spa.acx -text
-/apertium-zho-spa.spa.dix -text
 /apertium-zho-spa.zho-spa.dix -text
 /apertium-zho-spa.zho-spa.lrx -text
 /apertium-zho-spa.zho-spa.t1x -text
 /apertium-zho-spa.zho-spa.t2x -text
 /apertium-zho-spa.zho-spa.t3x -text
-/apertium-zho-spa.zho.acx -text
-/apertium-zho-spa.zho.dix -text
 /autogen.sh -text
 /configure.ac -text
 dev/Makefile -text
@@ -53,11 +49,9 @@ dev/zho-spa-maxent.lex.xml -text
 dev/zho-wiki.py -text
 dev/zho.dix -text
 /modes.xml -text
-/spa-zho.prob -text svneol=unset#unset
 texts/cuento.spa.txt -text
 texts/cuento.zho.referencia.txt -text
 texts/cuento.zho.stanford.txt -text
 texts/cuento.zho.txt -text svneol=unset#application/octet-stream
 texts/cuento.zho.zhseg.txt -text
 texts/cuento2.zho.zhseg.txt -text
-/zho-spa.prob -text svneol=unset#unset
