@@ -55,3 +55,8 @@ texts/cuento.zho.stanford.txt -text
 texts/cuento.zho.txt -text svneol=unset#application/octet-stream
 texts/cuento.zho.zhseg.txt -text
 texts/cuento2.zho.zhseg.txt -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
